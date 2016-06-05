@@ -1,0 +1,92 @@
+1465098130s:3867:"a:6:{s:5:"mtime";i:1465073234;s:7:"content";s:1841:"title = "coconut leaf offering making"
+url = "/activities/coconut-leaf-offering-making"
+layout = "activity-detail"
+is_hidden = 0
+==
+{% put styles %}
+    <link href="{{ [
+        'assets/vendor/slick/slick.css',
+    ]|theme }}" rel="stylesheet">
+{% endput %}
+{% put scripts %}
+    <script src="{{ [
+        'assets/vendor/slick/slick.js',
+    ]|theme }}"></script>
+    <script>
+        $(document).ready(function() {
+            $('#projectImages').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear',
+                slidesToShow: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                pauseOnHover: true
+            });
+        })
+    </script>
+{% endput %}
+
+<div id="imageGallery">
+    <div data-thumb="{{url('upload/alampuisi/activities/canang/IMG_1510.jpg')}}">
+        <img src="{{url('upload/alampuisi/activities/canang/IMG_1510.jpg')}}" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="main-content-box-accom-ruler" style="margin-top:20px;">&nbsp;</div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12 p-detail-small">
+        <div class="main-head-title title-small">Coconut leaf offering making</div>
+        <div class="clearfix">&nbsp;</div>
+        <p>For the Balinese, making canang, offerings of small coconut leaf baskets, is poetry in motion. The action of weaving the coconut leaves is considered a type of meditation, while making the offerings (banten) of flowers and fruit connects one with the higher spirits and with the community. Our staff can teach you how to make canang, and teach you the symbolism behind giving offerings.</p>
+                             
+    </div>
+</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:28:"coconut leaf offering making";s:3:"url";s:40:"/activities/coconut-leaf-offering-making";s:6:"layout";s:15:"activity-detail";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:1704:"{% put styles %}
+    <link href="{{ [
+        'assets/vendor/slick/slick.css',
+    ]|theme }}" rel="stylesheet">
+{% endput %}
+{% put scripts %}
+    <script src="{{ [
+        'assets/vendor/slick/slick.js',
+    ]|theme }}"></script>
+    <script>
+        $(document).ready(function() {
+            $('#projectImages').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear',
+                slidesToShow: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                pauseOnHover: true
+            });
+        })
+    </script>
+{% endput %}
+
+<div id="imageGallery">
+    <div data-thumb="{{url('upload/alampuisi/activities/canang/IMG_1510.jpg')}}">
+        <img src="{{url('upload/alampuisi/activities/canang/IMG_1510.jpg')}}" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="main-content-box-accom-ruler" style="margin-top:20px;">&nbsp;</div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12 p-detail-small">
+        <div class="main-head-title title-small">Coconut leaf offering making</div>
+        <div class="clearfix">&nbsp;</div>
+        <p>For the Balinese, making canang, offerings of small coconut leaf baskets, is poetry in motion. The action of weaving the coconut leaves is considered a type of meditation, while making the offerings (banten) of flowers and fruit connects one with the higher spirits and with the community. Our staff can teach you how to make canang, and teach you the symbolism behind giving offerings.</p>
+                             
+    </div>
+</div>";}";

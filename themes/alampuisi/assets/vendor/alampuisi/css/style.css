@@ -1,0 +1,3093 @@
+/*------------------------------------------------- 
+                Font Declare
+-------------------------------------------------*/
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/open-sans/OpenSans-Regular-webfont.eot');
+    src: url('../fonts/open-sans/OpenSans-Regular-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/open-sans/OpenSans-Regular-webfont.woff') format('woff'),
+         url('../fonts/open-sans/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/open-sans/OpenSans-Regular-webfont.svg#OpenSansRegular') format('svg');
+    font-weight: normal;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+/* Italic */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/open-sans/OpenSans-Italic-webfont.eot');
+    src: url('../fonts/open-sans/OpenSans-Italic-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/open-sans/OpenSans-Italic-webfont.woff') format('woff'),
+         url('../fonts/open-sans/OpenSans-Italic-webfont.ttf') format('truetype'),
+         url('../fonts/open-sans/OpenSans-Italic-webfont.svg#OpenSansItalic') format('svg');
+    font-weight: normal;
+    font-weight: 400;
+    font-style: italic;
+
+}
+
+/* Light */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/open-sans/OpenSans-Light-webfont.eot');
+    src: url('../fonts/open-sans/OpenSans-Light-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/open-sans/OpenSans-Light-webfont.woff') format('woff'),
+         url('../fonts/open-sans/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('../fonts/open-sans/OpenSans-Light-webfont.svg#OpenSansLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+
+}
+
+/* Light Italic */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/open-sans/OpenSans-LightItalic-webfont.eot');
+    src: url('../fonts/open-sans/OpenSans-LightItalic-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/open-sans/OpenSans-LightItalic-webfont.woff') format('woff'),
+         url('../fonts/open-sans/OpenSans-LightItalic-webfont.ttf') format('truetype'),
+         url('../fonts/open-sans/OpenSans-LightItalic-webfont.svg#OpenSansLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+
+}
+
+/* Semibold */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/open-sans/OpenSans-Semibold-webfont.eot');
+    src: url('../fonts/open-sans/OpenSans-Semibold-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/open-sans/OpenSans-Semibold-webfont.woff') format('woff'),
+         url('../fonts/open-sans/OpenSans-Semibold-webfont.ttf') format('truetype'),
+         url('../fonts/open-sans/OpenSans-Semibold-webfont.svg#OpenSansSemibold') format('svg');
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+/* Semibold */
+@font-face {
+    font-family: 'Open Sans Semibold';
+    src: url('../fonts/open-sans/OpenSans-Semibold-webfont.eot');
+    src: url('../fonts/open-sans/OpenSans-Semibold-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/open-sans/OpenSans-Semibold-webfont.woff') format('woff'),
+         url('../fonts/open-sans/OpenSans-Semibold-webfont.ttf') format('truetype'),
+         url('../fonts/open-sans/OpenSans-Semibold-webfont.svg#OpenSansSemibold') format('svg');
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+/* Semibold Italic */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/open-sans/OpenSans-SemiboldItalic-webfont.eot');
+    src: url('../fonts/open-sans/OpenSans-SemiboldItalic-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/open-sans/OpenSans-SemiboldItalic-webfont.woff') format('woff'),
+         url('../fonts/open-sans/OpenSans-SemiboldItalic-webfont.ttf') format('truetype'),
+         url('../fonts/open-sans/OpenSans-SemiboldItalic-webfont.svg#OpenSansSemiboldItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+
+}
+
+/* Bold */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/open-sans/OpenSans-Bold-webfont.eot');
+    src: url('../fonts/open-sans/OpenSans-Bold-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/open-sans/OpenSans-Bold-webfont.woff') format('woff'),
+         url('../fonts/open-sans/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/open-sans/OpenSans-Bold-webfont.svg#OpenSansBold') format('svg');
+    font-weight: bold;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+/* Bold Italic */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/open-sans/OpenSans-BoldItalic-webfont.eot');
+    src: url('../fonts/open-sans/OpenSans-BoldItalic-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/open-sans/OpenSans-BoldItalic-webfont.woff') format('woff'),
+         url('../fonts/open-sans/OpenSans-BoldItalic-webfont.ttf') format('truetype'),
+         url('../fonts/open-sans/OpenSans-BoldItalic-webfont.svg#OpenSansBoldItalic') format('svg');
+    font-weight: bold;
+    font-weight: 700;
+    font-style: italic;
+
+}
+
+/* Extra Bold */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/open-sans/OpenSans-ExtraBold-webfont.eot');
+    src: url('../fonts/open-sans/OpenSans-ExtraBold-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/open-sans/OpenSans-ExtraBold-webfont.woff') format('woff'),
+         url('../fonts/open-sans/OpenSans-ExtraBold-webfont.ttf') format('truetype'),
+         url('../fonts/open-sans/OpenSans-ExtraBold-webfont.svg#OpenSansExtrabold') format('svg');
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+/* Extra Bold */
+@font-face {
+    font-family: 'Open Sans Extrabold';
+    src: url('../fonts/open-sans/OpenSans-ExtraBold-webfont.eot');
+    src: url('../fonts/open-sans/OpenSans-ExtraBold-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/open-sans/OpenSans-ExtraBold-webfont.woff') format('woff'),
+         url('../fonts/open-sans/OpenSans-ExtraBold-webfont.ttf') format('truetype'),
+         url('../fonts/open-sans/OpenSans-ExtraBold-webfont.svg#OpenSansExtrabold') format('svg');
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+/* Extra Bold Italic */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/open-sans/OpenSans-ExtraBoldItalic-webfont.eot');
+    src: url('../fonts/open-sans/OpenSans-ExtraBoldItalic-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/open-sans/OpenSans-ExtraBoldItalic-webfont.woff') format('woff'),
+         url('../fonts/open-sans/OpenSans-ExtraBoldItalic-webfont.ttf') format('truetype'),
+         url('../fonts/open-sans/OpenSans-ExtraBoldItalic-webfont.svg#OpenSansExtraboldItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    /*src: url('../fonts/gotham/Gotham-Medium.otf') format('opentype');*/
+    font-weight: normal;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+/* Light */
+@font-face {
+    font-family: 'Open Sans';
+    /*src: url('../fonts/gotham/Gotham-Light.otf') format('opentype');*/
+    font-weight: 200;
+    font-style: normal;
+
+}
+
+/* Bold */
+@font-face {
+    font-family: ''Open Sans';';
+    /*src: url('../fonts/gotham/Gotham-Bold.otf') format('opentype');*/
+    font-weight: bold;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+/* Extra Bold */
+@font-face {
+    font-family: ''Open Sans';';
+    /*src: url('../fonts/gotham/Gotham-Black.otf') format('opentype');*/
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */ @font-face {font-family:"Lovelo-Black";src:url("../fonts/lovelo/Lovelo_Blackd41d.eot?") format("eot"),url("../fonts/lovelo/Lovelo_Black.woff") format("woff"),url("../fonts/lovelo/Lovelo_Black.ttf") format("truetype"),url("../fonts/lovelo/Lovelo_Black.svg#Lovelo-Black") format("svg");font-weight:normal;font-style:normal;}
+
+/*------------------------------------------------- 
+                Global Styles
+-------------------------------------------------*/
+
+/*html, body {
+    height: 100%;
+    width: 100%;
+}*/
+
+body {
+	font-family: "Open Sans","Lucida Grande","Helvetica Neue",Helvetica,Arial,Verdana,sans-serif;
+	font-size: 12px;
+	color: #000;
+	background-color: #fff;
+	overflow-x: hidden;
+	/*margin: 0;*/
+}
+
+dl,dt,dd,ul,ol,li {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	font-family: "Open Sans","Lucida Grande","Helvetica Neue",Helvetica,Arial,Verdana,sans-serif;
+	font-size: 13px;
+}
+
+p.large {
+	font-size: 14px;
+}
+
+.line-height {
+	line-height: 22px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+	outline: 0;
+	text-decoration: none;
+}
+
+a {
+	color: #555;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+	color: #4d4d4d;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Open Sans';
+}
+
+.no-padding {
+	padding: 0px;
+}
+
+.font-small {
+	font-family: "Open Sans","Lucida Grande","Helvetica Neue",Helvetica,Arial,Verdana,sans-serif;
+	font-size: 10px;
+}
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+.text-brown {
+	color: #C6A45D !important;
+}
+
+/*------------------------------------------------- 
+                Main Declare
+-------------------------------------------------*/
+
+.big-img {
+	background-repeat: no-repeat !important;
+	background-attachment: scroll !important;
+	background-position: center center !important;
+	background-size: cover !important;
+}
+
+.big-img-2 {
+	background-repeat: no-repeat !important;
+	background-attachment: scroll !important;
+	background-position: center center !important;
+	background-size: cover !important;
+	height: 400px;
+}
+
+.header-title-box {
+	position: absolute;
+	top: 320px;
+	left: 100px;
+}
+
+@media (max-width: 768px) {
+	.header-title-box {
+		left: 50px;
+	}
+}
+
+.header-title-main {
+	font-size: 34px;
+	color: #fff;
+	font-family: 'Open Sans';
+	text-transform: uppercase;
+	font-weight: 900;
+	float: left;
+}
+
+.header-thin-border {
+	font-size: 34px;
+	color: #fff;
+	font-family: 'Open Sans';
+	font-weight: 900;
+	text-transform: uppercase;
+	float: left;
+	margin-left: 5px;
+	margin-top: -6px;
+}
+
+@media (max-width: 640px) {
+	.header-title-main {
+		font-size: 28px;
+	}
+
+	.header-thin-border {
+		font-size: 28px;
+	}
+}
+
+.header-top {
+	padding-top: 5px;
+	padding-bottom: 15px;
+	background-color: rgba(79, 64, 47, 0.8);
+	/*background-color: rgba(0, 0, 0, 0.8);*/
+
+	border-bottom: 1px solid #AEACA0;
+}
+
+.language-box, .language-flag, .header-top-right {
+	padding-top: 10px;
+}
+
+.header-top-right {
+	text-align: right;
+}
+
+@media (max-width: 640px) {
+	.language-flag, .header-top-right {
+		text-align: center;
+	}
+}
+
+.language-box a {
+	text-decoration: none;
+	color: #fff;
+	outline: none;
+	font-weight: bold;
+}
+
+.language-box a:hover {
+	opacity: 0.8;
+}
+
+.language-flag a {
+	text-decoration: none;
+	color: #A2814D;
+	outline: none;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.language-flag a:hover {
+	opacity: 0.8;
+}
+
+.dropdown-lang {
+	margin-top: 10px;
+	background-color: rgba(75,94,109,0.9);
+	border: none;
+	border-radius: 0px;
+	min-width: auto;
+}
+
+.dropdown-lang > li > a {
+	color: #fff;
+	font-size: 12px;
+}
+
+.dropdown-lang:before {
+	position: absolute;
+	top: -7px;
+	left: 9px;
+	display: inline-block;
+	border-right: 7px solid transparent;
+	border-bottom: 7px solid #ccc;
+	border-left: 7px solid transparent;
+	border-bottom-color: rgba(0, 0, 0, 0.2);
+	content: '';
+}
+
+.dropdown-lang:after {
+	position: absolute;
+	top: -6px;
+	left: 10px;
+	display: inline-block;
+	border-right: 6px solid transparent;
+	border-bottom: 6px solid #4B5E6D;
+	border-left: 6px solid transparent;
+	content: '';
+}
+
+.header-top-right a {
+	text-decoration: none;
+	color: #fff;
+	outline: none;
+	font-weight: bold;
+}
+
+.header-top-right a:hover {
+	opacity: 0.8;
+}
+
+.header-top-right a:first-child {
+	padding-right: 8px;
+}
+
+.header-top-right a:last-child {
+	padding-left: 8px;
+}
+
+.header-menu {
+	background-color: rgba(79, 64, 47, 0.8);
+}
+
+.head-logo, .head-menu {
+	padding-top: 10px;
+}
+
+.head-logo a {
+	outline: none;
+	text-decoration: none;
+}
+
+@media (max-width: 640px) {
+	.head-logo {
+		text-align: center;
+	}
+
+	.head-menu {
+		margin-bottom: 10px;
+	}
+}
+
+.btn-trans {
+	background-color: #CCB571;
+	padding: 13px 28px;
+	color: #fff !important;
+	border-radius: 0px;
+	position: relative;
+	margin: 5px 5px 5px 0;
+	outline: none;
+}
+
+.btn-trans:hover, .btn-trans:focus {
+	color: #fff !important;
+	outline: none;
+	opacity: 0.9;
+}
+
+.btn-trans-recta {
+	background-color: #CCB571;
+	padding: 13px 28px;
+	color: #fff !important;
+	border-radius: 0px;
+	position: relative;
+	margin: 5px 5px 5px 0;
+	outline: none;
+}
+
+.btn-trans-recta:hover, .btn-trans-recta:focus {
+	color: #fff !important;
+	outline: none;
+	background-color: #D1A051;
+}
+
+.btn-trans-oval {
+	background-color: #CCB571;
+	padding: 10px 40px;
+	color: #fff !important;
+	position: relative;
+	outline: none;
+}
+
+.btn-trans-oval:hover, .btn-trans-oval:focus {
+	color: #fff !important;
+	outline: none;
+}
+
+.btn-trans-lg {
+	font-size: 12px;
+	padding: 18px 40px;
+}
+
+.btn-trans-brown {
+	background-color: #9C660E;
+}
+
+.btn-trans-gold {
+	background-color: #D1A051;
+}
+
+.btn-trans-red {
+	background-color: #A80C1A;
+}
+
+.btn-trans-text-brown, .btn-trans-text-brown:hover {
+	color: #645220 !important;
+}
+
+.btn-testimonial {
+	background-color: #6A5345;
+	color: #fff;
+	border-radius: 0px;
+	padding: 15px 30px;
+	border: 1px solid #fff;
+}
+
+.btn-testimonial:hover, .btn-testimonial:focus {
+	color: #fff !important;
+	background-color: #5C493E;
+	outline: none;
+}
+
+.btn-trans-link {
+    background-color: #CCB571 !important;
+    box-shadow: none !important;
+    opacity: 1 !important;
+    transition: all 0.2s linear 0s !important;
+    border-radius: 2px !important;
+    border: 2px solid rgba(255, 255, 255, 0.75);
+	padding: 10px 15px;
+	font-size: 12px;
+	color: #fff !important;
+	font-family: "Lovelo-Black",Trebuchet MS,Arial,sans-serif;
+	outline: 0px none;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.header-book {
+	background-color: #CFA865;
+	color: #D4D4D4;
+	padding-bottom: 15px;
+	border-bottom: 3px solid #4f402f;
+	width: 75%;
+	margin: -50px auto 0 auto;
+}
+
+.header-book .container {
+	width: 100%;
+}
+
+.book-txt {
+	font-size: 16px;
+	padding-top: 30px;
+}
+
+.book-input {
+	padding-top: 15px;
+	text-align: center;
+	background-color: #CFA865;
+}
+
+.form-group-book {
+	padding: 0px 5px;
+}
+
+.box-input-book, .box-input-book:hover, .box-input-book:focus {
+	box-shadow: none;
+	border: 1px solid #ffffff;
+	background-color: #ffffff;
+	color: #575757;
+	text-transform: uppercase;
+	height: 40px;
+	padding: 10px 12px;
+}
+
+.box-input-book::-webkit-input-placeholder {
+   color: #575757;
+}
+
+.box-input-book:-moz-placeholder {
+   color: #575757;
+}
+
+.box-input-book::-moz-placeholder {
+   color: #575757;
+}
+
+.box-input-book:-ms-input-placeholder {
+   color: #575757;
+}
+
+.right-inner-addon {
+    position: relative;
+}
+
+.right-inner-addon i {
+    position: absolute;
+    right: 0px;
+	top: 2px;
+    padding: 10px 12px;
+    pointer-events: none;
+	color: #555;
+	font-size: 16px;
+	z-index: 1;
+}
+
+.book-now {
+	padding-top: 20px;
+}
+
+@media (max-width: 640px) {
+	.book-txt {
+		text-align: center;
+	}
+
+	.book-input {
+		text-align: left;
+	}
+}
+
+@media (max-width: 980px) {
+	.book-now {
+		text-align: center;
+	}
+}
+
+.header-video {
+	position: relative;
+}
+
+.home-video-box {
+	position: absolute;
+	margin-top: 13%;
+	background-color: rgba(0,0,0,0.7);
+	padding: 30px;
+	right: -485px;
+}
+
+.box-nav-video {
+	position: absolute;
+	padding: 0px 27px 5px 25px;
+	color: #fff;
+	background: #161616;
+	font-size: 50px;
+	top: 35%;
+	left: -70px;
+	cursor: pointer;
+}
+
+.home-video-box a {
+	margin-right: 20px;
+}
+
+.home-video-box a:last-child {
+	margin-right: 0px;
+}
+
+.home-video-close {
+	font-size: 18px;
+	outline: none;
+	position: absolute;
+	left: 10px;
+	top: 5px;
+	color: #fff;
+}
+
+.home-video-play {
+	position: absolute;
+	margin-left: 15%;
+	top: 36%;
+	font-size: 50px !important;
+	color: #fff;
+}
+
+.home-slide-overview {
+	position: absolute;
+	width: 100%;
+	top: 45%;
+	z-index: 51;
+}
+
+@media (max-width: 640px) {
+	.home-slide-overview {
+		top: 40%;
+	}
+}
+
+.home-box-overview {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: rgba(0,0,0,0.6);
+	padding: 20px;
+	width: 300px;
+	height: 75px;
+	margin: 0 auto;
+}
+.tripadvisor-right-box{
+	border-left: 1px solid #4f402f;
+}
+.tripadvisor-logo-img{
+	margin: 0 auto;
+}
+.tripadvisor-slide{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.tripadvisor-img{
+	max-width: 80px;
+	margin: 0 auto;
+}
+
+.home-overview-title {
+    font-size: 22px;
+    color: #B7975E;
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.home-overview-title a {
+	color: #B7975E;
+}
+
+.home-box-overview:hover {
+	background: rgba(0,0,0,0.7);
+}
+
+.home-ruler-overview {
+    width: 50px;
+    border-bottom: 3px solid #B7975E;
+    height: 8px;
+    margin: 0px auto;
+}
+
+.cd-top {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+	overflow: hidden;
+	outline: none;
+	text-indent: 100%;
+	white-space: nowrap;
+	border-radius: 4px;
+	background: rgba(183, 151, 94, 0.8) url(../images/cd-top-arrow.svg) no-repeat center 50%;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: opacity .3s 0s, visibility 0s .3s;
+	-moz-transition: opacity .3s 0s, visibility 0s .3s;
+	transition: opacity .3s 0s, visibility 0s .3s;
+}
+
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+	-webkit-transition: opacity .3s 0s, visibility 0s 0s;
+	-moz-transition: opacity .3s 0s, visibility 0s 0s;
+	transition: opacity .3s 0s, visibility 0s 0s;
+	outline: none;
+}
+
+.cd-top.cd-is-visible {
+	visibility: visible;
+	opacity: 1;
+}
+
+.cd-top.cd-fade-out {
+	opacity: .5;
+}
+
+.no-touch .cd-top:hover {
+	background-color: #B7975E;
+	opacity: 1;
+	outline: none;
+}
+
+@media only screen and (min-width: 768px) {
+	.cd-top {
+		right: 20px;
+		bottom: 20px;
+		outline: none;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.cd-top {
+		height: 40px;
+		width: 40px;
+		right: 20px;
+		bottom: 20px;
+		outline: none;
+	}
+}
+
+/*------------------------------------------------- 
+                Menu Declare
+-------------------------------------------------*/
+
+.brand {
+	float: left;
+}
+
+.brand > a > img {
+    margin-top: 9px;
+	margin-bottom: 10px;
+}
+
+.rm-toggle.rm-button {
+    margin-top: 35px;
+	width: 55px !important;
+	height: 55px;
+}
+
+.rm-css-animate.rm-menu-expanded {
+    max-height: none;
+    display: block;
+}
+
+.rm-container.rm-layout-expanded {
+        display: flex;
+    justify-content: center;
+}
+
+.rm-nav ul, .rm-menu {
+	background-color: transparent !important;
+	margin-top: 0px;
+	font-family: 'Open Sans';
+	font-weight: 200;
+    text-align: left;
+}
+
+.rm-nav li, .rm-menu-item {
+	background-color: transparent !important;
+}
+
+@media screen and (max-width: 980px) {
+	.rm-nav ul, .rm-menu {
+		background-color: rgba(0,0,0,0.8) !important;
+		margin-top: 0px;
+	}
+	.rm-nav li, .rm-menu-item {
+		background-color: rgba(0,0,0,0.8) !important;
+		z-index: 101;
+	}
+}
+
+.rm-nav li a,
+.rm-top-menu a {
+    padding: .75rem 1rem;
+    font-size: 12px;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+}
+
+.rm-nav li ul li a {
+    padding: .85rem 1rem;
+    font-size: 12px;
+    line-height: 1.5rem;
+    text-transform: none;
+}
+
+.rm-layout-expanded .rm-nav > ul > li > a,
+.rm-layout-expanded .rm-top-menu > .rm-menu-item > a {
+    height: 90px !important;
+    line-height: 90px !important;
+}
+
+.rm-lighten li li li a, .rm-lighten li li a:focus, .rm-lighten li li a:hover, .rm-lighten li li.rm-hover a, .rm-lighten .rm-menu-expanded li a:focus, .rm-lighten .rm-menu-expanded li a:hover, .rm-lighten .rm-menu-item .rm-menu-item .rm-menu-item a, .rm-lighten .rm-menu-item .rm-menu-item a:focus, .rm-lighten .rm-menu-item .rm-menu-item a:hover, .rm-lighten .rm-menu-item .rm-menu-item.rm-hover a, .rm-lighten .rm-menu-expanded li a:focus, .rm-lighten .rm-menu-expanded li a:hover {
+    background-color: rgba(173,157,124,1) !important;
+	color: #000 !important;
+}
+
+.rm-lighten li li a, .rm-lighten li a:focus, .rm-lighten li a:hover, .rm-lighten li.rm-hover a, .rm-lighten .rm-menu-item .rm-menu-item a, .rm-lighten .rm-menu-item a:focus, .rm-lighten .rm-menu-item a:hover, .rm-lighten .rm-menu-item.rm-hover > a {
+    background-color: rgba(173,157,124,0.9) !important;
+    outline: medium none;
+	color: #000 !important;
+}
+
+/*------------------------------------------------- 
+                Datetime Picker Declare
+-------------------------------------------------*/
+
+.datepicker {
+    padding: 5px;
+    direction: ltr;
+	color: #000;
+}
+
+.datepicker-inline {
+    width: 220px;
+}
+
+.datepicker.datepicker-rtl {
+    direction: rtl;
+}
+
+.datepicker.datepicker-rtl table tr td span {
+    float: right;
+}
+
+.datepicker-dropdown {
+    top: 0;
+    left: 0;
+    padding: 5px!important;
+}
+
+.datepicker-dropdown:before {
+    content: '';
+    display: inline-block;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #ccc;
+    border-top: 0;
+    border-bottom-color: rgba(0, 0, 0, .2);
+    position: absolute;
+}
+
+.datepicker-dropdown:after {
+    content: '';
+    display: inline-block;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid #fff;
+    border-top: 0;
+    position: absolute;
+}
+
+.datepicker-dropdown.datepicker-orient-left:before {
+    left: 6px;
+}
+
+.datepicker-dropdown.datepicker-orient-left:after {
+    left: 7px;
+}
+
+.datepicker-dropdown.datepicker-orient-right:before {
+    right: 6px;
+}
+
+.datepicker-dropdown.datepicker-orient-right:after {
+    right: 7px;
+}
+
+.datepicker-dropdown.datepicker-orient-top:before {
+    top: -7px;
+}
+
+.datepicker-dropdown.datepicker-orient-top:after {
+    top: -6px;
+}
+
+.datepicker-dropdown.datepicker-orient-bottom:before {
+    bottom: -7px;
+    border-bottom: 0;
+    border-top: 7px solid #999;
+}
+
+.datepicker-dropdown.datepicker-orient-bottom:after {
+    bottom: -6px;
+    border-bottom: 0;
+    border-top: 6px solid #fff;
+}
+
+.datepicker>div {
+    display: none;
+}
+
+.datepicker.days div.datepicker-days, .datepicker.months div.datepicker-months, .datepicker.years div.datepicker-years {
+    display: block;
+}
+
+.datepicker table {
+    margin: 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.datepicker td, .datepicker th {
+    text-align: center;
+    width: 20px;
+    height: 20px;
+	padding: 6px 9px !important;
+    border: 0;
+    border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+.table-striped .datepicker table tr td, .table-striped .datepicker table tr th {
+    background-color: transparent;
+}
+
+.datepicker table tr td.day:hover {
+    background: #eee;
+    cursor: pointer;
+}
+
+.datepicker table tr td.new, .datepicker table tr td.old {
+    color: #999;
+}
+
+.datepicker table tr td.disabled, .datepicker table tr td.disabled:hover {
+    background: 0 0;
+    color: #999;
+    cursor: default;
+}
+
+.datepicker table tr td.today, .datepicker table tr td.today.disabled, .datepicker table tr td.today.disabled:hover, .datepicker table tr td.today:hover {
+    background-color: #fde19a;
+    color: #000;
+}
+
+.datepicker table tr td.today.active, .datepicker table tr td.today.disabled, .datepicker table tr td.today.disabled.active, .datepicker table tr td.today.disabled.disabled, .datepicker table tr td.today.disabled:active, .datepicker table tr td.today.disabled:hover, .datepicker table tr td.today.disabled:hover.active, .datepicker table tr td.today.disabled:hover.disabled, .datepicker table tr td.today.disabled:hover:active, .datepicker table tr td.today.disabled:hover:hover, .datepicker table tr td.today.disabled:hover[disabled], .datepicker table tr td.today.disabled[disabled], .datepicker table tr td.today:active, .datepicker table tr td.today:hover, .datepicker table tr td.today:hover.active, .datepicker table tr td.today:hover.disabled, .datepicker table tr td.today:hover:active, .datepicker table tr td.today:hover:hover, .datepicker table tr td.today:hover[disabled], .datepicker table tr td.today[disabled] {
+    background-color: #fdf59a;
+}
+
+.datepicker table tr td.today.active, .datepicker table tr td.today.disabled.active, .datepicker table tr td.today.disabled:active, .datepicker table tr td.today.disabled:hover.active, .datepicker table tr td.today.disabled:hover:active, .datepicker table tr td.today:active, .datepicker table tr td.today:hover.active, .datepicker table tr td.today:hover:active {
+    background-color: #fbf069 \9;
+}
+
+.datepicker table tr td.today:hover:hover {
+    color: #000;
+}
+
+.datepicker table tr td.today.active:hover {
+    color: #fff;
+}
+
+.datepicker table tr td.range, .datepicker table tr td.range.disabled, .datepicker table tr td.range.disabled:hover, .datepicker table tr td.range:hover {
+    background: #eee;
+    border-radius: 0;
+	-webkit-border-radius: 0;
+}
+
+.datepicker table tr td.range.today, .datepicker table tr td.range.today.disabled, .datepicker table tr td.range.today.disabled:hover, .datepicker table tr td.range.today:hover {
+    background-color: #f3d17a;
+}
+
+.datepicker table tr td.range.today.active, .datepicker table tr td.range.today.disabled, .datepicker table tr td.range.today.disabled.active, .datepicker table tr td.range.today.disabled.disabled, .datepicker table tr td.range.today.disabled:active, .datepicker table tr td.range.today.disabled:hover, .datepicker table tr td.range.today.disabled:hover.active, .datepicker table tr td.range.today.disabled:hover.disabled, .datepicker table tr td.range.today.disabled:hover:active, .datepicker table tr td.range.today.disabled:hover:hover, .datepicker table tr td.range.today.disabled:hover[disabled], .datepicker table tr td.range.today.disabled[disabled], .datepicker table tr td.range.today:active, .datepicker table tr td.range.today:hover, .datepicker table tr td.range.today:hover.active, .datepicker table tr td.range.today:hover.disabled, .datepicker table tr td.range.today:hover:active, .datepicker table tr td.range.today:hover:hover, .datepicker table tr td.range.today:hover[disabled], .datepicker table tr td.range.today[disabled] {
+    background-color: #f3e97a;
+}
+
+.datepicker table tr td.range.today.active, .datepicker table tr td.range.today.disabled.active, .datepicker table tr td.range.today.disabled:active, .datepicker table tr td.range.today.disabled:hover.active, .datepicker table tr td.range.today.disabled:hover:active, .datepicker table tr td.range.today:active, .datepicker table tr td.range.today:hover.active, .datepicker table tr td.range.today:hover:active {
+    background-color: #efe24b \9;
+}
+
+.datepicker table tr td.selected, .datepicker table tr td.selected.disabled, .datepicker table tr td.selected.disabled:hover, .datepicker table tr td.selected:hover {
+    background-color: #9e9e9e;
+    color: #fff;
+}
+
+.datepicker table tr td.selected.active, .datepicker table tr td.selected.disabled, .datepicker table tr td.selected.disabled.active, .datepicker table tr td.selected.disabled.disabled, .datepicker table tr td.selected.disabled:active, .datepicker table tr td.selected.disabled:hover, .datepicker table tr td.selected.disabled:hover.active, .datepicker table tr td.selected.disabled:hover.disabled, .datepicker table tr td.selected.disabled:hover:active, .datepicker table tr td.selected.disabled:hover:hover, .datepicker table tr td.selected.disabled:hover[disabled], .datepicker table tr td.selected.disabled[disabled], .datepicker table tr td.selected:active, .datepicker table tr td.selected:hover, .datepicker table tr td.selected:hover.active, .datepicker table tr td.selected:hover.disabled, .datepicker table tr td.selected:hover:active, .datepicker table tr td.selected:hover:hover, .datepicker table tr td.selected:hover[disabled], .datepicker table tr td.selected[disabled] {
+    background-color: gray;
+}
+
+.datepicker table tr td.selected.active, .datepicker table tr td.selected.disabled.active, .datepicker table tr td.selected.disabled:active, .datepicker table tr td.selected.disabled:hover.active, .datepicker table tr td.selected.disabled:hover:active, .datepicker table tr td.selected:active, .datepicker table tr td.selected:hover.active, .datepicker table tr td.selected:hover:active {
+    background-color: #666 \9;
+}
+
+.datepicker table tr td.active, .datepicker table tr td.active.disabled, .datepicker table tr td.active.disabled:hover, .datepicker table tr td.active:hover {
+    background-color: #64523E;
+    color: #fff;
+}
+
+.datepicker table tr td.active.active, .datepicker table tr td.active.disabled, .datepicker table tr td.active.disabled.active, .datepicker table tr td.active.disabled.disabled, .datepicker table tr td.active.disabled:active, .datepicker table tr td.active.disabled:hover, .datepicker table tr td.active.disabled:hover.active, .datepicker table tr td.active.disabled:hover.disabled, .datepicker table tr td.active.disabled:hover:active, .datepicker table tr td.active.disabled:hover:hover, .datepicker table tr td.active.disabled:hover[disabled], .datepicker table tr td.active.disabled[disabled], .datepicker table tr td.active:active, .datepicker table tr td.active:hover, .datepicker table tr td.active:hover.active, .datepicker table tr td.active:hover.disabled, .datepicker table tr td.active:hover:active, .datepicker table tr td.active:hover:hover, .datepicker table tr td.active:hover[disabled], .datepicker table tr td.active[disabled] {
+    background-color: #64523E;
+}
+
+.datepicker table tr td.active.active, .datepicker table tr td.active.disabled.active, .datepicker table tr td.active.disabled:active, .datepicker table tr td.active.disabled:hover.active, .datepicker table tr td.active.disabled:hover:active, .datepicker table tr td.active:active, .datepicker table tr td.active:hover.active, .datepicker table tr td.active:hover:active {
+    background-color: #039 \9;
+}
+
+.datepicker table tr td span {
+    display: block;
+    width: 23%;
+    height: 54px;
+    line-height: 54px;
+    float: left;
+    margin: 1%;
+    cursor: pointer;
+}
+
+.datepicker table tr td span:hover {
+    background: #eee;
+}
+
+.datepicker table tr td span.disabled, .datepicker table tr td span.disabled:hover {
+    background: 0 0;
+    color: #999;
+    cursor: default;
+}
+
+.datepicker table tr td span.active, .datepicker table tr td span.active.disabled, .datepicker table tr td span.active.disabled:hover, .datepicker table tr td span.active:hover {
+    background-color: #006dcc;
+    color: #fff;
+}
+
+.datepicker table tr td span.active.active, .datepicker table tr td span.active.disabled, .datepicker table tr td span.active.disabled.active, .datepicker table tr td span.active.disabled.disabled, .datepicker table tr td span.active.disabled:active, .datepicker table tr td span.active.disabled:hover, .datepicker table tr td span.active.disabled:hover.active, .datepicker table tr td span.active.disabled:hover.disabled, .datepicker table tr td span.active.disabled:hover:active, .datepicker table tr td span.active.disabled:hover:hover, .datepicker table tr td span.active.disabled:hover[disabled], .datepicker table tr td span.active.disabled[disabled], .datepicker table tr td span.active:active, .datepicker table tr td span.active:hover, .datepicker table tr td span.active:hover.active, .datepicker table tr td span.active:hover.disabled, .datepicker table tr td span.active:hover:active, .datepicker table tr td span.active:hover:hover, .datepicker table tr td span.active:hover[disabled], .datepicker table tr td span.active[disabled] {
+    background-color: #64523E;
+}
+
+.datepicker table tr td span.active.active, .datepicker table tr td span.active.disabled.active, .datepicker table tr td span.active.disabled:active, .datepicker table tr td span.active.disabled:hover.active, .datepicker table tr td span.active.disabled:hover:active, .datepicker table tr td span.active:active, .datepicker table tr td span.active:hover.active, .datepicker table tr td span.active:hover:active {
+    background-color: #039 \9;
+}
+
+.datepicker table tr td span.new, .datepicker table tr td span.old {
+    color: #999;
+}
+
+.datepicker th.datepicker-switch {
+    width: 145px;
+}
+
+.datepicker tfoot tr th, .datepicker thead tr:first-child th {
+    cursor: pointer;
+}
+
+.datepicker tfoot tr th:hover, .datepicker thead tr:first-child th:hover {
+    background: #eee;
+}
+
+.datepicker .cw {
+    font-size: 10px;
+    width: 12px;
+    padding: 0 2px 0 5px;
+    vertical-align: middle;
+}
+
+.datepicker thead tr:first-child th.cw {
+    cursor: default;
+    background-color: transparent;
+}
+
+/*------------------------------------------------- 
+                Footer Declare
+-------------------------------------------------*/
+
+footer {
+	background-color: #4f402f;
+}
+.footer-con {
+	background-color: #4f402f;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: #ffffff;
+	font-size: 12px;
+	border-top: 1px solid #474A35;
+}
+
+.footer-padding {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.footer-awards {
+	text-align: right;
+}
+
+@media (max-width: 980px) {
+	.footer-logo {
+		text-align: center;
+	}
+
+	.footer-logo > img {
+		display: inline;
+	}
+
+	.footer-awards {
+		text-align: center;
+	}
+}
+
+.footer-about {
+	font-size: 16px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-left: 1px solid #686868;
+	border-right: 1px solid #686868;
+	padding: 30px 40px;
+}
+
+@media (min-width: 641px) and (max-width: 980px) {
+	.footer-about {
+		border-left: none;
+		border-right: 1px solid #686868;
+	}
+}
+
+@media (max-width: 640px) {
+	.footer-about {
+		font-size: 13px;
+		padding: 20px 20px 0px 20px;
+		border-left: none;
+		border-right: none;
+	}
+}
+
+.input-box-footer, .input-box-footer:hover, .input-box-footer:focus {
+	border: none;
+	box-shadow: none;
+	height: 40px;
+	width: 70% !important;
+}
+
+.logo-award {
+	clear: both;
+}
+
+.logo-award a {
+	display: inline-block;
+	outline: none;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+.logo-award a:last-child {
+	margin-right: 0px;
+}
+
+@media (max-width: 1024px) {
+	.logo-award > a > img {
+		width: 60px;
+	}
+	
+	.footer-about {
+		padding: 20px 20px 0px 20px;
+	}
+
+	.input-box-footer, .input-box-footer:hover, .input-box-footer:focus {
+		width: 50% !important;
+	}
+}
+
+.footer-menu {
+	background: rgba(109,80,6,1);
+	background: -moz-linear-gradient(top, rgba(109,80,6,1) 0%, rgba(153,128,27,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(109,80,6,1)), color-stop(100%, rgba(153,128,27,1)));
+	background: -webkit-linear-gradient(top, rgba(109,80,6,1) 0%, rgba(153,128,27,1) 100%);
+	background: -o-linear-gradient(top, rgba(109,80,6,1) 0%, rgba(153,128,27,1) 100%);
+	background: -ms-linear-gradient(top, rgba(109,80,6,1) 0%, rgba(153,128,27,1) 100%);
+	background: linear-gradient(to bottom, rgba(109,80,6,1) 0%, rgba(153,128,27,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d5006', endColorstr='#99801b', GradientType=0 );
+	padding-top: 20px;
+	padding-bottom: 25px;
+}
+
+.footer-menu .sitemap-footer  ul > li {
+	border-right: 1px solid #fff;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 10px;
+}
+
+@media (max-width: 640px) {
+	.footer-menu .sitemap-footer ul > li {
+		border-right: none;
+	}
+}
+
+.footer-menu .sitemap-footer ul > li:last-child {
+	border-right: none;
+}
+
+.footer-menu .sitemap-footer ul > li > a {
+	color: #fff;
+	font-size: 12px;
+}
+
+.footer-menu .sitemap-footer ul > li > a:hover {
+	opacity: 0.8;
+}
+
+@media (max-width: 640px) {
+	.sitemap-footer {
+		text-align: center;
+	}
+}
+
+.footer-copy {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #fff;
+	font-size: 12px;
+}
+
+.footer-copy .copy-text a, .footer-copy .copy-text a:hover{
+	color: #B7975E;
+}
+
+.copy-disclam {
+	padding-top: 10px;
+}
+
+.copy-disclam ul > li {
+	padding-left: 0px;
+}
+
+.copy-disclam ul > li:not(:last-child)::after {
+	content: "-";
+	width: 10px;
+	margin-left: 10px;
+}
+
+.copy-disclam ul > li > a {
+	color: #fff;
+	font-size: 12px;
+}
+
+.copy-disclam ul > li > a:hover {
+	opacity: 0.8;
+}
+
+.social-footer {
+	margin-top: 5px;
+	text-align: right;
+}
+
+.footer-awards {
+	margin-top: 55px;
+}
+
+@media (max-width: 640px) {
+	.copy-text {
+		text-align: center;
+	}
+
+	.social-footer {
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	.footer-awards {
+		margin-top: 0px;
+	}
+}
+
+.txt-join-newsletter {
+	margin-bottom: 5px;
+}
+
+/*------------------------------------------------- 
+                Home Declare
+-------------------------------------------------*/
+
+.home-box {
+	background-color: #fff;
+	color: #000;
+	padding-top: 40px;
+	padding-bottom: 30px;
+	background-repeat: no-repeat !important;
+	background-attachment: scroll !important;
+	background-position: center center !important;
+	background-size: cover !important;
+	/*background-image: url("../images/ornamen.png");*/
+	/*background-image: url("../images/bg.png");*/
+}
+
+.home-box p {
+	margin-top: 30px;
+	font-size: 15px;
+	line-height: 30px;
+}
+
+.home-txt-top {
+	font-size: 30px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+	font-family: 'Open Sans';
+	color: #A2814D;
+}
+
+.home-txt-top-border {
+	width: 15%;
+	height: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 2px solid #A2814D;
+}
+
+.home-slide {
+	position: relative;
+}
+
+#home-slide-box .item img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.custom-navigation {
+	position: absolute;
+	width: 100%;
+	top: 45%;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+.custom-navigation-ext{
+	top:15%;
+}
+.custom-navigation .navigation-left {
+	position: absolute;
+	left: 10px;
+	color: #fff;
+	outline: none;
+	padding: 0px 13px 3px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	z-index: 102;
+}
+
+.custom-navigation .navigation-right {
+	position: absolute;
+	right: 10px;
+	color: #fff;
+	outline: none;
+	padding: 0px 13px 3px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	z-index: 102;
+}
+
+.custom-navigation-2 {
+	position: absolute;
+	width: 100%;
+	top: 35%;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.custom-navigation-2 a {
+	font-size: 50px;
+}
+
+.custom-navigation-2 .navigation-left {
+	position: absolute;
+	left: 30px;
+	color: #fff;
+	outline: none;
+	padding: 0px 13px 3px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	z-index: 102;
+}
+
+.custom-navigation-2 .navigation-right {
+	position: absolute;
+	right: 30px;
+	color: #fff;
+	outline: none;
+	padding: 0px 13px 3px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	z-index: 102;
+}
+
+@media (max-width: 640px) {
+	.custom-navigation {
+		top: 40%;
+	}
+
+	.custom-navigation-2 {
+		top: 33%;
+	}
+
+	.custom-navigation img {
+		width: 10px;
+	}
+}
+
+.home-special-offers {
+	position: relative;
+	clear: both;
+	padding-top: 40px;
+	background-color: #fff;
+}
+
+.home-special-offers-2 {
+	position: relative;
+	clear: both;
+	padding-bottom: 40px;
+	background-color: #fff;
+}
+
+.main-head-title {
+	font-size: 28px;
+	color: #A2814D;
+	font-family: 'Open Sans';
+	text-transform: uppercase;
+	font-weight: 900;
+	float: left;
+}
+
+@media (max-width: 640px) {
+	.main-head-title {
+		font-size: 25px;
+	}
+}
+
+.thin-border {
+	font-size: 28px;
+	color: #A2814D;
+	font-family: 'Open Sans';
+	font-weight: 900;
+	text-transform: uppercase;
+	float: left;
+	margin-left: 5px;
+	margin-top: -4px;
+}
+
+.title-white {
+	color: #fff !important;
+}
+
+.title-medium {
+	font-size: 24px;
+}
+
+.title-small {
+	margin: 10px 5px 10px 0;
+	font-size: 20px;
+}
+
+.thin-border-right {
+	margin-top: 7px !important;
+}
+
+.grid {
+	position: relative;
+	margin: 0 auto;
+	padding: 1em 0 0;
+	max-width: 1140px;
+	list-style: none;
+	text-align: center;
+	z-index: 101;
+}
+
+/* Common style */
+.grid figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 10px 1%;
+	min-width: 360px;
+	max-width: 480px;
+	/* max-height: 380px; */
+	width: 48%;
+	background: #3085a3;
+	text-align: center;
+	cursor: pointer;
+}
+
+@media (max-width: 320px) {
+	.grid figure {
+		min-width: 315px;
+		max-width: 480px;
+		/* max-height: 380px; */
+		width: 48%;
+	}
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+	.grid figure {
+		/* min-width: 240px; */
+		/* max-width: 480px; */
+		/* max-height: 380px; */
+		width: 100%;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 640px) {
+	.grid figure {
+		min-width: 320px;
+		max-width: 480px;
+		/* max-height: 380px; */
+		width: 48%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 799px) {
+	.grid figure {
+		min-width: 390px;
+		max-width: 480px;
+		/* max-height: 380px; */
+		width: 48%;
+	}
+}
+
+@media (width: 800px) {
+	.grid figure {
+		min-width: 270px;
+		max-width: 480px;
+		/* max-height: 380px; */
+		width: 48%;
+	}
+}
+
+@media (width: 980px) {
+	.grid figure {
+		min-width: 250px;
+		max-width: 480px;
+		/* max-height: 380px; */
+		width: 48%;
+	}
+}
+
+@media (width: 1024px) {
+	.grid figure {
+		min-width: 260px;
+		max-width: 480px;
+		/* max-height: 380px; */
+		width: 48%;
+	}
+}
+
+.grid figure img {
+	position: relative;
+	display: block;
+	/* min-height: 100%; */
+	max-width: 100%;
+	opacity: 0.8;
+}
+
+.grid figure figcaption {
+	padding: 2em;
+	color: #fff;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+	pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.grid figure h2 {
+	font-weight: 400;
+	font-family: 'Open Sans';
+}
+
+.grid figure h2,
+.grid figure p,
+.grid figure .grid-btn {
+	margin: 0;
+}
+
+.grid figure p {
+	font-size: 78.5%;
+}
+
+.box-grid {
+	margin: 20px 0;
+}
+
+.grid2 {
+	position: relative;
+	margin: 20px auto;
+	padding: 1em 0 0;
+	max-width: 1140px;
+	list-style: none;
+	text-align: center;
+	z-index: 101;
+}
+
+/* Common style */
+.grid2 figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 10px 0;
+	width: 100%;
+	background: #3085a3;
+	text-align: center;
+	cursor: pointer;
+}
+
+.grid2 figure img {
+	position: relative;
+	display: block;
+	/* min-height: 100%; */
+	max-width: 100%;
+	opacity: 0.8;
+}
+
+.grid2 figure figcaption {
+	padding: 2em;
+	color: #fff;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.grid2 figure figcaption::before,
+.grid2 figure figcaption::after {
+	pointer-events: none;
+}
+
+.grid2 figure figcaption,
+.grid2 figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid2 figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.grid2 figure h2 {
+	font-weight: 400;
+	font-family: 'Open Sans';
+}
+
+.grid2 figure h2,
+.grid2 figure p,
+.grid2 figure .grid-btn {
+	margin: 0;
+}
+
+.grid2 figure p {
+	font-size: 68.5%;
+}
+
+.grid3 {
+	position: relative;
+	margin: auto;
+	padding: 1em 0 0;
+	max-width: 1140px;
+	list-style: none;
+	text-align: center;
+	z-index: 101;
+}
+
+/* Common style */
+.grid3 figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 10px 0;
+	width: 100%;
+	background: #3085a3;
+	text-align: center;
+	cursor: pointer;
+}
+
+.grid3 figure img {
+	position: relative;
+	display: block;
+	/* min-height: 100%; */
+	max-width: 100%;
+	opacity: 0.8;
+}
+
+.grid3 figure figcaption {
+	padding: 2em;
+	color: #fff;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.grid3 figure figcaption::before,
+.grid3 figure figcaption::after {
+	pointer-events: none;
+}
+
+.grid3 figure figcaption,
+.grid3 figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	/* height: 100%; */
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid3 figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.grid3 figure h2 {
+	font-weight: 400;
+	font-family: 'Open Sans';
+}
+
+.grid3 figure h2,
+.grid3 figure p,
+.grid3 figure .grid-btn {
+	margin: 0;
+}
+
+.grid3 figure p {
+	font-size: 68.5%;
+}
+
+figure.effect-ruby {
+	background-color: #000;
+}
+
+figure.effect-ruby img {
+	opacity: 0.9;
+	background-color: #000;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(1.15);
+	transform: scale(1.15);
+}
+
+figure.effect-ruby:hover img {
+	opacity: 0.5;
+}
+
+figure.effect-ruby h2 {
+	margin-top: 20%;
+	font-size: 16px !important;
+	-webkit-transform: translate3d(0,30px,0);
+	transform: translate3d(0,30px,0);
+}
+
+figure.effect-ruby h2.h2-after {
+	margin: -100px 0 0;
+	font-size: 16px !important;
+	opacity: 0;
+}
+
+figure.effect-ruby.ruby-about h2.h2-after {
+	margin: -60px 0 0;
+	font-size: 16px !important;
+	opacity: 0;
+}
+
+figure.effect-ruby p {
+	margin: 1em 0 0;
+	padding: 3em;
+	opacity: 0;
+}
+
+.grid2 figure.effect-ruby p {
+	margin: 1em 0 0;
+	padding: 5px;
+	opacity: 0;
+	margin-top: 80px;
+}
+
+@media (max-width: 360px) {
+	.grid2 figure.effect-ruby p {
+		margin-top: 10px;
+	}
+}
+
+@media (min-width: 361px) and (max-width: 640px) {
+	.grid2 figure.effect-ruby p {
+		margin-top: 70px;
+	}
+}
+
+@media (min-width: 641px) and (max-width: 980px) {
+	.grid2 figure.effect-ruby p {
+		margin-top: 0px;
+	}
+}
+
+.grid2 figure.effect-ruby p a {
+	z-index: 2000;
+}
+
+.grid3 figure.effect-ruby p {
+	margin: 1em 0 0;
+	padding: 5px;
+	opacity: 0;
+	margin-top: 30px;
+}
+
+@media (max-width: 360px) {
+	.grid3 figure.effect-ruby p {
+		margin-top: 10px;
+	}
+}
+
+@media (min-width: 361px) and (max-width: 640px) {
+	.grid3 figure.effect-ruby p {
+		margin-top: 70px;
+	}
+}
+
+@media (min-width: 641px) and (max-width: 980px) {
+	.grid3 figure.effect-ruby p {
+		margin-top: 30px;
+	}
+}
+
+.grid3 figure.effect-ruby p a {
+	z-index: 2000;
+}
+
+figure.effect-ruby:hover h2 {
+	opacity: 0;
+}
+
+figure.effect-ruby:hover h2.h2-after {
+	opacity: 1;
+	-webkit-transition: opacity 0.8s, -webkit-transform 0.8s;
+	transition: opacity 0.8s, transform 0.8s;
+}
+
+figure.effect-ruby:hover p {
+	opacity: 1;
+	-webkit-transition: opacity 0.8s, -webkit-transform 0.8s;
+	transition: opacity 0.8s, transform 0.8s;
+}
+
+.main-ruler {
+	border-top: 1px solid #474A35;
+}
+
+.home-event {
+	position: relative;
+	clear: both;
+	padding-top: 30px;
+	padding-bottom: 40px;
+	background-color: #fff;
+}
+
+.home-event-list {
+	margin-top: 20px;
+}
+
+.home-event-list .media-heading {
+	color: #000;
+	font-size: 24px;
+	font-family: 'Open Sans';
+}
+
+.home-event-list .media-body {
+	color: #000;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.home-event-list .media-body a:hover h4 {
+	opacity: 0.9;
+}
+
+.home-event-list .media-date {
+	color: #A2814D;
+	font-size: 16px;
+	font-family: 'Open Sans';
+	font-weight: 900;
+	text-align: center;
+}
+
+.media {
+	margin-bottom: 20px;
+}
+
+.media-body {
+    width: 10000px;
+}
+
+.media-body, .media-left, .media-right {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.media-left, .media > .pull-left {
+    padding-right: 20px;
+}
+
+.media-right, .media > .pull-right {
+    padding-left: 20px;
+}
+
+.home-event-list .media-date .day {
+	font-size: 80px;
+	margin-top: -23px;
+}
+
+.home-event-list .media-date .month {
+	font-size: 22px;
+	margin-top: -30px;
+}
+
+.link-event {
+	margin-top: 10px;
+}
+
+.link-event a {
+	color: #A2814D !important;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.home-gallery {
+	position: relative;
+	clear: both;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #fff;
+	background-repeat: no-repeat !important;
+	background-attachment: scroll !important;
+	background-position: center center !important;
+	background-size: cover !important;
+	/*background-image: url("../images/ornamen.png");*/
+	/*background-image: url("../images/bg.png");*/
+}
+
+.home-gallery-list {
+	margin-top: 20px;
+}
+
+.home-gal-box-img {
+	margin-bottom: 20px;
+}
+
+.pager-nav li {
+    margin-left: 10px;
+}
+
+.pager-nav li > a, .pager-nav li > span {
+    display: inline-block;
+    padding: 0px 12px 3px;
+    background-color: #CCB571;
+    border: none;
+    border-radius: 15px;
+	font-size: 20px;
+	color: #fff;
+}
+
+.pager-nav li > a:hover {
+	color: #000;
+}
+
+.pager-nav .disabled > a, .pager-nav .disabled > a:hover, .pager-nav .disabled > a:focus, .pager-nav .disabled > span {
+    color: #fff;
+    cursor: not-allowed;
+    background-color: #CCB571;
+}
+
+.box-btn-book {
+	margin-top: 20px;
+}
+
+/*------------------------------------------------- 
+                Photo Gallery Declare
+-------------------------------------------------*/
+
+.video-content-box {
+	background-color: #000;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+
+.photo-gallery-box {
+	margin-top: 30px;
+	position: relative;
+}
+
+.photo-gallery-box:after {
+	position: absolute;
+	opacity: 0;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.photo-gallery-box:before {
+	position: absolute;
+	opacity: 1;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.photo-gallery-box:after {
+    content: '\A';
+    width: 100%;
+	height: 100%;
+    top: 0;
+	left: 0;
+    background: rgba(0,0,0,0.3);
+}
+
+.photo-gallery-box:before {
+    content: attr(data-content);
+    z-index: 1;
+	top: 45%;
+	text-align: center;
+	width: 100%;
+	font-size: 22px;
+	font-family:'Open Sans';
+	color: #fff;
+	left: 0;
+    text-align: center;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	text-transform: uppercase;
+}
+
+.photo-gallery-box:hover:after, .photo-gallery-box:hover:before {
+    opacity: 1;
+}
+
+@media (width: 480px) {
+	.photo-gallery-box:before {
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 360px) {
+	.photo-gallery-box:before {
+		font-size: 12px;
+	}
+}
+
+/*------------------------------------------------- 
+                Main Page Declare
+-------------------------------------------------*/
+
+.main-content-box {
+	background-color: #fff;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.main-content-box p {
+	font-size: 15px;
+	line-height: 25px;
+}
+
+.main-content-box a {
+	color: #C6A45D;
+}
+
+.main-content-news ul {
+	margin-left: 50px;
+}
+
+#map_canvas {
+    width: 100%;
+    height: 500px;
+    margin-bottom: -40px;
+    background-color: #CCC;
+}
+
+@media (max-width: 480px) {
+    #map_canvas {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+.main-content-left-detail {
+	margin-bottom: 20px;
+}
+
+.main-content-left-detail img {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.main-content-left-detail > p {
+	font-size: 15px;
+}
+
+.main-content-right {
+	margin-top: 0px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+@media (max-width: 980px) {
+	.main-content-right {
+		margin-top: 50px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+.main-content-right > p {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.main-content-right form {
+	margin-top: 15px;
+}
+
+.main-content-right form .row {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.main-content-box-accom-ruler {
+	margin-top: 30px;
+	border-top: 2px solid #594B04;
+	margin-bottom: 0px;
+}
+
+.box-book-right {
+	background: #242424;
+	color: #FDFDFD;
+	padding: 20px;
+	font-size: 18px;
+}
+
+.sidebar-subscribe {
+	color: #7C7C7C;
+	font-size: 15px;
+	margin-top: 20px;
+}
+
+.sidebar-content {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	color: #000;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+.sidebar-subscribe h3 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #fff;
+	font-size: 18px;
+}
+
+.sidebar-content h3 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #fff;
+	font-size: 18px;
+}
+
+.box-sidebar-content {
+	margin-left: 20px;
+	clear: both;
+}
+
+.box-sidebar-content a {
+	color: #B7975E;
+	text-decoration: none;
+}
+
+.box-sidebar-content a:hover {
+	opacity: 0.8;
+	outline: none;
+	text-decoration: none;
+}
+
+.input-box-subs, .input-box-subs:hover, .input-box-subs:focus {
+    box-shadow: none;
+    height: 40px;
+    width: 90% !important;
+    border: 1px solid #B7975E;
+	background-color: #000;
+	color: #fff;
+}
+
+.text-news {
+	color: #fff;
+	text-transform: none !important;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+	position: relative;
+	float: left;
+	padding: 6px 12px;
+	margin-left: -1px;
+	line-height: 1.42857143;
+	color: #B7975E;
+	text-decoration: none;
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
+
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+	z-index: 2;
+	color: #B7975E;
+	background-color: #eee;
+	border-color: #ddd;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+	z-index: 3;
+	color: #fff;
+	cursor: default;
+	background-color: #B7975E;
+	border-color: #B7975E;
+}
+
+.main-content-right .main-head-title {
+	font-weight: normal;
+}
+
+.main-content-right .thin-border {
+	margin-top: 13px;
+}
+
+.main-content-right .sidebar-content .thin-border {
+	margin-top: 8px;
+}
+
+.main-content-left-detail #imageGallery div img {
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+.p-detail-small p {
+	font-size: 14px !important;
+}
+
+.lSSlideOuter .lSPager.lSGallery {
+	margin-top: -15px !important;
+}
+
+.p-detail-small ul li {
+	font-size: 15px;
+}
+
+.p-detail-small ul{
+	padding-left: 30px;
+	list-style: none;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+.p-detail-small ul li:before {
+	position: absolute;
+	font-family: 'FontAwesome';
+    content: "\f105";
+    color: #B7975E;
+	margin-left: -20px;
+}
+
+.detail-title-box {
+	padding: 15px 10px;
+	background-color: rgb(79, 64, 47);
+	color: #A2814D;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 20px auto;
+}
+
+.p-detail-small .table-responsive {
+	border: none;
+}
+
+.p-detail-small .table {
+	font-size: 14px;
+	border: none;
+}
+
+.p-detail-small .table tr td {
+	border: none;
+	padding: 5px;
+}
+
+.detail-title-box i {
+	font-size: 30px !important;
+}
+
+#custom-search-input{
+    padding: 2px;
+    border-radius: 4px;
+	border: 1px solid #B7975E;
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+}
+
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #B7975E;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #B7975E;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+	color: #B7975E;
+    border-left: solid 1px #B7975E;
+}
+
+#custom-search-input .glyphicon-search{
+    font-size: 16px;
+}
+
+.main-content-enquire form label {
+	font-size: 14px;
+	color: #B7975E;
+	font-weight: normal;
+}
+
+.main-content-enquire form input[type="text"], .main-content-enquire form input[type="text"]:focus {
+	height: 50px;
+	box-shadow: none;
+	border: 1px solid #CFA154;
+}
+
+.main-content-enquire form select, .main-content-enquire form select:focus {
+	height: 50px;
+	box-shadow: none;
+	border: 1px solid #CFA154;
+}
+
+.main-content-enquire form textarea, .main-content-enquire form textarea:focus {
+	height: 50px;
+	box-shadow: none;
+	border: 1px solid #CFA154;
+	height: 150px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+.textarea-help {
+	margin-left: 15px;
+	margin-top: -30px;
+	margin-bottom: 30px;
+	color: #666;
+	font-size: 12px;
+}
+
+.input-group-addon {
+    padding: 6px 18px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    background-color: #CFA154;
+    border: 1px solid #CFA154;
+    border-radius: 4px;
+}
+
+.checkbox {
+  padding-left: 20px;
+  outline: none; }
+
+  .checkbox label {
+    display: inline-block;
+    position: relative;
+    padding-left: 5px;
+	outline: none; }
+
+    .checkbox label::before {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      width: 17px;
+      height: 17px;
+      left: 0;
+      margin-left: -20px;
+      border: 1px solid #cccccc;
+      border-radius: 3px;
+      background-color: #fff;
+      -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+      -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+      transition: border 0.15s ease-in-out, color 0.15s ease-in-out; }
+
+    .checkbox label::after {
+      display: inline-block;
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      left: 0;
+      top: 0;
+      margin-left: -20px;
+      padding-left: 3px;
+      margin-top: -2px;
+      font-size: 11px;
+      color: #555555; }
+
+  .checkbox input[type="checkbox"] {
+    opacity: 0; }
+
+    .checkbox input[type="checkbox"]:focus + label::before {
+      outline: thin dotted;
+      outline: 5px auto -webkit-focus-ring-color;
+      outline-offset: -2px; }
+
+    .checkbox input[type="checkbox"]:checked + label::after {
+      font-family: 'FontAwesome';
+      content: "\f00c"; }
+
+    .checkbox input[type="checkbox"]:disabled + label {
+      opacity: 0.65; }
+
+      .checkbox input[type="checkbox"]:disabled + label::before {
+        background-color: #eeeeee;
+        cursor: not-allowed; }
+
+  .checkbox.checkbox-circle label::before {
+    border-radius: 50%; }
+
+  .checkbox.checkbox-inline {
+    margin-top: 0; }
+
+.checkbox-primary input[type="checkbox"]:checked + label::before {
+  background-color: #428bca;
+  border-color: #428bca; }
+
+.checkbox-primary input[type="checkbox"]:checked + label::after {
+  color: #fff; }
+
+.checkbox-danger input[type="checkbox"]:checked + label::before {
+  background-color: #d9534f;
+  border-color: #d9534f; }
+
+.checkbox-danger input[type="checkbox"]:checked + label::after {
+  color: #fff; }
+
+.checkbox-info input[type="checkbox"]:checked + label::before {
+  background-color: #5bc0de;
+  border-color: #5bc0de; }
+
+.checkbox-info input[type="checkbox"]:checked + label::after {
+  color: #fff; }
+
+.checkbox-warning input[type="checkbox"]:checked + label::before {
+  background-color: #f0ad4e;
+  border-color: #f0ad4e; }
+
+.checkbox-warning input[type="checkbox"]:checked + label::after {
+  color: #fff; }
+
+.checkbox-success input[type="checkbox"]:checked + label::before {
+  background-color: #5cb85c;
+  border-color: #5cb85c; }
+
+.checkbox-success input[type="checkbox"]:checked + label::after {
+  color: #fff; }
+
+.radio {
+  padding-left: 20px; }
+
+  .radio label {
+    display: inline-block;
+    position: relative;
+    padding-left: 5px; }
+
+    .radio label::before {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      width: 17px;
+      height: 17px;
+      left: 0;
+      margin-left: -20px;
+      border: 1px solid #cccccc;
+      border-radius: 50%;
+      background-color: #fff;
+      -webkit-transition: border 0.15s ease-in-out;
+      -o-transition: border 0.15s ease-in-out;
+      transition: border 0.15s ease-in-out; }
+
+    .radio label::after {
+      display: inline-block;
+      position: absolute;
+      content: " ";
+      width: 11px;
+      height: 11px;
+      left: 3px;
+      top: 3px;
+      margin-left: -20px;
+      border-radius: 50%;
+      background-color: #555555;
+      -webkit-transform: scale(0, 0);
+      -ms-transform: scale(0, 0);
+      -o-transform: scale(0, 0);
+      transform: scale(0, 0);
+      -webkit-transition: -webkit-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+      -moz-transition: -moz-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+      -o-transition: -o-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+      transition: transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33); }
+
+  .radio input[type="radio"] {
+    opacity: 0; }
+
+    .radio input[type="radio"]:focus + label::before {
+      outline: thin dotted;
+      outline: 5px auto -webkit-focus-ring-color;
+      outline-offset: -2px; }
+
+    .radio input[type="radio"]:checked + label::after {
+      -webkit-transform: scale(1, 1);
+      -ms-transform: scale(1, 1);
+      -o-transform: scale(1, 1);
+      transform: scale(1, 1); }
+
+    .radio input[type="radio"]:disabled + label {
+      opacity: 0.65; }
+
+      .radio input[type="radio"]:disabled + label::before {
+        cursor: not-allowed; }
+
+  .radio.radio-inline {
+    margin-top: 0; }
+
+.radio-primary input[type="radio"] + label::after {
+  background-color: #428bca; }
+
+.radio-primary input[type="radio"]:checked + label::before {
+  border-color: #428bca; }
+
+.radio-primary input[type="radio"]:checked + label::after {
+  background-color: #428bca; }
+
+.radio-danger input[type="radio"] + label::after {
+  background-color: #d9534f; }
+
+.radio-danger input[type="radio"]:checked + label::before {
+  border-color: #d9534f; }
+
+.radio-danger input[type="radio"]:checked + label::after {
+  background-color: #d9534f; }
+
+.radio-info input[type="radio"] + label::after {
+  background-color: #5bc0de; }
+
+.radio-info input[type="radio"]:checked + label::before {
+  border-color: #5bc0de; }
+
+.radio-info input[type="radio"]:checked + label::after {
+  background-color: #5bc0de; }
+
+.radio-warning input[type="radio"] + label::after {
+  background-color: #f0ad4e; }
+
+.radio-warning input[type="radio"]:checked + label::before {
+  border-color: #f0ad4e; }
+
+.radio-warning input[type="radio"]:checked + label::after {
+  background-color: #f0ad4e; }
+
+.radio-success input[type="radio"] + label::after {
+  background-color: #5cb85c; }
+
+.radio-success input[type="radio"]:checked + label::before {
+  border-color: #5cb85c; }
+
+.radio-success input[type="radio"]:checked + label::after {
+  background-color: #5cb85c; }
+  
+/*!
+ * Timepicker Component for Twitter Bootstrap
+ *
+ * Copyright 2013 Joris de Wit
+ *
+ * Contributors https://github.com/jdewit/bootstrap-timepicker/graphs/contributors
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+.bootstrap-timepicker {
+  position: relative;
+}
+
+.bootstrap-timepicker.pull-right .bootstrap-timepicker-widget.dropdown-menu {
+  left: auto;
+  right: 0;
+}
+
+.bootstrap-timepicker.pull-right .bootstrap-timepicker-widget.dropdown-menu:before {
+  left: auto;
+  right: 12px;
+}
+
+.bootstrap-timepicker.pull-right .bootstrap-timepicker-widget.dropdown-menu:after {
+  left: auto;
+  right: 13px;
+}
+
+.bootstrap-timepicker .add-on {
+  cursor: pointer;
+}
+
+.bootstrap-timepicker .add-on i {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+}
+
+.bootstrap-timepicker-widget.dropdown-menu {
+  padding: 4px;
+}
+
+.bootstrap-timepicker-widget.dropdown-menu.open {
+  display: inline-block;
+}
+
+.bootstrap-timepicker-widget.dropdown-menu:before {
+  border-bottom: 7px solid rgba(0, 0, 0, 0.2);
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  content: "";
+  display: inline-block;
+  position: absolute;
+}
+
+.bootstrap-timepicker-widget.dropdown-menu:after {
+  border-bottom: 6px solid #FFFFFF;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  content: "";
+  display: inline-block;
+  position: absolute;
+}
+
+.bootstrap-timepicker-widget.timepicker-orient-left:before {
+  left: 6px;
+}
+
+.bootstrap-timepicker-widget.timepicker-orient-left:after {
+  left: 7px;
+}
+
+.bootstrap-timepicker-widget.timepicker-orient-right:before {
+  right: 6px;
+}
+
+.bootstrap-timepicker-widget.timepicker-orient-right:after {
+  right: 7px;
+}
+
+.bootstrap-timepicker-widget.timepicker-orient-top:before {
+  top: -7px;
+}
+
+.bootstrap-timepicker-widget.timepicker-orient-top:after {
+  top: -6px;
+}
+
+.bootstrap-timepicker-widget.timepicker-orient-bottom:before {
+  bottom: -7px;
+  border-bottom: 0;
+  border-top: 7px solid #999;
+}
+
+.bootstrap-timepicker-widget.timepicker-orient-bottom:after {
+  bottom: -6px;
+  border-bottom: 0;
+  border-top: 6px solid #ffffff;
+}
+
+.bootstrap-timepicker-widget a.btn,
+.bootstrap-timepicker-widget input {
+  border-radius: 4px;
+}
+
+.bootstrap-timepicker-widget table {
+  width: 100%;
+  margin: 0;
+}
+
+.bootstrap-timepicker-widget table td {
+  text-align: center;
+  height: 30px;
+  margin: 0;
+  padding: 2px;
+}
+
+.bootstrap-timepicker-widget table td:not(.separator) {
+  min-width: 30px;
+}
+
+.bootstrap-timepicker-widget table td span {
+  width: 100%;
+}
+
+.bootstrap-timepicker-widget table td a {
+  border: 1px transparent solid;
+  width: 45px;
+  height: 34px;
+  display: inline-block;
+  margin: 0;
+  padding: 8px 0;
+  outline: 0;
+  color: #333;
+  text-align: center;
+}
+
+.bootstrap-timepicker-widget table td a:hover {
+  text-decoration: none;
+  background-color: #eee;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border-color: #ddd;
+}
+
+.bootstrap-timepicker-widget table td a i {
+  margin-top: 2px;
+  font-size: 18px;
+}
+
+.bootstrap-timepicker-widget table td input {
+  margin: 0;
+  text-align: center;
+  width: 45px;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #CFA154;
+  border-radius: 4px;
+  box-shadow: 0px;
+}
+
+.bootstrap-timepicker-widget .modal-content {
+  padding: 4px;
+}
+
+@media (min-width: 767px) {
+  .bootstrap-timepicker-widget.modal {
+    width: 200px;
+    margin-left: -100px;
+  }
+}
+
+@media (max-width: 767px) {
+  .bootstrap-timepicker {
+    width: 100%;
+  }
+  .bootstrap-timepicker .dropdown-menu {
+    width: 100%;
+  }
+}
+
+div.select-dropdown select {
+	border: 1px solid #CFA154;
+	border-radius: 4px;
+	display: inline-block;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	cursor: pointer;
+	outline: none;
+}
+
+div.select-dropdown select:-moz-focusring {
+	color: transparent;
+	text-shadow: 0 0 0 #666;
+}
+
+div.select-dropdown select::-ms-expand {
+	display: none;
+}
+
+div.select-dropdown:before {
+	content: '';
+	right: 4px;
+	top: 4px;
+	width: 42px;
+	height: 42px;
+	background: #F2F4FA;
+	position: absolute;
+	pointer-events: none;
+	border-left: 1px solid #CFA154;
+	display: block;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+div.select-dropdown { position: relative; }
+
+div.select-dropdown:after {
+	content: '\f103';
+	font-size: 20px;
+	font-family: FontAwesome;
+	color: #CFA154;
+	right: 4px;
+	top: 15px;
+	position: absolute;
+	pointer-events: none;
+	width: 42px;
+	padding: 0 0 5px 0;
+	text-indent: 14px;
+}
+.category-page-title{
+	margin-top: -50px;
+	color :#fff;
+}
+/*TRIP ADVISOR*/
+img.avatar {
+    border-radius: 100%;
+    vertical-align: text-top;
+}
+.facebookFriend, div.avatar {
+    border: 2px solid #EDEDED;
+    border-radius: 100%;
+    float: left;
+    padding: 3px!important;
+}
+.inlineReviewUpdate .username.mo .scrname {
+    display: block;
+    width: 112px;
+    font-size: 1em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -moz-text-overflow: ellipsis;
+}
+.rating_s .s50 {
+    width: 70px;
+}
+.sprite-rating_s_fill {
+    background-image: url('tripadvisorsprite.png');
+    background-position: left -32px;
+    background-repeat: no-repeat;
+    display: block;
+    height: 14px;
+}
+.sprite-rating_s {
+    background-image: url('tripadvisorsprite.png');
+    background-position: left -46px;
+    width: 70px;
+    height: 14px;
+    background-repeat: no-repeat;
+    display: block;
+    overflow: hidden;
+    margin-right: 4px;
+    line-height: 14px;
+    float: left;
+}
+.quote{
+    font-style: italic;
+    font-weight: normal;
+    text-decoration: none;
+    padding-bottom: 1px;
+    margin: 0 0 5px;
+}
+.ta-slide{
+	opacity: 0.1;
+}
+.ta-slide:hover{
+	opacity: 0.3;
+}
+/*END TRIP ADVISOR*/
+@media screen\0 {
+	div.select-dropdown:after {
+		width: 42px;
+		text-indent: 14px;
+        right: 0;
+	}
+}
+
+@media screen and (min--moz-device-pixel-ratio:0) {
+	div.select-dropdown select { padding-right: 40px; }
+	div.select-dropdown:before { right: 4px; }
+	div.select-dropdown:after {
+		text-indent: 14px;
+		right: 4px;
+		top: 15px;
+		width: 42px;
+	}
+}

@@ -1,0 +1,129 @@
+1465094996s:5395:"a:6:{s:5:"mtime";i:1465068008;s:7:"content";s:2607:"title = "yoga"
+url = "/wellness/yoga"
+layout = "wellness"
+is_hidden = 0
+==
+{% put styles %}
+    <link href="{{ [
+        'assets/vendor/slick/slick.css',
+    ]|theme }}" rel="stylesheet">
+{% endput %}
+{% put scripts %}
+    <script src="{{ [
+        'assets/vendor/slick/slick.js',
+    ]|theme }}"></script>
+    <script>
+        $(document).ready(function() {
+            $('#projectImages').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear',
+                slidesToShow: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                pauseOnHover: true
+            });
+        })
+    </script>
+{% endput %}
+
+<div id="imageGallery">
+    <div data-thumb="{{url('upload/alampuisi/yoga/Yoga-1.jpg')}}">
+        <img src="{{url('upload/alampuisi/yoga/Yoga-1.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/yoga/Yoga-2.jpg')}}">
+        <img src="{{url('upload/alampuisi/yoga/Yoga-2.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/yoga/Yoga-4.jpg')}}">
+        <img src="{{url('upload/alampuisi/yoga/Yoga-4.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/yoga/Yoga-6.jpg')}}">
+        <img src="{{url('upload/alampuisi/yoga/Yoga-1.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/yoga/Yoga-6.jpg')}}">
+        <img src="{{url('upload/alampuisi/yoga/Yoga-1.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/yoga/Yoga-7.jpg')}}">
+        <img src="{{url('upload/alampuisi/yoga/Yoga-7.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/yoga/Yoga-5.jpg')}}">
+        <img src="{{url('upload/alampuisi/yoga/Yoga-5.jpg')}}" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="main-content-box-accom-ruler" style="margin-top:20px;">&nbsp;</div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12 p-detail-small">
+        <div class="main-head-title title-small">YOGA</div>
+        <div class="clearfix">&nbsp;</div>
+        <p>Our yoga studio is a light and airy space overlooking the rice fields, with room for forty (40) guests. Each morning one of our traditionally trained and experienced teachers will lead a complimentary one-hour session of yoga. You will learn techniques to still your mind, strengthen your body, and expand your consciousness using posture, breath work, meditation and relaxation.</p>
+                             
+    </div>
+</div>
+";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:4:"yoga";s:3:"url";s:14:"/wellness/yoga";s:6:"layout";s:8:"wellness";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:2525:"{% put styles %}
+    <link href="{{ [
+        'assets/vendor/slick/slick.css',
+    ]|theme }}" rel="stylesheet">
+{% endput %}
+{% put scripts %}
+    <script src="{{ [
+        'assets/vendor/slick/slick.js',
+    ]|theme }}"></script>
+    <script>
+        $(document).ready(function() {
+            $('#projectImages').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear',
+                slidesToShow: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                pauseOnHover: true
+            });
+        })
+    </script>
+{% endput %}
+
+<div id="imageGallery">
+    <div data-thumb="{{url('upload/alampuisi/yoga/Yoga-1.jpg')}}">
+        <img src="{{url('upload/alampuisi/yoga/Yoga-1.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/yoga/Yoga-2.jpg')}}">
+        <img src="{{url('upload/alampuisi/yoga/Yoga-2.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/yoga/Yoga-4.jpg')}}">
+        <img src="{{url('upload/alampuisi/yoga/Yoga-4.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/yoga/Yoga-6.jpg')}}">
+        <img src="{{url('upload/alampuisi/yoga/Yoga-1.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/yoga/Yoga-6.jpg')}}">
+        <img src="{{url('upload/alampuisi/yoga/Yoga-1.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/yoga/Yoga-7.jpg')}}">
+        <img src="{{url('upload/alampuisi/yoga/Yoga-7.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/yoga/Yoga-5.jpg')}}">
+        <img src="{{url('upload/alampuisi/yoga/Yoga-5.jpg')}}" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="main-content-box-accom-ruler" style="margin-top:20px;">&nbsp;</div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12 p-detail-small">
+        <div class="main-head-title title-small">YOGA</div>
+        <div class="clearfix">&nbsp;</div>
+        <p>Our yoga studio is a light and airy space overlooking the rice fields, with room for forty (40) guests. Each morning one of our traditionally trained and experienced teachers will lead a complimentary one-hour session of yoga. You will learn techniques to still your mind, strengthen your body, and expand your consciousness using posture, breath work, meditation and relaxation.</p>
+                             
+    </div>
+</div>";}";

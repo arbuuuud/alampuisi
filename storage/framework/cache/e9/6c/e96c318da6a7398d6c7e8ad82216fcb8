@@ -1,0 +1,8 @@
+1463997869s:1346:"a:7:{s:5:"mtime";i:1463671628;s:7:"content";s:364:"[viewBag]
+title = "test"
+url = "/test"
+layout = "default"
+is_hidden = 0
+navigation_hidden = 0
+==
+<ul><li><span>​TEST</span><br></li><li><span>halo</span></li><li><span><br></span></li></ul><table><tbody><tr><td>​tea</td><td>a​</td><td>c​</td></tr><tr><td>​dasdasdasd</td><td>asdasdasdsa​</td><td>asdasdasd​</td></tr></tbody></table><p><br></p>";s:7:"viewBag";a:5:{s:5:"title";s:4:"test";s:3:"url";s:5:"/test";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:17:"navigation_hidden";s:1:"0";}s:8:"settings";a:1:{s:10:"components";a:1:{s:7:"viewBag";a:5:{s:5:"title";s:4:"test";s:3:"url";s:5:"/test";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:17:"navigation_hidden";s:1:"0";}}}s:4:"code";N;s:6:"markup";s:260:"<ul><li><span>​TEST</span><br></li><li><span>halo</span></li><li><span><br></span></li></ul><table><tbody><tr><td>​tea</td><td>a​</td><td>c​</td></tr><tr><td>​dasdasdasd</td><td>asdasdasdsa​</td><td>asdasdasd​</td></tr></tbody></table><p><br></p>";s:13:"parsed-markup";s:260:"<ul><li><span>​TEST</span><br></li><li><span>halo</span></li><li><span><br></span></li></ul><table><tbody><tr><td>​tea</td><td>a​</td><td>c​</td></tr><tr><td>​dasdasdasd</td><td>asdasdasdsa​</td><td>asdasdasd​</td></tr></tbody></table><p><br></p>";}";

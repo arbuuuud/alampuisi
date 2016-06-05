@@ -1,0 +1,49 @@
+# ===================================
+# Filter Scope Definitions
+# ===================================
+scopes:
+
+
+    waiting:
+
+        # Filter name
+        label: mindimedia.enquire::lang.enquiries.hide_waiting
+
+        # Filter type
+        type: checkbox
+
+        # SQL Conditions
+        conditions: status <> 'WL'
+
+    process:
+
+        # Filter name
+        label: mindimedia.enquire::lang.enquiries.hide_process
+
+        # Filter type
+        type: checkbox
+
+        # SQL Conditions
+        conditions: status <> 'P'
+
+    read:
+
+        # Filter name
+        label: mindimedia.enquire::lang.enquiries.hide_read
+
+        # Filter type
+        type: checkbox
+
+        # SQL Conditions
+        conditions: status <> 'R'
+
+    confirm:
+
+        # Filter name
+        label: mindimedia.enquire::lang.enquiries.hide_confirm
+
+        # Filter type
+        type: checkbox
+
+        # SQL Conditions
+        conditions: status <> 'C'

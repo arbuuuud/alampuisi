@@ -1,0 +1,174 @@
+1465021766s:12068:"a:6:{s:5:"mtime";i:1465021158;s:7:"content";s:5942:"title = "package"
+url = "/special-offer/package"
+layout = "category-special-offer"
+is_hidden = 0
+==
+{% put scripts %}
+    <script src="{{ [
+        'assets/vendor/isotope/jquery.isotope.js',
+        'assets/javascript/pages/portfolio.js',
+    ]|theme }}"></script>
+{% endput %}
+<div class="container-fluid main-content-box">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                        <div class="home-txt-top">Title For Room Rates </div>
+                    <p><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>              </div>
+                <div class="col-md-12">
+                    <div class="main-content-box-accom-ruler">&nbsp;</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 box-grid">
+                    <div class="main-head-title title-medium">Honeymoon Package</div>
+                    <div class="thin-border title-medium">___</div>
+                    <div class="grid2">
+                        <figure class="item effect-ruby">
+                            <img src="{{url('upload/alampuisi/accomodation/onetwobed/Pool-Villa-3.jpg')}}" alt="" />
+                            <figcaption>
+                                <p>
+                                    <span class="hidden-xs">A splendid one bedroom villa with a private pool and views onto the rice fields, this two-person room also comes with the ption to include beds for two extra people. The villa is completed by the private pool, sun deck, and spacious dining gazebo. <br /><br /></span>
+                                </p>
+                                <a href="{{url('special-offer/honeymoon-package')}}">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 box-grid">
+                    <div class="main-head-title title-medium">Family Package</div>
+                    <div class="thin-border title-medium">___</div>
+                    <div class="grid2">
+                        <figure class="item effect-ruby">
+                            <img src="{{url('upload/alampuisi/accomodation/suite/family/ADHI0254.jpg')}}" alt="" />
+                            <figcaption>
+                                <p>
+                                    <span class="hidden-xs">With two rooms and private pools connected by a door, this chummy villa is perfect for the family who would like to stay together but also enjoy privacy. The four person capacity can be expanded to include beds for two additional guests for an extra price. <br /><br /></span>
+                                </p>
+                                <a href="{{url('special-offer/family-package')}}">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 box-grid">
+                    <div class="main-head-title title-medium">Adventure Package</div>
+                    <div class="thin-border title-medium">___</div>
+                    <div class="grid2">
+                         <figure class="item effect-ruby">
+                            <img src="{{url('upload/alampuisi/accomodation/suite/ADHI0240c.jpg')}}" alt="" />
+                            <figcaption>
+                                <p>
+                                    <span class="hidden-xs">With three king or twin beds in the one compound villa overlooking a private pool, this option provides complete luxury for families and friends visiting together. The villa features three spacious rooms and can house up to six people.  <br /><br /></span>
+                                    <a href="#" target="_blank" class="btn btn-trans text-uppercase">Book Now</a>
+                                </p>
+                                <a href="{{url('roomrates/adventure-package')}}">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 box-grid">
+                    <div class="main-head-title title-medium">Wellness Package</div>
+                    <div class="thin-border title-medium">___</div>
+                    <div class="grid2">
+                         <figure class="item effect-ruby">
+                            <img src="{{url('upload/alampuisi/yoga/Yoga-5.jpg')}}" alt="" />
+                            <figcaption>
+                                <p>
+                                    <span class="hidden-xs">With three king or twin beds in the one compound villa overlooking a private pool, this option provides complete luxury for families and friends visiting together. The villa features three spacious rooms and can house up to six people.  <br /><br /></span>
+                                    <a href="#" target="_blank" class="btn btn-trans text-uppercase">Book Now</a>
+                                </p>
+                                <a href="{{url('roomrates/wellness-package')}}">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:7:"package";s:3:"url";s:22:"/special-offer/package";s:6:"layout";s:22:"category-special-offer";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:5837:"{% put scripts %}
+    <script src="{{ [
+        'assets/vendor/isotope/jquery.isotope.js',
+        'assets/javascript/pages/portfolio.js',
+    ]|theme }}"></script>
+{% endput %}
+<div class="container-fluid main-content-box">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                        <div class="home-txt-top">Title For Room Rates </div>
+                    <p><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>              </div>
+                <div class="col-md-12">
+                    <div class="main-content-box-accom-ruler">&nbsp;</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 box-grid">
+                    <div class="main-head-title title-medium">Honeymoon Package</div>
+                    <div class="thin-border title-medium">___</div>
+                    <div class="grid2">
+                        <figure class="item effect-ruby">
+                            <img src="{{url('upload/alampuisi/accomodation/onetwobed/Pool-Villa-3.jpg')}}" alt="" />
+                            <figcaption>
+                                <p>
+                                    <span class="hidden-xs">A splendid one bedroom villa with a private pool and views onto the rice fields, this two-person room also comes with the ption to include beds for two extra people. The villa is completed by the private pool, sun deck, and spacious dining gazebo. <br /><br /></span>
+                                </p>
+                                <a href="{{url('special-offer/honeymoon-package')}}">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 box-grid">
+                    <div class="main-head-title title-medium">Family Package</div>
+                    <div class="thin-border title-medium">___</div>
+                    <div class="grid2">
+                        <figure class="item effect-ruby">
+                            <img src="{{url('upload/alampuisi/accomodation/suite/family/ADHI0254.jpg')}}" alt="" />
+                            <figcaption>
+                                <p>
+                                    <span class="hidden-xs">With two rooms and private pools connected by a door, this chummy villa is perfect for the family who would like to stay together but also enjoy privacy. The four person capacity can be expanded to include beds for two additional guests for an extra price. <br /><br /></span>
+                                </p>
+                                <a href="{{url('special-offer/family-package')}}">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 box-grid">
+                    <div class="main-head-title title-medium">Adventure Package</div>
+                    <div class="thin-border title-medium">___</div>
+                    <div class="grid2">
+                         <figure class="item effect-ruby">
+                            <img src="{{url('upload/alampuisi/accomodation/suite/ADHI0240c.jpg')}}" alt="" />
+                            <figcaption>
+                                <p>
+                                    <span class="hidden-xs">With three king or twin beds in the one compound villa overlooking a private pool, this option provides complete luxury for families and friends visiting together. The villa features three spacious rooms and can house up to six people.  <br /><br /></span>
+                                    <a href="#" target="_blank" class="btn btn-trans text-uppercase">Book Now</a>
+                                </p>
+                                <a href="{{url('roomrates/adventure-package')}}">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 box-grid">
+                    <div class="main-head-title title-medium">Wellness Package</div>
+                    <div class="thin-border title-medium">___</div>
+                    <div class="grid2">
+                         <figure class="item effect-ruby">
+                            <img src="{{url('upload/alampuisi/yoga/Yoga-5.jpg')}}" alt="" />
+                            <figcaption>
+                                <p>
+                                    <span class="hidden-xs">With three king or twin beds in the one compound villa overlooking a private pool, this option provides complete luxury for families and friends visiting together. The villa features three spacious rooms and can house up to six people.  <br /><br /></span>
+                                    <a href="#" target="_blank" class="btn btn-trans text-uppercase">Book Now</a>
+                                </p>
+                                <a href="{{url('roomrates/wellness-package')}}">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>";}";

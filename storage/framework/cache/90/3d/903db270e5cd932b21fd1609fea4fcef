@@ -1,0 +1,110 @@
+1465094996s:4857:"a:6:{s:5:"mtime";i:1465073990;s:7:"content";s:2336:"title = "Cooking Lesson"
+url = "/activities/cooking-lesson"
+layout = "activity-detail"
+is_hidden = 0
+==
+{% put styles %}
+    <link href="{{ [
+        'assets/vendor/slick/slick.css',
+    ]|theme }}" rel="stylesheet">
+{% endput %}
+{% put scripts %}
+    <script src="{{ [
+        'assets/vendor/slick/slick.js',
+    ]|theme }}"></script>
+    <script>
+        $(document).ready(function() {
+            $('#projectImages').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear',
+                slidesToShow: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                pauseOnHover: true
+            });
+        })
+    </script>
+{% endput %}
+
+<div id="imageGallery">
+    <div data-thumb="{{url('upload/alampuisi/activities/cooking/cooking_1.jpg')}}">
+        <img src="{{url('upload/alampuisi/activities/cooking/cooking_1.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/activities/cooking/cooking_2.jpg')}}">
+        <img src="{{url('upload/alampuisi/activities/cooking/cooking_2.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/activities/cooking/cooking_3.jpg')}}">
+        <img src="{{url('upload/alampuisi/activities/cooking/cooking_3.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/activities/cooking/cooking_6.jpg')}}">
+        <img src="{{url('upload/alampuisi/activities/cooking/cooking_6.jpg')}}" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="main-content-box-accom-ruler" style="margin-top:20px;">&nbsp;</div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12 p-detail-small">
+        <div class="main-head-title title-small">Balinese Experiences of Cooking Lesson</div>
+        <div class="clearfix">&nbsp;</div>
+        <p>Learn the secrets of Balinese cuisine with a special lesson from the Anubhooti restaurant chef. The lesson begins with the traditional Balinese morning ritual of visiting the markets to buy the freshest local produce. Our chef will then guide you through the process of making foods with love. You will be finished in time to enjoy your meal for lunch.</p>
+                             
+    </div>
+</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:14:"Cooking Lesson";s:3:"url";s:26:"/activities/cooking-lesson";s:6:"layout";s:15:"activity-detail";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:2227:"{% put styles %}
+    <link href="{{ [
+        'assets/vendor/slick/slick.css',
+    ]|theme }}" rel="stylesheet">
+{% endput %}
+{% put scripts %}
+    <script src="{{ [
+        'assets/vendor/slick/slick.js',
+    ]|theme }}"></script>
+    <script>
+        $(document).ready(function() {
+            $('#projectImages').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear',
+                slidesToShow: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                pauseOnHover: true
+            });
+        })
+    </script>
+{% endput %}
+
+<div id="imageGallery">
+    <div data-thumb="{{url('upload/alampuisi/activities/cooking/cooking_1.jpg')}}">
+        <img src="{{url('upload/alampuisi/activities/cooking/cooking_1.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/activities/cooking/cooking_2.jpg')}}">
+        <img src="{{url('upload/alampuisi/activities/cooking/cooking_2.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/activities/cooking/cooking_3.jpg')}}">
+        <img src="{{url('upload/alampuisi/activities/cooking/cooking_3.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/activities/cooking/cooking_6.jpg')}}">
+        <img src="{{url('upload/alampuisi/activities/cooking/cooking_6.jpg')}}" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="main-content-box-accom-ruler" style="margin-top:20px;">&nbsp;</div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12 p-detail-small">
+        <div class="main-head-title title-small">Balinese Experiences of Cooking Lesson</div>
+        <div class="clearfix">&nbsp;</div>
+        <p>Learn the secrets of Balinese cuisine with a special lesson from the Anubhooti restaurant chef. The lesson begins with the traditional Balinese morning ritual of visiting the markets to buy the freshest local produce. Our chef will then guide you through the process of making foods with love. You will be finished in time to enjoy your meal for lunch.</p>
+                             
+    </div>
+</div>";}";

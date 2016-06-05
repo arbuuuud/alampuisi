@@ -1,0 +1,23 @@
+{% set enquire = __SELF__.enquire %}
+
+<div class="content">{{ enquire.content_html|raw }}</div>
+
+{% if enquire.featured_images.count %}
+    <div class="featured-images text-center">
+        {% for image in enquire.featured_images %}
+            <p>
+                <img
+                    data-src="{{ image.filename }}"
+                    src="{{ image.path }}"
+                    alt="{{ image.description }}"
+                    style="max-width: 100%" />
+            </p>
+        {% endfor %}
+    </div>
+{% endif %}
+
+<p class="info">
+    Enquireed
+   
+    on {{ enquire.published_at|date('M d, Y') }}
+</p>

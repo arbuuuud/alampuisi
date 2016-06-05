@@ -1,0 +1,64 @@
+title = "spa"
+url = "/wellness/spa"
+layout = "wellness"
+is_hidden = 0
+==
+{% put styles %}
+    <link href="{{ [
+        'assets/vendor/slick/slick.css',
+    ]|theme }}" rel="stylesheet">
+{% endput %}
+{% put scripts %}
+    <script src="{{ [
+        'assets/vendor/slick/slick.js',
+    ]|theme }}"></script>
+    <script>
+        $(document).ready(function() {
+            $('#projectImages').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear',
+                slidesToShow: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                pauseOnHover: true
+            });
+        })
+    </script>
+{% endput %}
+
+<div id="imageGallery">
+    <div data-thumb="{{url('upload/alampuisi/spa/Spa-1.jpg')}}">
+        <img src="{{url('upload/alampuisi/spa/Spa-1.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/spa/Spa-3.jpg')}}">
+        <img src="{{url('upload/alampuisi/spa/Spa-3.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/spa/Spa-5.jpg')}}">
+        <img src="{{url('upload/alampuisi/spa/Spa-5.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/spa/Spa-6.jpg')}}">
+        <img src="{{url('upload/alampuisi/spa/Spa-6.jpg')}}" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="main-content-box-accom-ruler" style="margin-top:20px;">&nbsp;</div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12 p-detail-small">
+        <div class="main-head-title title-small">SPA</div>
+        <div class="clearfix">&nbsp;</div>
+        <p>Our luxury spa facility offers an extensive menu of rituals to nurture body, mind and soul. It is a uniquely tranquil setting with a private collection of air-conditioned treatment rooms. We skillfully blend our own cold pressed virgin coconut oil and grape seed oil with the purest natural essential oils. Our experienced therapists take pleasure in explaining each step of your preferred treatment.</p>
+                             
+    </div>
+    <div class="col-md-12">
+        <div class="footer-button">
+            <!-- <a href="#" onclick="document.getElementById('bookingfooter').submit();" class="btn btn-trans text-uppercase" >Book Now</a> -->
+            <a href="{{url('/enquire')}}" class="btn btn-trans text-uppercase" >Enquire Now</a>
+        </div>
+    </div>
+</div>

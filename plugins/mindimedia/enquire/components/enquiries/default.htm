@@ -1,0 +1,37 @@
+{% set enquiries = __SELF__.enquiries %}
+
+<ul class="enquire-list">
+    {% for enquire in enquiries %}
+        <li>
+            <h3><a href="{{ enquire.url }}">{{ enquire.title }}</a></h3>
+
+            <p class="info">
+                Enquireed
+              
+                on {{ enquire.published_at|date('M d, Y') }}
+            </p>
+
+            <p class="excerpt">{{ enquire.summary }}</p>
+        </li>
+    {% else %}
+        <li class="no-data">{{ noEnquiriesMessage }}</li>
+    {% endfor %}
+</ul>
+
+{% if enquiries.lastPage > 1 %}
+    <ul class="pagination">
+        {% if enquiries.currentPage > 1 %}
+            <li><a href="{{ this.page.baseFileName|page({ (pageParam): (enquiries.currentPage-1) }) }}">&larr; Prev</a></li>
+        {% endif %}
+
+        {% for page in 1..enquiries.lastPage %}
+            <li class="{{ enquiries.currentPage == page ? 'active' : null }}">
+                <a href="{{ this.page.baseFileName|page({ (pageParam): page }) }}">{{ page }}</a>
+            </li>
+        {% endfor %}
+
+        {% if enquiries.lastPage > enquiries.currentPage %}
+            <li><a href="{{ this.page.baseFileName|page({ (pageParam): (enquiries.currentPage+1) }) }}">Next &rarr;</a></li>
+        {% endif %}
+    </ul>
+{% endif %}

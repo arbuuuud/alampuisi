@@ -1,0 +1,92 @@
+1465021923s:3069:"a:6:{s:5:"mtime";i:1465020064;s:7:"content";s:1442:"title = "puisi performance"
+url = "/activities/puisi-performance"
+layout = "activity-detail"
+is_hidden = 0
+==
+{% put styles %}
+    <link href="{{ [
+        'assets/vendor/slick/slick.css',
+    ]|theme }}" rel="stylesheet">
+{% endput %}
+{% put scripts %}
+    <script src="{{ [
+        'assets/vendor/slick/slick.js',
+    ]|theme }}"></script>
+    <script>
+        $(document).ready(function() {
+            $('#projectImages').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear',
+                slidesToShow: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                pauseOnHover: true
+            });
+        })
+    </script>
+{% endput %}
+
+<div id="imageGallery">
+    <div data-thumb="{{url('upload/alampuisi/activities/puisiperformance/ADHI0371.jpg')}}">
+        <img src="{{url('upload/alampuisi/activities/puisiperformance/ADHI0371.jpg')}}" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="main-content-box-accom-ruler" style="margin-top:20px;">&nbsp;</div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12 p-detail-small">
+        <div class="main-head-title title-small">Puisi Performance</div>
+        <div class="clearfix">&nbsp;</div>
+        <p></p>
+                             
+    </div>
+</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:17:"puisi performance";s:3:"url";s:29:"/activities/puisi-performance";s:6:"layout";s:15:"activity-detail";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:1327:"{% put styles %}
+    <link href="{{ [
+        'assets/vendor/slick/slick.css',
+    ]|theme }}" rel="stylesheet">
+{% endput %}
+{% put scripts %}
+    <script src="{{ [
+        'assets/vendor/slick/slick.js',
+    ]|theme }}"></script>
+    <script>
+        $(document).ready(function() {
+            $('#projectImages').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear',
+                slidesToShow: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                pauseOnHover: true
+            });
+        })
+    </script>
+{% endput %}
+
+<div id="imageGallery">
+    <div data-thumb="{{url('upload/alampuisi/activities/puisiperformance/ADHI0371.jpg')}}">
+        <img src="{{url('upload/alampuisi/activities/puisiperformance/ADHI0371.jpg')}}" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="main-content-box-accom-ruler" style="margin-top:20px;">&nbsp;</div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12 p-detail-small">
+        <div class="main-head-title title-small">Puisi Performance</div>
+        <div class="clearfix">&nbsp;</div>
+        <p></p>
+                             
+    </div>
+</div>";}";

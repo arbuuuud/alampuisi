@@ -1,0 +1,16 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+name: mindimedia.enquire::lang.enquire.create_enquire
+form: ~/plugins/mindimedia/enquire/models/enquire/fields.yaml
+modelClass: Mindimedia\Enquire\Models\Enquire
+defaultRedirect: mindimedia/enquire/enquiries
+
+create:
+    redirect: mindimedia/enquire/enquiries/update/:id
+    redirectClose: mindimedia/enquire/enquiries
+
+update:
+    redirect: mindimedia/enquire/enquiries
+    redirectClose: mindimedia/enquire/enquiries

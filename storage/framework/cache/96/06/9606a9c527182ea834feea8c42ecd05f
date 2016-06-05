@@ -1,0 +1,183 @@
+1465098130s:8061:"a:6:{s:5:"mtime";i:1464466602;s:7:"content";s:3939:"title = "unbeatable-deal"
+url = "/special-offer/unbeatable-deal"
+layout = "special-offer"
+is_hidden = 0
+==
+{% put styles %}
+    <link href="{{ [
+        'assets/vendor/slick/slick.css',
+    ]|theme }}" rel="stylesheet">
+{% endput %}
+{% put scripts %}
+    <script src="{{ [
+        'assets/vendor/slick/slick.js',
+    ]|theme }}"></script>
+    <script>
+        $(document).ready(function() {
+            $('#projectImages').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear',
+                slidesToShow: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                pauseOnHover: true
+            });
+        })
+    </script>
+{% endput %}
+
+<div id="imageGallery">
+    <div data-thumb="{{url('upload/alampuisi/Pool-Villa-8.jpg')}}">
+        <img src="{{url('upload/alampuisi/Pool-Villa-8.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/Pool-Villa-14.jpg')}}">
+        <img src="{{url('upload/alampuisi/Pool-Villa-14.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/Pool-Villa-13.jpg')}}">
+        <img src="{{url('upload/alampuisi/Pool-Villa-13.jpg')}}" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="main-content-box-accom-ruler" style="margin-top:20px;">&nbsp;</div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12 p-detail-small">
+        <div class="main-head-title title-small">Unbeatable Deal</div>
+        <div class="main-head-title title-small">30% DISCOUNT FROM BEST AVAILABLE RATE - RATE STARTS FROM IDR 1,842,000++
+ </div>
+        
+        <div id="accordion" class="row">
+            <div class="col-md-12 text-uppercase">
+                <div class="detail-title-box"><em class="fa fa-angle-down">&nbsp;</em> <a href="#collapseOne" data-toggle="collapse" data-parent="#accordion"> WHY BOOK DIRECTLY TO THE WEBSITE?</a>
+                </div>
+            </div>
+            <div id="collapseOne" class="panel-collapse in">
+                <div class="col-md-12">
+                   <ul>
+					<li>Complimentary Celebration Breakfast at The Restaurant</li>
+					<li>Complimentary Private return airport transfer</li>
+					<li>Welcome drink upon arrival</li>
+					<li>Welcome fruit amenities upon arrival</li>
+					<li>In room tea and coffee making facilities and bottles of mineral water</li>
+					<li>Complimentary Wi-Fi throughout the resort including in all bedrooms</li>
+					<li>Free press reader an international and domestic electronic newspaper and magazine</li>
+					<li>Free use of Gymnasium, Steam and Sauna at Gym</li>
+					<li>15% discount for F&amp;B and Spa</li>
+					</ul>
+                </div>
+            </div>
+            <div class="col-md-12 text-uppercase">
+                <div class="detail-title-box"><em class="fa fa-angle-down">&nbsp;</em> <a href="#collapseTwo" data-toggle="collapse" data-parent="#accordion"> Terms and Conditions</a>
+                </div>
+            </div>
+            <div id="collapseTwo" class="panel-collapse in">
+                <div class="col-md-12">
+                    <ul>
+					<li>Booking Period is from Immediately - 31 October 2016</li>
+					<li>Travelling Period is from immediately to 24 December 2016</li>
+					<li>Minimum 3 consecutive nights to be applied</li>
+					<li>Advance reservation is required, full payment, non-refundable</li>
+					<li>Rate is based on single and double occupancy</li>
+					<li>Rate is subject to 21% government tax &amp; service charge</li>
+					<li>Rate is subject to change without prior notice</li>
+					<li>A limited number of rooms may be available at this rate and black out date may applied</li>
+					</ul>
+                </div>
+            </div>
+        </div>                      
+    </div>
+</div>
+";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:15:"unbeatable-deal";s:3:"url";s:30:"/special-offer/unbeatable-deal";s:6:"layout";s:13:"special-offer";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:3825:"{% put styles %}
+    <link href="{{ [
+        'assets/vendor/slick/slick.css',
+    ]|theme }}" rel="stylesheet">
+{% endput %}
+{% put scripts %}
+    <script src="{{ [
+        'assets/vendor/slick/slick.js',
+    ]|theme }}"></script>
+    <script>
+        $(document).ready(function() {
+            $('#projectImages').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear',
+                slidesToShow: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                pauseOnHover: true
+            });
+        })
+    </script>
+{% endput %}
+
+<div id="imageGallery">
+    <div data-thumb="{{url('upload/alampuisi/Pool-Villa-8.jpg')}}">
+        <img src="{{url('upload/alampuisi/Pool-Villa-8.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/Pool-Villa-14.jpg')}}">
+        <img src="{{url('upload/alampuisi/Pool-Villa-14.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/Pool-Villa-13.jpg')}}">
+        <img src="{{url('upload/alampuisi/Pool-Villa-13.jpg')}}" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="main-content-box-accom-ruler" style="margin-top:20px;">&nbsp;</div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12 p-detail-small">
+        <div class="main-head-title title-small">Unbeatable Deal</div>
+        <div class="main-head-title title-small">30% DISCOUNT FROM BEST AVAILABLE RATE - RATE STARTS FROM IDR 1,842,000++
+ </div>
+        
+        <div id="accordion" class="row">
+            <div class="col-md-12 text-uppercase">
+                <div class="detail-title-box"><em class="fa fa-angle-down">&nbsp;</em> <a href="#collapseOne" data-toggle="collapse" data-parent="#accordion"> WHY BOOK DIRECTLY TO THE WEBSITE?</a>
+                </div>
+            </div>
+            <div id="collapseOne" class="panel-collapse in">
+                <div class="col-md-12">
+                   <ul>
+					<li>Complimentary Celebration Breakfast at The Restaurant</li>
+					<li>Complimentary Private return airport transfer</li>
+					<li>Welcome drink upon arrival</li>
+					<li>Welcome fruit amenities upon arrival</li>
+					<li>In room tea and coffee making facilities and bottles of mineral water</li>
+					<li>Complimentary Wi-Fi throughout the resort including in all bedrooms</li>
+					<li>Free press reader an international and domestic electronic newspaper and magazine</li>
+					<li>Free use of Gymnasium, Steam and Sauna at Gym</li>
+					<li>15% discount for F&amp;B and Spa</li>
+					</ul>
+                </div>
+            </div>
+            <div class="col-md-12 text-uppercase">
+                <div class="detail-title-box"><em class="fa fa-angle-down">&nbsp;</em> <a href="#collapseTwo" data-toggle="collapse" data-parent="#accordion"> Terms and Conditions</a>
+                </div>
+            </div>
+            <div id="collapseTwo" class="panel-collapse in">
+                <div class="col-md-12">
+                    <ul>
+					<li>Booking Period is from Immediately - 31 October 2016</li>
+					<li>Travelling Period is from immediately to 24 December 2016</li>
+					<li>Minimum 3 consecutive nights to be applied</li>
+					<li>Advance reservation is required, full payment, non-refundable</li>
+					<li>Rate is based on single and double occupancy</li>
+					<li>Rate is subject to 21% government tax &amp; service charge</li>
+					<li>Rate is subject to change without prior notice</li>
+					<li>A limited number of rooms may be available at this rate and black out date may applied</li>
+					</ul>
+                </div>
+            </div>
+        </div>                      
+    </div>
+</div>";}";

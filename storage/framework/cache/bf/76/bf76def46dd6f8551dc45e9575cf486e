@@ -1,0 +1,704 @@
+1465021923s:30790:"a:6:{s:5:"mtime";i:1464702840;s:7:"content";s:15303:"title = "Enquire"
+url = "/enquire"
+layout = "category"
+is_hidden = 0
+==
+<div class="container-fluid main-content-box main-content-enquire">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-15"></div>
+				<div class="col-md-7 col-md-offset-15">
+					<form name="enquire-form" method="post" action="{{url('submitenquire')}}">
+						<h3 class="main-head-title title-medium">Your Contact Information</h3>
+						<div class="thin-border title-medium" style="margin-top:19px;">__</div>
+						<div class="clearfix">&nbsp;</div>
+						<p>&nbsp;</p>
+						<div class="form-group">
+							<label for="fullname">Full Name *</label>
+							<input type="text" class="form-control" name="fullname" id="fullname" placeholder="" required />
+						</div>
+						<div class="form-group">
+							<label for="email">Email Address *</label>
+							<input type="text" class="form-control" name="email" id="email" placeholder="" required />
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="phonenum">Phone</label>
+									<input type="text" class="form-control" name="phonenum" id="phonenum" placeholder="" />
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="mobilenum">Mobile</label>
+									<input type="text" class="form-control" name="mobilenum" id="mobilenum" placeholder="" />
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="address">Address</label>
+							<input type="text" class="form-control" name="address" id="address" placeholder="" />
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="city">City</label>
+									<input type="text" class="form-control" name="city" id="city" placeholder="" />
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="postcode">Post Code</label>
+									<input type="text" class="form-control" name="postcode" id="postcode" placeholder="" />
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="country">Country *</label>
+							<div class="select-dropdown">
+								<select class="form-control" name="country" id="country" required>
+									<option value="">Please Choose</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="state">State</label>
+							<div class="select-dropdown">
+								<select class="form-control" name="state" id="state">
+									<option value="">Please Choose</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="region">Region</label>
+							<div class="select-dropdown">
+								<select class="form-control" name="region" id="region">
+									<option value="">Please Choose</option>
+								</select>
+							</div>
+						</div>
+						<p>&nbsp;</p>
+						<h3 class="main-head-title title-medium">Quotation Details</h3>
+						<div class="thin-border title-medium" style="margin-top:19px;">__</div>
+						<div class="clearfix">&nbsp;</div>
+						<p>&nbsp;</p>
+						<div class="form-group">
+							<label for="enquire_type">Enquire Type</label>
+							<div class="select-dropdown">
+								<select class="form-control" name="enquire_type">
+									<option value="General Enquiry">General Enquiry</option>
+									<option value="Request Booking">Request Booking</option>
+									<option value="Family">Family</option>
+									<option value="Business">Business</option>
+									<option value="Conference Enquiry">Conference Enquiry</option>
+									<option value="Group Enquiry">Group Enquiry</option>
+									<option value="Wedding Enquiry">Wedding Enquiry</option>
+								</select>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="dayin">Day In *</label>
+									<input type="text" class="form-control input-datepicker" name="dayin" id="dayin" data-date-format="mm/dd/yyyy" placeholder="" required />
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="dayout">Day Out *</label>
+									<input type="text" class="form-control input-datepicker" name="dayout" id="dayout" data-date-format="mm/dd/yyyy" placeholder="" required />
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="room_type">Room Type *</label>
+									<div class="select-dropdown">
+										<select class="form-control" name="room_type" required>
+											<option value="">Please Choose</option>
+											<option value="Premier Room">Premier Room</option>
+											<option value="Premier Club">Premier Club</option>
+											<option value="Celebrity Suite">Celebrity Suite</option>
+											<option value="Villa">Villa</option>
+											<option value="Presidential Villa">Presidential Villa</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="quantity">Quantity</label>
+									<input type="text" class="form-control" name="quantity" id="quantity" placeholder="" />
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4">
+								<div class="form-group">
+									<label for="adult">No. of Adults *</label>
+									<div class="select-dropdown">
+										<select class="form-control" name="adult" required>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+											<option value="6">6</option>
+											<option value="7">7</option>
+											<option value="8">8</option>
+											<option value="9">9</option>
+											<option value="10">10</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="form-group">
+									<label for="children">No. of Children *</label>
+									<div class="select-dropdown">
+										<select class="form-control" name="children" required>
+											<option value="0">0</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+											<option value="6">6</option>
+											<option value="7">7</option>
+											<option value="8">8</option>
+											<option value="9">9</option>
+											<option value="10">10</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="form-group">
+									<label for="infant">No. of Infants (0-2 yrs) *</label>
+									<div class="select-dropdown">
+										<select class="form-control" name="infant" required>
+											<option value="0">0</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+											<option value="6">6</option>
+											<option value="7">7</option>
+											<option value="8">8</option>
+											<option value="9">9</option>
+											<option value="10">10</option>
+										</select>
+									</div>
+								</div>
+							</div>
+						</div>
+						<p>&nbsp;</p>
+						<div class="row">
+							<div class="col-md-4">
+								<h3 class="main-head-title title-medium">Transport</h3>
+								<div class="thin-border title-medium" style="margin-top:19px;">__</div>
+								<div class="clearfix">&nbsp;</div>
+							</div>
+							<div class="col-md-8">
+								<p>&nbsp;</p>
+								<div class="btn-group" data-toggle="buttons">
+									<label class="btn btn-warning active">No
+										<input type="radio" name="transportcheck" id="transportcheck1" value="transportcheck1" autocomplete="off" checked />
+									</label>
+									<label class="btn btn-warning">Yes
+										<input type="radio" name="transportcheck" id="transportcheck2" value="transportcheck2" autocomplete="off" />
+									</label>
+								</div>
+								<label>&nbsp;&nbsp;&nbsp;Airport Transfer?</label>
+							</div>
+						</div>
+						<div class="iftrasporton hidden">
+							<p>&nbsp;</p>
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<label for="airport_name">Airport Name</label>
+										<input type="text" class="form-control" name="airport_name" id="airport_name" placeholder="" />
+									</div>
+								</div>
+								<div class="col-md-6">
+									<p>&nbsp;</p>
+									<div class="radio radio-warning radio-inline">
+										<input type="radio" name="airport_location" id="airport_location1" value="Domestic" checked />
+										<label for="airport_location1" class="radio-inline">Domestic</label>
+									</div>
+									<div class="radio radio-warning radio-inline">
+										<input type="radio" name="airport_location" id="airport_location2" value="International" />
+										<label for="airport_location2">International</label>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<label for="flightnum">Flight Number</label>
+										<input type="text" class="form-control" name="flightnum" id="flightnum" placeholder="" />
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<label for="arrival_time">Arrival Time</label>
+										<input type="text" class="form-control timepicker" name="arrival_time" id="arrival_time" placeholder="" />
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="form-group">
+										<label for="other_trasport">Other Transport</label>
+										<div class="select-dropdown">
+											<select class="form-control" name="other_trasport">
+												<option value="">Please Choose</option>
+												<option value="Limo">Limo</option>
+												<option value="Hire Car Economy">Hire Car Economy</option>
+												<option value="Hire Car Sedan">Hire Car Sedan</option>
+												<option value="Hire Car 4WD">Hire Car 4WD</option>
+												<option value="Hire Car Mini Van">Hire Car Mini Van</option>
+											</select>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<p>&nbsp;</p>
+						<h3 class="main-head-title title-medium">Comments / Requests</h3>
+						<div class="thin-border title-medium" style="margin-top:19px;">__</div>
+						<div class="clearfix">&nbsp;</div>
+						<p>&nbsp;</p>
+						<div class="form-group">
+							<label for="comment">Your Comments, Requests or Questions</label>
+							<textarea class="form-control" name="comment" id="comment"></textarea>
+							<div class="textarea-help">For example Non-smoking level</div>
+						</div>
+						<div class="checkbox checkbox-warning">
+							<input type="checkbox" name="info_special_check" id="info_special_check" value="Y" autocomplete="off" checked />
+							<label for="info_special1">Please keep me informed of specials available</label>
+						</div>
+						<div class="row">
+							<div class="col-md-10 col-md-offset-1">
+								<div class="row">
+									<div class="col-md-4">
+										<div class="checkbox checkbox-warning">
+											<input type="checkbox" name="info_special[1]" id="info_special2" autocomplete="off" value="Special Deals" />
+											<label for="info_special2">Special Deals</label>
+										</div>
+										<div class="checkbox checkbox-warning">
+											<input type="checkbox" name="info_special[2]" id="info_special3" autocomplete="off" value="Family Escapes" />
+											<label for="info_special3">Family Escapes</label>
+										</div>
+										<div class="checkbox checkbox-warning">
+											<input type="checkbox" name="info_special[3]" id="info_special4" autocomplete="off" value="Romantic Escapes" />
+											<label for="info_special4">Romantic Escapes</label>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="checkbox checkbox-warning">
+											<input type="checkbox" name="info_special[4]" id="info_special5" autocomplete="off" value="Golf in Bali" />
+											<label for="info_special5">Golf in Bali</label>
+										</div>
+										<div class="checkbox checkbox-warning">
+											<input type="checkbox" name="info_special[5]" id="info_special6" autocomplete="off" value="Food & Wine" />
+											<label for="info_special6">Food & Wine</label>
+										</div>
+										<div class="checkbox checkbox-warning">
+											<input type="checkbox" name="info_special[6]" id="info_special7" autocomplete="off" value="Day Tours" />
+											<label for="info_special7">Day Tours</label>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="checkbox checkbox-warning">
+											<input type="checkbox" name="info_special[7]" id="info_special8" autocomplete="off" value="Events - Conference" />
+											<label for="info_special8">Events - Conference</label>
+										</div>
+										<div class="checkbox checkbox-warning">
+											<input type="checkbox" name="info_special[8]" id="info_special9" autocomplete="off" value="Wedding Packages" />
+											<label for="info_special9">Wedding Packages</label>
+										</div>
+										<div class="checkbox checkbox-warning">
+											<input type="checkbox" name="info_special[9]" id="info_special10" autocomplete="off" value="Honeymoon" />
+											<label for="info_special10">Honeymoon</label>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="how_did_enquire">How did you hear about us? *</label>
+							<div class="select-dropdown">
+								<select class="form-control" name="how_did_enquire" required>
+									<option value="">Please Select</option>
+									<option value="Previous Guest">Previous Guest</option>
+									<option value="Referred by a friend">Referred by a friend</option>
+									<option value="Already Spoken to you">Already Spoken to you</option>
+									<option value="Travel Agent">Travel Agent</option>
+									<option value="Google Search">Google Search</option>
+									<option value="Online Booking Website">Online Booking Website</option>
+									<option value="Magazine">Magazine</option>
+									<option value="Newspaper">Newspaper</option>
+									<option value="Other">Other</option>
+								</select>
+							</div>
+						</div>
+						<p>&nbsp;</p>
+						<button class="btn btn-lg btn-trans text-uppercase" style="font-size:14px;">Submit Enquiry</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:7:"Enquire";s:3:"url";s:8:"/enquire";s:6:"layout";s:8:"category";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:15226:"<div class="container-fluid main-content-box main-content-enquire">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-15"></div>
+				<div class="col-md-7 col-md-offset-15">
+					<form name="enquire-form" method="post" action="{{url('submitenquire')}}">
+						<h3 class="main-head-title title-medium">Your Contact Information</h3>
+						<div class="thin-border title-medium" style="margin-top:19px;">__</div>
+						<div class="clearfix">&nbsp;</div>
+						<p>&nbsp;</p>
+						<div class="form-group">
+							<label for="fullname">Full Name *</label>
+							<input type="text" class="form-control" name="fullname" id="fullname" placeholder="" required />
+						</div>
+						<div class="form-group">
+							<label for="email">Email Address *</label>
+							<input type="text" class="form-control" name="email" id="email" placeholder="" required />
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="phonenum">Phone</label>
+									<input type="text" class="form-control" name="phonenum" id="phonenum" placeholder="" />
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="mobilenum">Mobile</label>
+									<input type="text" class="form-control" name="mobilenum" id="mobilenum" placeholder="" />
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="address">Address</label>
+							<input type="text" class="form-control" name="address" id="address" placeholder="" />
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="city">City</label>
+									<input type="text" class="form-control" name="city" id="city" placeholder="" />
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="postcode">Post Code</label>
+									<input type="text" class="form-control" name="postcode" id="postcode" placeholder="" />
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="country">Country *</label>
+							<div class="select-dropdown">
+								<select class="form-control" name="country" id="country" required>
+									<option value="">Please Choose</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="state">State</label>
+							<div class="select-dropdown">
+								<select class="form-control" name="state" id="state">
+									<option value="">Please Choose</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="region">Region</label>
+							<div class="select-dropdown">
+								<select class="form-control" name="region" id="region">
+									<option value="">Please Choose</option>
+								</select>
+							</div>
+						</div>
+						<p>&nbsp;</p>
+						<h3 class="main-head-title title-medium">Quotation Details</h3>
+						<div class="thin-border title-medium" style="margin-top:19px;">__</div>
+						<div class="clearfix">&nbsp;</div>
+						<p>&nbsp;</p>
+						<div class="form-group">
+							<label for="enquire_type">Enquire Type</label>
+							<div class="select-dropdown">
+								<select class="form-control" name="enquire_type">
+									<option value="General Enquiry">General Enquiry</option>
+									<option value="Request Booking">Request Booking</option>
+									<option value="Family">Family</option>
+									<option value="Business">Business</option>
+									<option value="Conference Enquiry">Conference Enquiry</option>
+									<option value="Group Enquiry">Group Enquiry</option>
+									<option value="Wedding Enquiry">Wedding Enquiry</option>
+								</select>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="dayin">Day In *</label>
+									<input type="text" class="form-control input-datepicker" name="dayin" id="dayin" data-date-format="mm/dd/yyyy" placeholder="" required />
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="dayout">Day Out *</label>
+									<input type="text" class="form-control input-datepicker" name="dayout" id="dayout" data-date-format="mm/dd/yyyy" placeholder="" required />
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="room_type">Room Type *</label>
+									<div class="select-dropdown">
+										<select class="form-control" name="room_type" required>
+											<option value="">Please Choose</option>
+											<option value="Premier Room">Premier Room</option>
+											<option value="Premier Club">Premier Club</option>
+											<option value="Celebrity Suite">Celebrity Suite</option>
+											<option value="Villa">Villa</option>
+											<option value="Presidential Villa">Presidential Villa</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="quantity">Quantity</label>
+									<input type="text" class="form-control" name="quantity" id="quantity" placeholder="" />
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4">
+								<div class="form-group">
+									<label for="adult">No. of Adults *</label>
+									<div class="select-dropdown">
+										<select class="form-control" name="adult" required>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+											<option value="6">6</option>
+											<option value="7">7</option>
+											<option value="8">8</option>
+											<option value="9">9</option>
+											<option value="10">10</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="form-group">
+									<label for="children">No. of Children *</label>
+									<div class="select-dropdown">
+										<select class="form-control" name="children" required>
+											<option value="0">0</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+											<option value="6">6</option>
+											<option value="7">7</option>
+											<option value="8">8</option>
+											<option value="9">9</option>
+											<option value="10">10</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="form-group">
+									<label for="infant">No. of Infants (0-2 yrs) *</label>
+									<div class="select-dropdown">
+										<select class="form-control" name="infant" required>
+											<option value="0">0</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+											<option value="6">6</option>
+											<option value="7">7</option>
+											<option value="8">8</option>
+											<option value="9">9</option>
+											<option value="10">10</option>
+										</select>
+									</div>
+								</div>
+							</div>
+						</div>
+						<p>&nbsp;</p>
+						<div class="row">
+							<div class="col-md-4">
+								<h3 class="main-head-title title-medium">Transport</h3>
+								<div class="thin-border title-medium" style="margin-top:19px;">__</div>
+								<div class="clearfix">&nbsp;</div>
+							</div>
+							<div class="col-md-8">
+								<p>&nbsp;</p>
+								<div class="btn-group" data-toggle="buttons">
+									<label class="btn btn-warning active">No
+										<input type="radio" name="transportcheck" id="transportcheck1" value="transportcheck1" autocomplete="off" checked />
+									</label>
+									<label class="btn btn-warning">Yes
+										<input type="radio" name="transportcheck" id="transportcheck2" value="transportcheck2" autocomplete="off" />
+									</label>
+								</div>
+								<label>&nbsp;&nbsp;&nbsp;Airport Transfer?</label>
+							</div>
+						</div>
+						<div class="iftrasporton hidden">
+							<p>&nbsp;</p>
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<label for="airport_name">Airport Name</label>
+										<input type="text" class="form-control" name="airport_name" id="airport_name" placeholder="" />
+									</div>
+								</div>
+								<div class="col-md-6">
+									<p>&nbsp;</p>
+									<div class="radio radio-warning radio-inline">
+										<input type="radio" name="airport_location" id="airport_location1" value="Domestic" checked />
+										<label for="airport_location1" class="radio-inline">Domestic</label>
+									</div>
+									<div class="radio radio-warning radio-inline">
+										<input type="radio" name="airport_location" id="airport_location2" value="International" />
+										<label for="airport_location2">International</label>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<label for="flightnum">Flight Number</label>
+										<input type="text" class="form-control" name="flightnum" id="flightnum" placeholder="" />
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<label for="arrival_time">Arrival Time</label>
+										<input type="text" class="form-control timepicker" name="arrival_time" id="arrival_time" placeholder="" />
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="form-group">
+										<label for="other_trasport">Other Transport</label>
+										<div class="select-dropdown">
+											<select class="form-control" name="other_trasport">
+												<option value="">Please Choose</option>
+												<option value="Limo">Limo</option>
+												<option value="Hire Car Economy">Hire Car Economy</option>
+												<option value="Hire Car Sedan">Hire Car Sedan</option>
+												<option value="Hire Car 4WD">Hire Car 4WD</option>
+												<option value="Hire Car Mini Van">Hire Car Mini Van</option>
+											</select>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<p>&nbsp;</p>
+						<h3 class="main-head-title title-medium">Comments / Requests</h3>
+						<div class="thin-border title-medium" style="margin-top:19px;">__</div>
+						<div class="clearfix">&nbsp;</div>
+						<p>&nbsp;</p>
+						<div class="form-group">
+							<label for="comment">Your Comments, Requests or Questions</label>
+							<textarea class="form-control" name="comment" id="comment"></textarea>
+							<div class="textarea-help">For example Non-smoking level</div>
+						</div>
+						<div class="checkbox checkbox-warning">
+							<input type="checkbox" name="info_special_check" id="info_special_check" value="Y" autocomplete="off" checked />
+							<label for="info_special1">Please keep me informed of specials available</label>
+						</div>
+						<div class="row">
+							<div class="col-md-10 col-md-offset-1">
+								<div class="row">
+									<div class="col-md-4">
+										<div class="checkbox checkbox-warning">
+											<input type="checkbox" name="info_special[1]" id="info_special2" autocomplete="off" value="Special Deals" />
+											<label for="info_special2">Special Deals</label>
+										</div>
+										<div class="checkbox checkbox-warning">
+											<input type="checkbox" name="info_special[2]" id="info_special3" autocomplete="off" value="Family Escapes" />
+											<label for="info_special3">Family Escapes</label>
+										</div>
+										<div class="checkbox checkbox-warning">
+											<input type="checkbox" name="info_special[3]" id="info_special4" autocomplete="off" value="Romantic Escapes" />
+											<label for="info_special4">Romantic Escapes</label>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="checkbox checkbox-warning">
+											<input type="checkbox" name="info_special[4]" id="info_special5" autocomplete="off" value="Golf in Bali" />
+											<label for="info_special5">Golf in Bali</label>
+										</div>
+										<div class="checkbox checkbox-warning">
+											<input type="checkbox" name="info_special[5]" id="info_special6" autocomplete="off" value="Food & Wine" />
+											<label for="info_special6">Food & Wine</label>
+										</div>
+										<div class="checkbox checkbox-warning">
+											<input type="checkbox" name="info_special[6]" id="info_special7" autocomplete="off" value="Day Tours" />
+											<label for="info_special7">Day Tours</label>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="checkbox checkbox-warning">
+											<input type="checkbox" name="info_special[7]" id="info_special8" autocomplete="off" value="Events - Conference" />
+											<label for="info_special8">Events - Conference</label>
+										</div>
+										<div class="checkbox checkbox-warning">
+											<input type="checkbox" name="info_special[8]" id="info_special9" autocomplete="off" value="Wedding Packages" />
+											<label for="info_special9">Wedding Packages</label>
+										</div>
+										<div class="checkbox checkbox-warning">
+											<input type="checkbox" name="info_special[9]" id="info_special10" autocomplete="off" value="Honeymoon" />
+											<label for="info_special10">Honeymoon</label>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="how_did_enquire">How did you hear about us? *</label>
+							<div class="select-dropdown">
+								<select class="form-control" name="how_did_enquire" required>
+									<option value="">Please Select</option>
+									<option value="Previous Guest">Previous Guest</option>
+									<option value="Referred by a friend">Referred by a friend</option>
+									<option value="Already Spoken to you">Already Spoken to you</option>
+									<option value="Travel Agent">Travel Agent</option>
+									<option value="Google Search">Google Search</option>
+									<option value="Online Booking Website">Online Booking Website</option>
+									<option value="Magazine">Magazine</option>
+									<option value="Newspaper">Newspaper</option>
+									<option value="Other">Other</option>
+								</select>
+							</div>
+						</div>
+						<p>&nbsp;</p>
+						<button class="btn btn-lg btn-trans text-uppercase" style="font-size:14px;">Submit Enquiry</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>";}";

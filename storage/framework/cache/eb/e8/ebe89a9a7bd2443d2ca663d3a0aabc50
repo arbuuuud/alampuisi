@@ -1,0 +1,104 @@
+1465021966s:6690:"a:6:{s:5:"mtime";i:1465020754;s:7:"content";s:3254:"title = "wellness"
+url = "/wellness"
+layout = "category"
+is_hidden = 0
+==
+{% put scripts %}
+    <script src="{{ [
+        'assets/vendor/isotope/jquery.isotope.js',
+        'assets/javascript/pages/portfolio.js',
+    ]|theme }}"></script>
+{% endput %}
+<div class="container-fluid main-content-box">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                        <div class="home-txt-top">Title For Room Rates </div>
+                    <p><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>              </div>
+                <div class="col-md-12">
+                    <div class="main-content-box-accom-ruler">&nbsp;</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 box-grid">
+                    <div class="main-head-title title-medium">Spa</div>
+                    <div class="thin-border title-medium">___</div>
+                    <div class="grid2">
+                        <figure class="item effect-ruby">
+                            <img src="{{'upload/alampuisi/spa/Spa-3.jpg'}}" alt="" />
+                            <figcaption>
+                                <p>
+                                    <span class="hidden-xs">Our luxury spa facility offers an extensive menu of rituals to nurture body, mind and soul. It is a uniquely tranquil setting with a private collection of air-conditioned treatment rooms.<br /><br /></span>
+                                </p>
+                                <a href="{{url('wellness/spa')}}">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 box-grid">
+                    <div class="main-head-title title-medium">Yoga</div>
+                    <div class="thin-border title-medium">___</div>
+                    <div class="grid2">
+                        <figure class="item effect-ruby">
+                            <img src="{{'upload/alampuisi/yoga/Yoga-1.jpg'}}" alt="" />
+                            <figcaption>
+                                <p>
+                                    <span class="hidden-xs">Our yoga studio is a light and airy space overlooking the rice fields, with room for forty (40) guests. Each morning one of our traditionally trained and experienced teachers will lead a complimentary one-hour session of yoga. <br /><br /></span>
+                                </p>
+                                <a href="{{url('wellness/yoga')}}">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:8:"wellness";s:3:"url";s:9:"/wellness";s:6:"layout";s:8:"category";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:3175:"{% put scripts %}
+    <script src="{{ [
+        'assets/vendor/isotope/jquery.isotope.js',
+        'assets/javascript/pages/portfolio.js',
+    ]|theme }}"></script>
+{% endput %}
+<div class="container-fluid main-content-box">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                        <div class="home-txt-top">Title For Room Rates </div>
+                    <p><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>              </div>
+                <div class="col-md-12">
+                    <div class="main-content-box-accom-ruler">&nbsp;</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 box-grid">
+                    <div class="main-head-title title-medium">Spa</div>
+                    <div class="thin-border title-medium">___</div>
+                    <div class="grid2">
+                        <figure class="item effect-ruby">
+                            <img src="{{'upload/alampuisi/spa/Spa-3.jpg'}}" alt="" />
+                            <figcaption>
+                                <p>
+                                    <span class="hidden-xs">Our luxury spa facility offers an extensive menu of rituals to nurture body, mind and soul. It is a uniquely tranquil setting with a private collection of air-conditioned treatment rooms.<br /><br /></span>
+                                </p>
+                                <a href="{{url('wellness/spa')}}">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 box-grid">
+                    <div class="main-head-title title-medium">Yoga</div>
+                    <div class="thin-border title-medium">___</div>
+                    <div class="grid2">
+                        <figure class="item effect-ruby">
+                            <img src="{{'upload/alampuisi/yoga/Yoga-1.jpg'}}" alt="" />
+                            <figcaption>
+                                <p>
+                                    <span class="hidden-xs">Our yoga studio is a light and airy space overlooking the rice fields, with room for forty (40) guests. Each morning one of our traditionally trained and experienced teachers will lead a complimentary one-hour session of yoga. <br /><br /></span>
+                                </p>
+                                <a href="{{url('wellness/yoga')}}">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>";}";

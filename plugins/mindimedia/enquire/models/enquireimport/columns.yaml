@@ -1,0 +1,38 @@
+# ===================================
+#  Column Definitions
+# ===================================
+
+columns:
+
+    id: ID
+    quotation_number: mindimedia.enquire::lang.enquire.full_name
+    full_name: mindimedia.enquire::lang.enquire.full_name
+    email: mindimedia.enquire::lang.enquire.email
+    phone_number: mindimedia.enquire::lang.enquire.phone_number
+    mobile_number: mindimedia.enquire::lang.enquire.mobile_number
+    address: mindimedia.enquire::lang.enquire.address
+    city: mindimedia.enquire::lang.enquire.city
+    postal_code: mindimedia.enquire::lang.enquire.postal_code
+    country: mindimedia.enquire::lang.enquire.country
+    state: mindimedia.enquire::lang.enquire.state
+    region: mindimedia.enquire::lang.enquire.region
+    enquire_type: mindimedia.enquire::lang.enquire.enquire_type
+    day_in: mindimedia.enquire::lang.enquire.day_in
+    day_out: mindimedia.enquire::lang.enquire.day_out
+    room_type: mindimedia.enquire::lang.enquire.room_type
+    quantity: mindimedia.enquire::lang.enquire.quantity
+    adult: mindimedia.enquire::lang.enquire.adult
+    children: mindimedia.enquire::lang.enquire.children
+    infant: mindimedia.enquire::lang.enquire.infant
+    airport_name: mindimedia.enquire::lang.enquire.airport_name
+    airport_location: mindimedia.enquire::lang.enquire.airport_location
+    flight_number: mindimedia.enquire::lang.enquire.flight_number
+    arrival_time: mindimedia.enquire::lang.enquire.arrival_time
+    other_transport: mindimedia.enquire::lang.enquire.other_transport
+    comment: mindimedia.enquire::lang.enquire.comment
+    info_special_check: mindimedia.enquire::lang.enquire.info_special_check
+    info_special: mindimedia.enquire::lang.enquire.info_special
+    how_did_enquire: mindimedia.enquire::lang.enquire.how_did_enquire
+    status: mindimedia.enquire::lang.enquire.status
+    created_at: mindimedia.enquire::lang.enquire.created_date
+    updated_at: mindimedia.enquire::lang.enquire.updated_date

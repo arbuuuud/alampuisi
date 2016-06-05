@@ -1,0 +1,104 @@
+1465094996s:6124:"a:6:{s:5:"mtime";i:1465074888;s:7:"content";s:2970:"title = "special offer"
+url = "/special-offer"
+layout = "category"
+is_hidden = 0
+==
+{% put scripts %}
+    <script src="{{ [
+        'assets/vendor/isotope/jquery.isotope.js',
+        'assets/javascript/pages/portfolio.js',
+    ]|theme }}"></script>
+{% endput %}
+<div class="container-fluid main-content-box">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                        <div class="home-txt-top">Title For Special Offer </div>
+                    <p><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>              </div>
+                <div class="col-md-12">
+                    <div class="main-content-box-accom-ruler">&nbsp;</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 box-grid">
+                    <div class="main-head-title title-medium">Room Discount</div>
+                    <div class="thin-border title-medium">___</div>
+                    <div class="grid2">
+                        <figure class="item effect-ruby">
+                            <img src="{{url('upload/alampuisi/accomodation/onetwobed/Pool-Villa-8.jpg')}}" alt="" />
+                            <figcaption>
+                                <p>
+                                    <span class="hidden-xs">Room Discount<br /><br /></span>
+                                </p>
+                                <a href="{{url('special-offer/room-discount')}}">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 box-grid">
+                    <div class="main-head-title title-medium">Package</div>
+                    <div class="thin-border title-medium">___</div>
+                    <div class="grid2">
+                        <figure class="item effect-ruby">
+                            <img src="{{url('upload/alampuisi/accomodation/onetwobed/Pool-Villa-7.jpg')}}" alt="" />
+                            <figcaption>
+                                <p>
+                                    <span class="hidden-xs">Package <br /><br /></span>
+                                </p>
+                                <a href="{{url('special-offer/package')}}">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:13:"special offer";s:3:"url";s:14:"/special-offer";s:6:"layout";s:8:"category";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:2881:"{% put scripts %}
+    <script src="{{ [
+        'assets/vendor/isotope/jquery.isotope.js',
+        'assets/javascript/pages/portfolio.js',
+    ]|theme }}"></script>
+{% endput %}
+<div class="container-fluid main-content-box">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                        <div class="home-txt-top">Title For Special Offer </div>
+                    <p><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>              </div>
+                <div class="col-md-12">
+                    <div class="main-content-box-accom-ruler">&nbsp;</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 box-grid">
+                    <div class="main-head-title title-medium">Room Discount</div>
+                    <div class="thin-border title-medium">___</div>
+                    <div class="grid2">
+                        <figure class="item effect-ruby">
+                            <img src="{{url('upload/alampuisi/accomodation/onetwobed/Pool-Villa-8.jpg')}}" alt="" />
+                            <figcaption>
+                                <p>
+                                    <span class="hidden-xs">Room Discount<br /><br /></span>
+                                </p>
+                                <a href="{{url('special-offer/room-discount')}}">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 box-grid">
+                    <div class="main-head-title title-medium">Package</div>
+                    <div class="thin-border title-medium">___</div>
+                    <div class="grid2">
+                        <figure class="item effect-ruby">
+                            <img src="{{url('upload/alampuisi/accomodation/onetwobed/Pool-Villa-7.jpg')}}" alt="" />
+                            <figcaption>
+                                <p>
+                                    <span class="hidden-xs">Package <br /><br /></span>
+                                </p>
+                                <a href="{{url('special-offer/package')}}">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>";}";

@@ -1,0 +1,41 @@
+# ===================================
+#  Import/Export Behavior Config
+# ===================================
+
+import:
+    # Page title
+    title: Import enquiries
+
+    # Import List Column configuration
+    list: $/mindimedia/enquire/models/enquireimport/columns.yaml
+
+    # Import Form Field configuration
+    form: $/mindimedia/enquire/models/enquireimport/fields.yaml
+
+    # Import Model class
+    modelClass: Mindimedia\Enquire\Models\EnquireImport
+
+    # Redirect when finished
+    redirect: mindimedia/enquire/enquiries
+
+    # Required permissions
+    permissions: mindimedia.enquire.access_import_export
+
+export:
+    # Page title
+    title: Export enquiries
+
+    # Output file name
+    fileName: enquiries.csv
+
+    # Export List Column configuration
+    list: $/mindimedia/enquire/models/enquireexport/columns.yaml
+
+    # Export Model class
+    modelClass: Mindimedia\Enquire\Models\EnquireExport
+
+    # Redirect when finished
+    redirect: mindimedia/enquire/enquiries
+
+    # Required permissions
+    permissions: mindimedia.enquire.access_import_export

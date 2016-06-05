@@ -1,0 +1,138 @@
+# ===================================
+#  Field Definitions
+# ===================================
+
+fields:
+
+    full_name:
+        label: mindimedia.enquire::lang.enquire.full_name
+        span: left
+        placeholder: mindimedia.enquire::lang.enquire.slug_placeholder
+    email:
+        label: mindimedia.enquire::lang.enquire.email
+        span: right
+        placeholder: mindimedia.enquire::lang.enquire.slug_placeholder
+    status:
+        label: mindimedia.enquire::lang.enquire.status
+        searchable: true
+        type: dropdown
+        options:
+            WL: WL - Waiting List
+            R: R - Read
+            P: P - Process
+            C: C - Confirmed
+    toolbar:
+        type: partial
+        path: enquire_toolbar
+        cssClass: collapse-visible
+
+secondaryTabs:
+    stretch: true
+    fields:     
+        phone_number:
+            label: mindimedia.enquire::lang.enquire.phone_number
+            span: left
+            placeholder: mindimedia.enquire::lang.enquire.slug_placeholder
+        mobile_number:
+            label: mindimedia.enquire::lang.enquire.mobile_number
+            span: left
+            placeholder: mindimedia.enquire::lang.enquire.slug_placeholder
+        address:
+            label: mindimedia.enquire::lang.enquire.address
+            span: left
+            placeholder: mindimedia.enquire::lang.enquire.slug_placeholder
+        city:
+            label: mindimedia.enquire::lang.enquire.city
+            span: left
+            placeholder: mindimedia.enquire::lang.enquire.slug_placeholder
+        postal_code:
+            label: mindimedia.enquire::lang.enquire.postal_code
+            type: number
+            span: left
+            placeholder: mindimedia.enquire::lang.enquire.slug_placeholder
+        country:
+            label: mindimedia.enquire::lang.enquire.country
+            span: left
+            placeholder: mindimedia.enquire::lang.enquire.slug_placeholder
+        state:
+            label: mindimedia.enquire::lang.enquire.state
+            span: left
+            placeholder: mindimedia.enquire::lang.enquire.slug_placeholder
+        region:
+            label: mindimedia.enquire::lang.enquire.region
+            span: left
+            placeholder: mindimedia.enquire::lang.enquire.slug_placeholder
+        enquire_type:
+            label: mindimedia.enquire::lang.enquire.enquire_type
+            span: left
+            placeholder: mindimedia.enquire::lang.enquire.slug_placeholder
+        day_in:
+            label: mindimedia.enquire::lang.enquire.day_in
+            type: datepicker
+            mode: date
+            span: left
+        day_out:
+            label: mindimedia.enquire::lang.enquire.day_out
+            type: datepicker
+            mode: date
+            span: left
+            placeholder: mindimedia.enquire::lang.enquire.slug_placeholder
+        room_type:
+            label: mindimedia.enquire::lang.enquire.room_type
+            span: left
+            placeholder: mindimedia.enquire::lang.enquire.slug_placeholder
+        quantity:
+            label: mindimedia.enquire::lang.enquire.quantity
+            type: number
+            span: left
+        adult:
+            label: mindimedia.enquire::lang.enquire.adult
+            type: number
+            span: left
+        children:
+            label: mindimedia.enquire::lang.enquire.children
+            type: number
+            span: left
+        infant:
+            label: mindimedia.enquire::lang.enquire.infant
+            type: number
+            span: left
+        airport_name:
+            label: mindimedia.enquire::lang.enquire.airport_name
+            span: left
+            placeholder: mindimedia.enquire::lang.enquire.slug_placeholder
+        airport_location:
+            label: mindimedia.enquire::lang.enquire.airport_location
+            span: left
+            placeholder: mindimedia.enquire::lang.enquire.slug_placeholder
+        flight_number:
+            label: mindimedia.enquire::lang.enquire.flight_number
+            span: left
+            placeholder: mindimedia.enquire::lang.enquire.slug_placeholder
+        arrival_time:
+            label: mindimedia.enquire::lang.enquire.arrival_time
+            type: datepicker
+            mode: date
+            span: left
+        other_transport:
+            label: mindimedia.enquire::lang.enquire.other_transport
+            span: left
+            placeholder: mindimedia.enquire::lang.enquire.slug_placeholder
+        comment:
+            label: mindimedia.enquire::lang.enquire.comment
+            span: left
+            placeholder: mindimedia.enquire::lang.enquire.slug_placeholder
+
+        info_special_check:
+            label: mindimedia.enquire::lang.enquire.info_special_check
+            span: left
+            placeholder: mindimedia.enquire::lang.enquire.slug_placeholder
+        info_special:
+            label: mindimedia.enquire::lang.enquire.info_special
+            span: left
+            placeholder: mindimedia.enquire::lang.enquire.slug_placeholder
+        how_did_enquire:
+            label: mindimedia.enquire::lang.enquire.how_did_enquire
+            span: left
+            placeholder: mindimedia.enquire::lang.enquire.slug_placeholder
+           

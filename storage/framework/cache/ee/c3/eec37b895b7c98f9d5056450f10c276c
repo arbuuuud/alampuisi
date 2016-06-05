@@ -1,0 +1,212 @@
+1465098130s:14305:"a:6:{s:5:"mtime";i:1465070522;s:7:"content";s:7061:"title = "roomrates"
+url = "/roomrates"
+layout = "category"
+is_hidden = 0
+==
+{% put scripts %}
+    <script src="{{ [
+        'assets/vendor/isotope/jquery.isotope.js',
+        'assets/javascript/pages/portfolio.js',
+    ]|theme }}"></script>
+{% endput %}
+<div class="container-fluid main-content-box">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                        <div class="home-txt-top">Title For Room Rates </div>
+                    <p><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>              </div>
+                <div class="col-md-12">
+                    <div class="main-content-box-accom-ruler">&nbsp;</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 box-grid">
+                    <div class="main-head-title title-medium">Pool Villa</div>
+                    <div class="thin-border title-medium">___</div>
+                    <div class="grid2">
+                        <figure class="item effect-ruby">
+                            <img src="{{'upload/alampuisi/accomodation/onetwobed/Pool-Villa-6.jpg'}}" alt="" />
+                            <figcaption>
+                                <p>
+                                    <span class="hidden-xs">This splendid one bedroom villa is surrounded by natural gardens and overlooks the rice fields. It has been designed to showcase Balinese craftsmanship with generous sized bed draped in white mosquito net to add an element of romance.  <br /><br /></span>
+                                    <a href="#" target="_blank" class="btn btn-trans text-uppercase">Book Now</a>
+                                </p>
+                                <a href="{{url('roomrates/one-bed-room')}}">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 box-grid">
+                    <div class="main-head-title title-medium">Two Pool Villa</div>
+                    <div class="thin-border title-medium">___</div>
+                    <div class="grid2">
+                        <figure class="item effect-ruby">
+                            <img src="{{'upload/alampuisi/accomodation/onetwobed/Pool-Villa-6.jpg'}}" alt="" />
+                            <figcaption>
+                                <p>
+                                    <span class="hidden-xs">This charming villa is perfect for two couples or triple who want to stay together but also want to enjoy a sense of privacy.  <br /><br /></span>
+                                    <a href="#" target="_blank" class="btn btn-trans text-uppercase">Book Now</a>
+                                </p>
+                                <a href="{{url('roomrates/two-bed-room')}}">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 box-grid">
+                    <div class="main-head-title title-medium">Suite Pool Villa</div>
+                    <div class="thin-border title-medium">___</div>
+                    <div class="grid2">
+                        <figure class="item effect-ruby">
+                            <img src="{{'upload/alampuisi/accomodation/suite/ADHI0229c.jpg'}}" alt="" />
+                            <figcaption>
+                                <p>
+                                    <span class="hidden-xs">This spacious one bedroom villa is own private entrance with Balinese Gate, welcome open air gazebo and large sundeck, surrounded by natural gardens and overlooks the rice fields.  <br /><br /></span>
+                                    <a href="#" target="_blank" class="btn btn-trans text-uppercase">Book Now</a>
+                                </p>
+                                <a href="{{url('roomrates/suit-one-bed-room')}}">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 box-grid">
+                    <div class="main-head-title title-medium">Family Suite Villa</div>
+                    <div class="thin-border title-medium">___</div>
+                    <div class="grid2">
+                        <figure class="item effect-ruby">
+                            <img src="{{'upload/alampuisi/accomodation/suite/ADHI0229c.jpg'}}" alt="" />
+                            <figcaption>
+                                <p>
+                                    <span class="hidden-xs">This charming villa is perfect for families looking to stay together but also want to enjoy a sense of privacy, own private entrance with Balinese Gate, welcome open air gazebo and large sundeck.  <br /><br /></span>
+                                    <a href="#" target="_blank" class="btn btn-trans text-uppercase">Book Now</a>
+                                </p>
+                                <a href="{{url('roomrates/suit-two-bed-room')}}">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 box-grid">
+                    <div class="main-head-title title-medium">Premier Deluxe Room</div>
+                    <div class="thin-border title-medium">___</div>
+                    <div class="grid2">
+                        <figure class="item effect-ruby">
+                            <img src="{{'upload/alampuisi/accomodation/premier/Deluxe-Room-1.jpg'}}" alt="" />
+                            <figcaption>
+                                <p>
+                                    <span class="hidden-xs">Premier Deluxe Room are A charming room created for heightened privacy, Its located just on the front of Alam Puisi Villa with different resort named Alam Sembuwuk Resort.  <br /><br /></span>
+                                    <a href="#" target="_blank" class="btn btn-trans text-uppercase">Book Now</a>
+                                </p>
+                                <a href="{{url('roomrates/premier-deluxe-room')}}">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:9:"roomrates";s:3:"url";s:10:"/roomrates";s:6:"layout";s:8:"category";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:6980:"{% put scripts %}
+    <script src="{{ [
+        'assets/vendor/isotope/jquery.isotope.js',
+        'assets/javascript/pages/portfolio.js',
+    ]|theme }}"></script>
+{% endput %}
+<div class="container-fluid main-content-box">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                        <div class="home-txt-top">Title For Room Rates </div>
+                    <p><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>              </div>
+                <div class="col-md-12">
+                    <div class="main-content-box-accom-ruler">&nbsp;</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 box-grid">
+                    <div class="main-head-title title-medium">Pool Villa</div>
+                    <div class="thin-border title-medium">___</div>
+                    <div class="grid2">
+                        <figure class="item effect-ruby">
+                            <img src="{{'upload/alampuisi/accomodation/onetwobed/Pool-Villa-6.jpg'}}" alt="" />
+                            <figcaption>
+                                <p>
+                                    <span class="hidden-xs">This splendid one bedroom villa is surrounded by natural gardens and overlooks the rice fields. It has been designed to showcase Balinese craftsmanship with generous sized bed draped in white mosquito net to add an element of romance.  <br /><br /></span>
+                                    <a href="#" target="_blank" class="btn btn-trans text-uppercase">Book Now</a>
+                                </p>
+                                <a href="{{url('roomrates/one-bed-room')}}">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 box-grid">
+                    <div class="main-head-title title-medium">Two Pool Villa</div>
+                    <div class="thin-border title-medium">___</div>
+                    <div class="grid2">
+                        <figure class="item effect-ruby">
+                            <img src="{{'upload/alampuisi/accomodation/onetwobed/Pool-Villa-6.jpg'}}" alt="" />
+                            <figcaption>
+                                <p>
+                                    <span class="hidden-xs">This charming villa is perfect for two couples or triple who want to stay together but also want to enjoy a sense of privacy.  <br /><br /></span>
+                                    <a href="#" target="_blank" class="btn btn-trans text-uppercase">Book Now</a>
+                                </p>
+                                <a href="{{url('roomrates/two-bed-room')}}">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 box-grid">
+                    <div class="main-head-title title-medium">Suite Pool Villa</div>
+                    <div class="thin-border title-medium">___</div>
+                    <div class="grid2">
+                        <figure class="item effect-ruby">
+                            <img src="{{'upload/alampuisi/accomodation/suite/ADHI0229c.jpg'}}" alt="" />
+                            <figcaption>
+                                <p>
+                                    <span class="hidden-xs">This spacious one bedroom villa is own private entrance with Balinese Gate, welcome open air gazebo and large sundeck, surrounded by natural gardens and overlooks the rice fields.  <br /><br /></span>
+                                    <a href="#" target="_blank" class="btn btn-trans text-uppercase">Book Now</a>
+                                </p>
+                                <a href="{{url('roomrates/suit-one-bed-room')}}">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 box-grid">
+                    <div class="main-head-title title-medium">Family Suite Villa</div>
+                    <div class="thin-border title-medium">___</div>
+                    <div class="grid2">
+                        <figure class="item effect-ruby">
+                            <img src="{{'upload/alampuisi/accomodation/suite/ADHI0229c.jpg'}}" alt="" />
+                            <figcaption>
+                                <p>
+                                    <span class="hidden-xs">This charming villa is perfect for families looking to stay together but also want to enjoy a sense of privacy, own private entrance with Balinese Gate, welcome open air gazebo and large sundeck.  <br /><br /></span>
+                                    <a href="#" target="_blank" class="btn btn-trans text-uppercase">Book Now</a>
+                                </p>
+                                <a href="{{url('roomrates/suit-two-bed-room')}}">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 box-grid">
+                    <div class="main-head-title title-medium">Premier Deluxe Room</div>
+                    <div class="thin-border title-medium">___</div>
+                    <div class="grid2">
+                        <figure class="item effect-ruby">
+                            <img src="{{'upload/alampuisi/accomodation/premier/Deluxe-Room-1.jpg'}}" alt="" />
+                            <figcaption>
+                                <p>
+                                    <span class="hidden-xs">Premier Deluxe Room are A charming room created for heightened privacy, Its located just on the front of Alam Puisi Villa with different resort named Alam Sembuwuk Resort.  <br /><br /></span>
+                                    <a href="#" target="_blank" class="btn btn-trans text-uppercase">Book Now</a>
+                                </p>
+                                <a href="{{url('roomrates/premier-deluxe-room')}}">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>";}";

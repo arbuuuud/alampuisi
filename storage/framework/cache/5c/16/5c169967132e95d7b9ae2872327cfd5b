@@ -1,0 +1,148 @@
+1465021923s:7566:"a:6:{s:5:"mtime";i:1465012979;s:7:"content";s:3691:"title = "Anubhooti"
+url = "/restaurant/anubhooti"
+layout = "restaurant-detail"
+is_hidden = 0
+==
+{% put styles %}
+    <link href="{{ [
+        'assets/vendor/slick/slick.css',
+    ]|theme }}" rel="stylesheet">
+{% endput %}
+{% put scripts %}
+    <script src="{{ [
+        'assets/vendor/slick/slick.js',
+    ]|theme }}"></script>
+    <script>
+        $(document).ready(function() {
+            $('#projectImages').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear',
+                slidesToShow: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                pauseOnHover: true
+            });
+        })
+    </script>
+{% endput %}
+
+<div id="imageGallery">
+    <div data-thumb="{{url('upload/alampuisi/restaurant/Restaurant-1.jpg')}}">
+        <img src="{{url('upload/alampuisi/restaurant/Restaurant-1.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/restaurant/Restaurant-3.jpg')}}">
+        <img src="{{url('upload/alampuisi/restaurant/Restaurant-3.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/restaurant/ADHI0327.jpg')}}">
+        <img src="{{url('upload/alampuisi/restaurant/ADHI0327.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/restaurant/Restaurant-4.jpg')}}">
+        <img src="{{url('upload/alampuisi/restaurant/Restaurant-4.jpg')}}" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="main-content-box-accom-ruler" style="margin-top:20px;">&nbsp;</div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12 p-detail-small">
+        <div class="main-head-title title-small">Anubhooti Restaurant</div>
+        <div class="clearfix">&nbsp;</div>
+        <p>Anubhooti Restaurant is located adjacent to the lobby area and overlooks the rice fields. Its name is an ancient Sanskrit word referring to the way food creates our energy and lifeforce. The menu is a wonderful combination of Balinese specialties together with familiar Western dishes including Asian, vegetarian and raw vegan food. Only the freshest possible ingredients are sourced and prepared in the most caring way. This food philosophy entails purchasing produce direct from the local community at a fair price in order to keep Balinese agricultural traditions alive. <br/>
+Learn the secrets of local cuisine with our Balinese Cooking Class. This engaging experience includes a visit to a traditional morning market to purchase all the necessary ingredients. It is a hands-on activity that involves preparing several dishes under the expert guidance of our chef. The class concludes with a delicious lunch and a new appreciation for the exotic flavors of Balinese food. 
+</p>
+        <div id="accordion" class="row">
+            <div class="col-md-12 text-uppercase">
+                <div class="detail-title-box"><em class="fa fa-angle-down">&nbsp;</em> <a href="#collapseOne" data-toggle="collapse" data-parent="#accordion"> Opening hours</a>
+                </div>
+            </div>
+            <div id="collapseOne" class="panel-collapse in">
+                <div class="col-md-12">
+                <P>
+                    
+Breakfast from 07.00am – 10.00am <br/>
+Lunch 11.00pm – 18.00pm <br/>
+Dinner 19.00pm – 23.00pm<br/>
+We do hope that the above information met your requirement satisfied. Feel free to contact us at any time if there is any question you may have.
+                </P>
+                </div>
+            </div>
+           
+        </div>                      
+    </div>
+</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:9:"Anubhooti";s:3:"url";s:21:"/restaurant/anubhooti";s:6:"layout";s:17:"restaurant-detail";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:3590:"{% put styles %}
+    <link href="{{ [
+        'assets/vendor/slick/slick.css',
+    ]|theme }}" rel="stylesheet">
+{% endput %}
+{% put scripts %}
+    <script src="{{ [
+        'assets/vendor/slick/slick.js',
+    ]|theme }}"></script>
+    <script>
+        $(document).ready(function() {
+            $('#projectImages').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear',
+                slidesToShow: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                pauseOnHover: true
+            });
+        })
+    </script>
+{% endput %}
+
+<div id="imageGallery">
+    <div data-thumb="{{url('upload/alampuisi/restaurant/Restaurant-1.jpg')}}">
+        <img src="{{url('upload/alampuisi/restaurant/Restaurant-1.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/restaurant/Restaurant-3.jpg')}}">
+        <img src="{{url('upload/alampuisi/restaurant/Restaurant-3.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/restaurant/ADHI0327.jpg')}}">
+        <img src="{{url('upload/alampuisi/restaurant/ADHI0327.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/restaurant/Restaurant-4.jpg')}}">
+        <img src="{{url('upload/alampuisi/restaurant/Restaurant-4.jpg')}}" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="main-content-box-accom-ruler" style="margin-top:20px;">&nbsp;</div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12 p-detail-small">
+        <div class="main-head-title title-small">Anubhooti Restaurant</div>
+        <div class="clearfix">&nbsp;</div>
+        <p>Anubhooti Restaurant is located adjacent to the lobby area and overlooks the rice fields. Its name is an ancient Sanskrit word referring to the way food creates our energy and lifeforce. The menu is a wonderful combination of Balinese specialties together with familiar Western dishes including Asian, vegetarian and raw vegan food. Only the freshest possible ingredients are sourced and prepared in the most caring way. This food philosophy entails purchasing produce direct from the local community at a fair price in order to keep Balinese agricultural traditions alive. <br/>
+Learn the secrets of local cuisine with our Balinese Cooking Class. This engaging experience includes a visit to a traditional morning market to purchase all the necessary ingredients. It is a hands-on activity that involves preparing several dishes under the expert guidance of our chef. The class concludes with a delicious lunch and a new appreciation for the exotic flavors of Balinese food. 
+</p>
+        <div id="accordion" class="row">
+            <div class="col-md-12 text-uppercase">
+                <div class="detail-title-box"><em class="fa fa-angle-down">&nbsp;</em> <a href="#collapseOne" data-toggle="collapse" data-parent="#accordion"> Opening hours</a>
+                </div>
+            </div>
+            <div id="collapseOne" class="panel-collapse in">
+                <div class="col-md-12">
+                <P>
+                    
+Breakfast from 07.00am – 10.00am <br/>
+Lunch 11.00pm – 18.00pm <br/>
+Dinner 19.00pm – 23.00pm<br/>
+We do hope that the above information met your requirement satisfied. Feel free to contact us at any time if there is any question you may have.
+                </P>
+                </div>
+            </div>
+           
+        </div>                      
+    </div>
+</div>";}";

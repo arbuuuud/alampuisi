@@ -1,0 +1,968 @@
+1465021923s:56842:"a:6:{s:5:"mtime";i:1465017919;s:7:"content";s:28328:"title = "Tours"
+url = "/activities/tours"
+layout = "activity-detail"
+is_hidden = 0
+==
+{% put styles %}
+    <link href="{{ [
+        'assets/vendor/slick/slick.css',
+    ]|theme }}" rel="stylesheet">
+{% endput %}
+{% put scripts %}
+    <script src="{{ [
+        'assets/vendor/slick/slick.js',
+    ]|theme }}"></script>
+    <script>
+        $(document).ready(function() {
+            $('#projectImages').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear',
+                slidesToShow: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                pauseOnHover: true
+            });
+        })
+    </script>
+{% endput %}
+
+<div id="imageGallery">
+    <div data-thumb="{{url('upload/alampuisi/Pool-Villa-8.jpg')}}">
+        <img src="{{url('upload/alampuisi/Pool-Villa-8.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/Pool-Villa-14.jpg')}}">
+        <img src="{{url('upload/alampuisi/Pool-Villa-14.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/Pool-Villa-13.jpg')}}">
+        <img src="{{url('upload/alampuisi/Pool-Villa-13.jpg')}}" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="main-content-box-accom-ruler" style="margin-top:20px;">&nbsp;</div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12 p-detail-small">
+        
+        <div id="accordion" class="row">
+            <div class="col-md-12 text-uppercase">
+                <div class="detail-title-box"><em class="fa fa-angle-down">&nbsp;</em> <a href="#collapseOne" data-toggle="collapse" data-parent="#accordion"> One hour morning walk</a>
+                </div>
+            </div>
+            <div id="collapseOne" class="panel-collapse in">
+                <div class="col-md-12">
+                    <p>
+                        Experience the poetry of the Balinese landscape with a complimentary morning walk through the rice fields. The gentle sway of these lush green fields will soothe your soul, and the fresh morning air will cleanse you body. Your guide will explain the traditions of growing rice, and the cultural importance of this practice to the Balinese.
+                        <a href="{{url('/enquire')}}" class="btn btn-trans text-uppercase pull-right">Enquire Now</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-12 text-uppercase">
+                <div class="detail-title-box"><em class="fa fa-angle-down">&nbsp;</em> <a href="#collapseOne" data-toggle="collapse" data-parent="#accordion"> Coconut leaf offering making</a>
+                </div>
+            </div>
+            <div id="collapseOne" class="panel-collapse in">
+                <div class="col-md-12">
+                    <p>
+                        For the Balinese, making canang, offerings of small coconut leaf baskets, is poetry in motion. The action of weaving the coconut leaves is considered a type of meditation, while making the offerings (banten) of flowers and fruit connects one with the higher spirits and with the community. Our staff can teach you how to make canang, and teach you the symbolism behind giving offerings.
+                        <a href="{{url('/enquire')}}" class="btn btn-trans text-uppercase pull-right">Enquire Now</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-12 text-uppercase">
+                <div class="detail-title-box"><em class="fa fa-angle-down">&nbsp;</em> <a href="#collapseOne" data-toggle="collapse" data-parent="#accordion">Tours special offer US$ 75++/couple</a>
+                </div>
+            </div>
+            <div id="collapseOne" class="panel-collapse in">
+                <div class="col-md-12">
+                    <p>
+                        Journey to the heart of Balinese Hindu Spirituality, with this special guided visit to The Mother Temple. Perched high on the side of Gunung Agung, The Mother Temple is an ancient terraced temple and one of the holiest sites in Bali. From there, your private driver will take you to the spectacular Beretan Lake, a sprawling 3.8km2 lake. Along the way, you will stop at the traditional rice fields of Ceking village to experience the social and spiritual importance of rice in Balinese culture. Book now for a one hour free special Balinese massage for 2 people. 
+                        <a href="{{url('/enquire')}}" class="btn btn-trans text-uppercase pull-right">Enquire Now</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-12 text-uppercase">
+                <div class="detail-title-box"><em class="fa fa-angle-down">&nbsp;</em> <a href="#collapseOne" data-toggle="collapse" data-parent="#accordion"> Cycling Tour US$50++/pax</a>
+                </div>
+            </div>
+            <div id="collapseOne" class="panel-collapse in">
+                <div class="col-md-12">
+                    <p>
+                       Beginning at Mt Batur Lake, the spectacular mirrored lake at the volcano centre, you will take a gentle down-hill cycle through mystical scenery back to Alam Puisi Villa. Stop along the way to enjoy the special picnic lunch our chef will prepare for you, and be rewarded on your return with a complimentary 1 hour body massage at our spa.
+                        <a href="{{url('/enquire')}}" class="btn btn-trans text-uppercase pull-right">Enquire Now</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-12 text-uppercase">
+                <div class="detail-title-box"><em class="fa fa-angle-down">&nbsp;</em> <a href="#collapseOne" data-toggle="collapse" data-parent="#accordion"> Balinese Experiences of Cooking Lesson</a>
+                </div>
+            </div>
+            <div id="collapseOne" class="panel-collapse in">
+                <div class="col-md-12">
+                    <p>
+                        Learn the secrets of Balinese cuisine with a special lesson from the Anubhooti restaurant chef. The lesson begins with the traditional Balinese morning ritual of visiting the markets to buy the freshest local produce. Our chef will then guide you through the process of making foods with love. You will be finished in time to enjoy your meal for lunch.
+                        <a href="{{url('/enquire')}}" class="btn btn-trans text-uppercase pull-right">Enquire Now</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-12 text-uppercase">
+                <div class="detail-title-box"><em class="fa fa-angle-down">&nbsp;</em> <a href="#collapseOne" data-toggle="collapse" data-parent="#accordion"> Daily Private Tour</a>
+                </div>
+            </div>
+            <div id="collapseOne" class="panel-collapse in">
+                <div class="col-md-12">
+                    <p>
+                        Alam Puisi Villa has been designed as a relaxing place to enjoy the peace of Bali. Use our villas as a home base while you explore destinations across Bali. Related to our commitment to support the tourism based on community development, we can recommend a village transport organization that can help arrange tours and other transport arrangement. Kindly contact our reception for assistance.Your support to this organization will also help the community development.
+                    </p>
+                </div>
+                <div class="col-md-12">
+                    <table class="table table-striped table-responsive">
+                        <thead>
+                            <tr>
+                                <th>Package</th>
+                                <th>Itenary</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <table>
+                                        <tr>
+                                            <th colspan="3">Kintamani-Active Volcano Tour</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Departure</td><td>:</td><td>09.00am</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pricing</td><td>:</td><td>Rp.600.000/Car</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td>
+                                    <table class="table table-hover table-responsive">
+                                        <tbody>
+                                        <tr>
+                                            <td>Goa Gajah temple</td><td>:</td><td>The Elephant cave temple</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pejeng</td><td>:</td><td>The Moon Temple</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Gunung Kawi</td><td>:</td><td>The Rocky Temple</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tampak Siring</td><td>:</td><td>The holy Spring Temple</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Penelokan</td><td>:</td><td>The Mount and Lake Batur View</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Kintamani</td><td>:</td><td>The Ulun Danu Temple</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                </td>
+                                <td><a href="{{url('/enquire')}}" class="btn btn-trans text-uppercase">Enquire Now</a></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table>
+                                        <tr>
+                                            <th colspan="3">Bedugul Tour</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Departure</td><td>:</td><td>09.00am</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pricing</td><td>:</td><td>Rp.700.000/Car</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td>
+                                    <table class="table table-hover table-responsive">
+                                        <tbody>
+                                        <tr>
+                                            <td>Mengwi</td><td>:</td><td>The Royal Family Temple</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Alas Kedatan</td><td>:</td><td>The Holly Monkey Forest</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pacung</td><td>:</td><td>The Rice terrace view</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Bedugul</td><td>:</td><td>The Botanical Garden & Llake Bratan temple</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                </td>
+                                <td><a href="{{url('/enquire')}}" class="btn btn-trans text-uppercase">Enquire Now</a></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table>
+                                        <tr>
+                                            <th colspan="3">Besakih-Mother Temple Tour</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Departure</td><td>:</td><td>09.00am</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pricing</td><td>:</td><td>Rp.700.000/Car</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td>
+                                    <table class="table table-hover table-responsive">
+                                        <tbody>
+                                        <tr>
+                                            <td>Goa Gajah temple</td><td>:</td><td>The Elephant Cave Temple</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Bangli</td><td>:</td><td>Visit the Historical Kehen Temple</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Besakih</td><td>:</td><td>The Mother Temple on the Slope of Mount Agung</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Bukit Jambul</td><td>:</td><td>View of the rice terrace</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                </td>
+                                <td><a href="{{url('/enquire')}}" class="btn btn-trans text-uppercase">Enquire Now</a></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table>
+                                        <tr>
+                                            <th colspan="3">Uluwatu Tour</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Departure</td><td>:</td><td>09.00am</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pricing</td><td>:</td><td>Rp.700.000/Car</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td>
+                                    <table class="table table-hover table-responsive">
+                                        <tbody>
+                                        <tr>
+                                            <td>Peliatan</td><td>:</td><td>The Painting Exhibition</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mas Village </td><td>:</td><td>The Wood Carving Center</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Celuk Village</td><td>:</td><td>The Gold & Silver smith</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Denpasar</td><td>:</td><td>The Bali Museum (Closed on Monday)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Uluwatu Temple</td><td>:</td><td>The Historical temple on the Rock</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Jimbaran Beach</td><td>:</td><td>Sea Food center</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                </td>
+                                <td><a href="{{url('/enquire')}}" class="btn btn-trans text-uppercase">Enquire Now</a></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table>
+                                        <tr>
+                                            <th colspan="3">Kintamani –Besakih Tour</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Departure</td><td>:</td><td>09.00am</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pricing</td><td>:</td><td>Rp.750.000/Car</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td>
+                                    <table class="table table-hover table-responsive">
+                                        <tbody>
+                                        <tr>
+                                            <td>Goa Gajah</td><td>:</td><td>The Painting Exhibition</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tampak Siring </td><td>:</td><td>The Holly Spring Temple</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Penelokan</td><td>:</td><td>The Mount and Lake Batur View</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Besakih</td><td>:</td><td>The Mother temple on the slope of mount Agung</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Bukit Jambul</td><td>:</td><td>Soak up the spectacular view of the rice terraces.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Klungkung</td><td>:</td><td>The Old Court Justice of Klungkung Kingdom</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                </td>
+                                <td><a href="{{url('/enquire')}}" class="btn btn-trans text-uppercase">Enquire Now</a></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table>
+                                        <tr>
+                                            <th colspan="3">Sunset Tour</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Departure</td><td>:</td><td>14.00am</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pricing</td><td>:</td><td>Rp.650.000/Car</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td>
+                                    <table class="table table-hover table-responsive">
+                                        <tbody>
+                                        <tr>
+                                            <td>Mengwi</td><td>:</td><td>The Royal Family Temple</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Alas Kedatan</td><td>:</td><td>The Holly Monkey Forest</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tanah Lot</td><td>:</td><td>Tanah lot sea temple and sunset</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                </td>
+                                <td><a href="{{url('/enquire')}}" class="btn btn-trans text-uppercase">Enquire Now</a></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table>
+                                        <tr>
+                                            <th colspan="3">Singaraja-Lovina North of Bali Tour</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Departure</td><td>:</td><td>08.30am</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pricing</td><td>:</td><td>Rp.850.000/Car</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td>
+                                    <table class="table table-hover table-responsive">
+                                        <tbody>
+                                        <tr>
+                                            <td>Mengwi</td><td>:</td><td>The Royal Family Temple</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Bedugul</td><td>:</td><td>The Botanical garden & lake Bratan temple</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Gitgit</td><td>:</td><td>Waterfall with very good scenery</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Lovina</td><td>:</td><td>The Black sandy beach</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Banjar</td><td>:</td><td>The natural hot spring water</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Munduk</td><td>:</td><td>The coffee plantation & Rice terrace view</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                </td>
+                                <td><a href="{{url('/enquire')}}" class="btn btn-trans text-uppercase">Enquire Now</a></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table>
+                                        <tr>
+                                            <th colspan="3">Amed Snorkling Tour</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Departure</td><td>:</td><td>08.30am</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pricing</td><td>:</td><td>Rp.850.000/Car</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td>
+                                    <table class="table table-hover table-responsive">
+                                        <tbody>
+                                        <tr>
+                                            <td>Sideman</td><td>:</td><td>Nice view of rice terrace and countryside</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Amed</td><td>:</td><td>Good place for snorkeling and diving</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tirta Gangga</td><td>:</td><td>The Water garden</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                </td>
+                                <td><a href="{{url('/enquire')}}" class="btn btn-trans text-uppercase">Enquire Now</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                      
+                </div>
+            </div>
+            <div class="col-md-12 text-uppercase">
+                <div class="detail-title-box"><em class="fa fa-angle-down">&nbsp;</em> <a href="#collapseOne" data-toggle="collapse" data-parent="#accordion"> Transportation</a>
+                </div>
+            </div>
+            <div id="collapseOne" class="panel-collapse in">
+                <div class="col-md-12">
+                    <table class="table table-bordered">
+                        <tbody><tr>
+                            <th>FROM</th>
+                            <th>TO</th>
+                            <th>PRIVATE CAR</th>
+                            <th>REMARK</th>
+                        </tr>
+                        <tr>
+                            <td>Hotel</td>
+                            <td>Airport, Kuta</td>
+                            <td>USD 40/Car</td>
+                            <td>Mineral water</td>
+                        </tr>
+                        <tr>
+                            <td>Hotel</td>
+                            <td>Nusa Dua</td>
+                            <td>USD 50/Car</td>
+                            <td>Mineral water</td>
+                        </tr>
+                        <tr>
+                            <td>Hotel</td>
+                            <td>Sanur</td>
+                            <td>USD 30/Car</td>
+                            <td>Mineral water</td>
+                        </tr>
+                        <tr>
+                            <td>Hotel</td>
+                            <td>Jimbaran</td>
+                            <td>USD 45/Car</td>
+                            <td>Mineral water</td>
+                        </tr>
+                        <tr>
+                            <td>Hotel</td>
+                            <td>Lovina</td>
+                            <td>USD 55/Car</td>
+                            <td>Mineral water</td>
+                        </tr>
+                        <tr>
+                            <td>Hotel</td>
+                            <td>Candidasa</td>
+                            <td>USD 50/Car</td>
+                            <td>Mineral water</td>
+                        </tr>
+                        <tr>
+                            <td>Hotel</td>
+                            <td>Ubud Area</td>
+                            <td>USD 10/Car</td>
+                            <td>Hourly rate/City Tour</td>
+                        </tr>
+                    </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>                      
+    </div>
+</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:5:"Tours";s:3:"url";s:17:"/activities/tours";s:6:"layout";s:15:"activity-detail";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:28237:"{% put styles %}
+    <link href="{{ [
+        'assets/vendor/slick/slick.css',
+    ]|theme }}" rel="stylesheet">
+{% endput %}
+{% put scripts %}
+    <script src="{{ [
+        'assets/vendor/slick/slick.js',
+    ]|theme }}"></script>
+    <script>
+        $(document).ready(function() {
+            $('#projectImages').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear',
+                slidesToShow: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                pauseOnHover: true
+            });
+        })
+    </script>
+{% endput %}
+
+<div id="imageGallery">
+    <div data-thumb="{{url('upload/alampuisi/Pool-Villa-8.jpg')}}">
+        <img src="{{url('upload/alampuisi/Pool-Villa-8.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/Pool-Villa-14.jpg')}}">
+        <img src="{{url('upload/alampuisi/Pool-Villa-14.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/Pool-Villa-13.jpg')}}">
+        <img src="{{url('upload/alampuisi/Pool-Villa-13.jpg')}}" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="main-content-box-accom-ruler" style="margin-top:20px;">&nbsp;</div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12 p-detail-small">
+        
+        <div id="accordion" class="row">
+            <div class="col-md-12 text-uppercase">
+                <div class="detail-title-box"><em class="fa fa-angle-down">&nbsp;</em> <a href="#collapseOne" data-toggle="collapse" data-parent="#accordion"> One hour morning walk</a>
+                </div>
+            </div>
+            <div id="collapseOne" class="panel-collapse in">
+                <div class="col-md-12">
+                    <p>
+                        Experience the poetry of the Balinese landscape with a complimentary morning walk through the rice fields. The gentle sway of these lush green fields will soothe your soul, and the fresh morning air will cleanse you body. Your guide will explain the traditions of growing rice, and the cultural importance of this practice to the Balinese.
+                        <a href="{{url('/enquire')}}" class="btn btn-trans text-uppercase pull-right">Enquire Now</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-12 text-uppercase">
+                <div class="detail-title-box"><em class="fa fa-angle-down">&nbsp;</em> <a href="#collapseOne" data-toggle="collapse" data-parent="#accordion"> Coconut leaf offering making</a>
+                </div>
+            </div>
+            <div id="collapseOne" class="panel-collapse in">
+                <div class="col-md-12">
+                    <p>
+                        For the Balinese, making canang, offerings of small coconut leaf baskets, is poetry in motion. The action of weaving the coconut leaves is considered a type of meditation, while making the offerings (banten) of flowers and fruit connects one with the higher spirits and with the community. Our staff can teach you how to make canang, and teach you the symbolism behind giving offerings.
+                        <a href="{{url('/enquire')}}" class="btn btn-trans text-uppercase pull-right">Enquire Now</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-12 text-uppercase">
+                <div class="detail-title-box"><em class="fa fa-angle-down">&nbsp;</em> <a href="#collapseOne" data-toggle="collapse" data-parent="#accordion">Tours special offer US$ 75++/couple</a>
+                </div>
+            </div>
+            <div id="collapseOne" class="panel-collapse in">
+                <div class="col-md-12">
+                    <p>
+                        Journey to the heart of Balinese Hindu Spirituality, with this special guided visit to The Mother Temple. Perched high on the side of Gunung Agung, The Mother Temple is an ancient terraced temple and one of the holiest sites in Bali. From there, your private driver will take you to the spectacular Beretan Lake, a sprawling 3.8km2 lake. Along the way, you will stop at the traditional rice fields of Ceking village to experience the social and spiritual importance of rice in Balinese culture. Book now for a one hour free special Balinese massage for 2 people. 
+                        <a href="{{url('/enquire')}}" class="btn btn-trans text-uppercase pull-right">Enquire Now</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-12 text-uppercase">
+                <div class="detail-title-box"><em class="fa fa-angle-down">&nbsp;</em> <a href="#collapseOne" data-toggle="collapse" data-parent="#accordion"> Cycling Tour US$50++/pax</a>
+                </div>
+            </div>
+            <div id="collapseOne" class="panel-collapse in">
+                <div class="col-md-12">
+                    <p>
+                       Beginning at Mt Batur Lake, the spectacular mirrored lake at the volcano centre, you will take a gentle down-hill cycle through mystical scenery back to Alam Puisi Villa. Stop along the way to enjoy the special picnic lunch our chef will prepare for you, and be rewarded on your return with a complimentary 1 hour body massage at our spa.
+                        <a href="{{url('/enquire')}}" class="btn btn-trans text-uppercase pull-right">Enquire Now</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-12 text-uppercase">
+                <div class="detail-title-box"><em class="fa fa-angle-down">&nbsp;</em> <a href="#collapseOne" data-toggle="collapse" data-parent="#accordion"> Balinese Experiences of Cooking Lesson</a>
+                </div>
+            </div>
+            <div id="collapseOne" class="panel-collapse in">
+                <div class="col-md-12">
+                    <p>
+                        Learn the secrets of Balinese cuisine with a special lesson from the Anubhooti restaurant chef. The lesson begins with the traditional Balinese morning ritual of visiting the markets to buy the freshest local produce. Our chef will then guide you through the process of making foods with love. You will be finished in time to enjoy your meal for lunch.
+                        <a href="{{url('/enquire')}}" class="btn btn-trans text-uppercase pull-right">Enquire Now</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-12 text-uppercase">
+                <div class="detail-title-box"><em class="fa fa-angle-down">&nbsp;</em> <a href="#collapseOne" data-toggle="collapse" data-parent="#accordion"> Daily Private Tour</a>
+                </div>
+            </div>
+            <div id="collapseOne" class="panel-collapse in">
+                <div class="col-md-12">
+                    <p>
+                        Alam Puisi Villa has been designed as a relaxing place to enjoy the peace of Bali. Use our villas as a home base while you explore destinations across Bali. Related to our commitment to support the tourism based on community development, we can recommend a village transport organization that can help arrange tours and other transport arrangement. Kindly contact our reception for assistance.Your support to this organization will also help the community development.
+                    </p>
+                </div>
+                <div class="col-md-12">
+                    <table class="table table-striped table-responsive">
+                        <thead>
+                            <tr>
+                                <th>Package</th>
+                                <th>Itenary</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <table>
+                                        <tr>
+                                            <th colspan="3">Kintamani-Active Volcano Tour</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Departure</td><td>:</td><td>09.00am</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pricing</td><td>:</td><td>Rp.600.000/Car</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td>
+                                    <table class="table table-hover table-responsive">
+                                        <tbody>
+                                        <tr>
+                                            <td>Goa Gajah temple</td><td>:</td><td>The Elephant cave temple</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pejeng</td><td>:</td><td>The Moon Temple</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Gunung Kawi</td><td>:</td><td>The Rocky Temple</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tampak Siring</td><td>:</td><td>The holy Spring Temple</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Penelokan</td><td>:</td><td>The Mount and Lake Batur View</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Kintamani</td><td>:</td><td>The Ulun Danu Temple</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                </td>
+                                <td><a href="{{url('/enquire')}}" class="btn btn-trans text-uppercase">Enquire Now</a></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table>
+                                        <tr>
+                                            <th colspan="3">Bedugul Tour</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Departure</td><td>:</td><td>09.00am</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pricing</td><td>:</td><td>Rp.700.000/Car</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td>
+                                    <table class="table table-hover table-responsive">
+                                        <tbody>
+                                        <tr>
+                                            <td>Mengwi</td><td>:</td><td>The Royal Family Temple</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Alas Kedatan</td><td>:</td><td>The Holly Monkey Forest</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pacung</td><td>:</td><td>The Rice terrace view</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Bedugul</td><td>:</td><td>The Botanical Garden & Llake Bratan temple</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                </td>
+                                <td><a href="{{url('/enquire')}}" class="btn btn-trans text-uppercase">Enquire Now</a></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table>
+                                        <tr>
+                                            <th colspan="3">Besakih-Mother Temple Tour</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Departure</td><td>:</td><td>09.00am</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pricing</td><td>:</td><td>Rp.700.000/Car</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td>
+                                    <table class="table table-hover table-responsive">
+                                        <tbody>
+                                        <tr>
+                                            <td>Goa Gajah temple</td><td>:</td><td>The Elephant Cave Temple</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Bangli</td><td>:</td><td>Visit the Historical Kehen Temple</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Besakih</td><td>:</td><td>The Mother Temple on the Slope of Mount Agung</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Bukit Jambul</td><td>:</td><td>View of the rice terrace</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                </td>
+                                <td><a href="{{url('/enquire')}}" class="btn btn-trans text-uppercase">Enquire Now</a></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table>
+                                        <tr>
+                                            <th colspan="3">Uluwatu Tour</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Departure</td><td>:</td><td>09.00am</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pricing</td><td>:</td><td>Rp.700.000/Car</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td>
+                                    <table class="table table-hover table-responsive">
+                                        <tbody>
+                                        <tr>
+                                            <td>Peliatan</td><td>:</td><td>The Painting Exhibition</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mas Village </td><td>:</td><td>The Wood Carving Center</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Celuk Village</td><td>:</td><td>The Gold & Silver smith</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Denpasar</td><td>:</td><td>The Bali Museum (Closed on Monday)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Uluwatu Temple</td><td>:</td><td>The Historical temple on the Rock</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Jimbaran Beach</td><td>:</td><td>Sea Food center</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                </td>
+                                <td><a href="{{url('/enquire')}}" class="btn btn-trans text-uppercase">Enquire Now</a></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table>
+                                        <tr>
+                                            <th colspan="3">Kintamani –Besakih Tour</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Departure</td><td>:</td><td>09.00am</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pricing</td><td>:</td><td>Rp.750.000/Car</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td>
+                                    <table class="table table-hover table-responsive">
+                                        <tbody>
+                                        <tr>
+                                            <td>Goa Gajah</td><td>:</td><td>The Painting Exhibition</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tampak Siring </td><td>:</td><td>The Holly Spring Temple</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Penelokan</td><td>:</td><td>The Mount and Lake Batur View</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Besakih</td><td>:</td><td>The Mother temple on the slope of mount Agung</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Bukit Jambul</td><td>:</td><td>Soak up the spectacular view of the rice terraces.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Klungkung</td><td>:</td><td>The Old Court Justice of Klungkung Kingdom</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                </td>
+                                <td><a href="{{url('/enquire')}}" class="btn btn-trans text-uppercase">Enquire Now</a></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table>
+                                        <tr>
+                                            <th colspan="3">Sunset Tour</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Departure</td><td>:</td><td>14.00am</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pricing</td><td>:</td><td>Rp.650.000/Car</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td>
+                                    <table class="table table-hover table-responsive">
+                                        <tbody>
+                                        <tr>
+                                            <td>Mengwi</td><td>:</td><td>The Royal Family Temple</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Alas Kedatan</td><td>:</td><td>The Holly Monkey Forest</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tanah Lot</td><td>:</td><td>Tanah lot sea temple and sunset</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                </td>
+                                <td><a href="{{url('/enquire')}}" class="btn btn-trans text-uppercase">Enquire Now</a></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table>
+                                        <tr>
+                                            <th colspan="3">Singaraja-Lovina North of Bali Tour</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Departure</td><td>:</td><td>08.30am</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pricing</td><td>:</td><td>Rp.850.000/Car</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td>
+                                    <table class="table table-hover table-responsive">
+                                        <tbody>
+                                        <tr>
+                                            <td>Mengwi</td><td>:</td><td>The Royal Family Temple</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Bedugul</td><td>:</td><td>The Botanical garden & lake Bratan temple</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Gitgit</td><td>:</td><td>Waterfall with very good scenery</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Lovina</td><td>:</td><td>The Black sandy beach</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Banjar</td><td>:</td><td>The natural hot spring water</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Munduk</td><td>:</td><td>The coffee plantation & Rice terrace view</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                </td>
+                                <td><a href="{{url('/enquire')}}" class="btn btn-trans text-uppercase">Enquire Now</a></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table>
+                                        <tr>
+                                            <th colspan="3">Amed Snorkling Tour</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Departure</td><td>:</td><td>08.30am</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pricing</td><td>:</td><td>Rp.850.000/Car</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td>
+                                    <table class="table table-hover table-responsive">
+                                        <tbody>
+                                        <tr>
+                                            <td>Sideman</td><td>:</td><td>Nice view of rice terrace and countryside</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Amed</td><td>:</td><td>Good place for snorkeling and diving</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tirta Gangga</td><td>:</td><td>The Water garden</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                </td>
+                                <td><a href="{{url('/enquire')}}" class="btn btn-trans text-uppercase">Enquire Now</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                      
+                </div>
+            </div>
+            <div class="col-md-12 text-uppercase">
+                <div class="detail-title-box"><em class="fa fa-angle-down">&nbsp;</em> <a href="#collapseOne" data-toggle="collapse" data-parent="#accordion"> Transportation</a>
+                </div>
+            </div>
+            <div id="collapseOne" class="panel-collapse in">
+                <div class="col-md-12">
+                    <table class="table table-bordered">
+                        <tbody><tr>
+                            <th>FROM</th>
+                            <th>TO</th>
+                            <th>PRIVATE CAR</th>
+                            <th>REMARK</th>
+                        </tr>
+                        <tr>
+                            <td>Hotel</td>
+                            <td>Airport, Kuta</td>
+                            <td>USD 40/Car</td>
+                            <td>Mineral water</td>
+                        </tr>
+                        <tr>
+                            <td>Hotel</td>
+                            <td>Nusa Dua</td>
+                            <td>USD 50/Car</td>
+                            <td>Mineral water</td>
+                        </tr>
+                        <tr>
+                            <td>Hotel</td>
+                            <td>Sanur</td>
+                            <td>USD 30/Car</td>
+                            <td>Mineral water</td>
+                        </tr>
+                        <tr>
+                            <td>Hotel</td>
+                            <td>Jimbaran</td>
+                            <td>USD 45/Car</td>
+                            <td>Mineral water</td>
+                        </tr>
+                        <tr>
+                            <td>Hotel</td>
+                            <td>Lovina</td>
+                            <td>USD 55/Car</td>
+                            <td>Mineral water</td>
+                        </tr>
+                        <tr>
+                            <td>Hotel</td>
+                            <td>Candidasa</td>
+                            <td>USD 50/Car</td>
+                            <td>Mineral water</td>
+                        </tr>
+                        <tr>
+                            <td>Hotel</td>
+                            <td>Ubud Area</td>
+                            <td>USD 10/Car</td>
+                            <td>Hourly rate/City Tour</td>
+                        </tr>
+                    </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>                      
+    </div>
+</div>";}";

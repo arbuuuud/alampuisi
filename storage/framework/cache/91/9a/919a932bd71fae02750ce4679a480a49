@@ -1,0 +1,110 @@
+1465098130s:4873:"a:6:{s:5:"mtime";i:1465073172;s:7:"content";s:2344:"title = "One Hour Morning Walk"
+url = "/activities/one-hour-morning-walk"
+layout = "activity-detail"
+is_hidden = 0
+==
+{% put styles %}
+    <link href="{{ [
+        'assets/vendor/slick/slick.css',
+    ]|theme }}" rel="stylesheet">
+{% endput %}
+{% put scripts %}
+    <script src="{{ [
+        'assets/vendor/slick/slick.js',
+    ]|theme }}"></script>
+    <script>
+        $(document).ready(function() {
+            $('#projectImages').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear',
+                slidesToShow: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                pauseOnHover: true
+            });
+        })
+    </script>
+{% endput %}
+
+<div id="imageGallery">
+    <div data-thumb="{{url('upload/alampuisi/activities/morningwalk/ADHI0376.jpg')}}">
+        <img src="{{url('upload/alampuisi/activities/morningwalk/ADHI0376.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/activities/morningwalk/ADHI0378.jpg')}}">
+        <img src="{{url('upload/alampuisi/activities/morningwalk/ADHI0378.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/activities/morningwalk/ADHI0384.jpg')}}">
+        <img src="{{url('upload/alampuisi/activities/morningwalk/ADHI0384.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/activities/morningwalk/ADHI0381.jpg')}}">
+        <img src="{{url('upload/alampuisi/activities/morningwalk/ADHI0381.jpg')}}" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="main-content-box-accom-ruler" style="margin-top:20px;">&nbsp;</div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12 p-detail-small">
+        <div class="main-head-title title-small">One Hour Morning Walk</div>
+        <div class="clearfix">&nbsp;</div>
+        <p>Experience the poetry of the Balinese landscape with a complimentary morning walk through the rice fields. The gentle sway of these lush green fields will soothe your soul, and the fresh morning air will cleanse you body. Your guide will explain the traditions of growing rice, and the cultural importance of this practice to the Balinese.</p>
+                             
+    </div>
+</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:21:"One Hour Morning Walk";s:3:"url";s:33:"/activities/one-hour-morning-walk";s:6:"layout";s:15:"activity-detail";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:2221:"{% put styles %}
+    <link href="{{ [
+        'assets/vendor/slick/slick.css',
+    ]|theme }}" rel="stylesheet">
+{% endput %}
+{% put scripts %}
+    <script src="{{ [
+        'assets/vendor/slick/slick.js',
+    ]|theme }}"></script>
+    <script>
+        $(document).ready(function() {
+            $('#projectImages').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear',
+                slidesToShow: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                pauseOnHover: true
+            });
+        })
+    </script>
+{% endput %}
+
+<div id="imageGallery">
+    <div data-thumb="{{url('upload/alampuisi/activities/morningwalk/ADHI0376.jpg')}}">
+        <img src="{{url('upload/alampuisi/activities/morningwalk/ADHI0376.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/activities/morningwalk/ADHI0378.jpg')}}">
+        <img src="{{url('upload/alampuisi/activities/morningwalk/ADHI0378.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/activities/morningwalk/ADHI0384.jpg')}}">
+        <img src="{{url('upload/alampuisi/activities/morningwalk/ADHI0384.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/activities/morningwalk/ADHI0381.jpg')}}">
+        <img src="{{url('upload/alampuisi/activities/morningwalk/ADHI0381.jpg')}}" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="main-content-box-accom-ruler" style="margin-top:20px;">&nbsp;</div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12 p-detail-small">
+        <div class="main-head-title title-small">One Hour Morning Walk</div>
+        <div class="clearfix">&nbsp;</div>
+        <p>Experience the poetry of the Balinese landscape with a complimentary morning walk through the rice fields. The gentle sway of these lush green fields will soothe your soul, and the fresh morning air will cleanse you body. Your guide will explain the traditions of growing rice, and the cultural importance of this practice to the Balinese.</p>
+                             
+    </div>
+</div>";}";

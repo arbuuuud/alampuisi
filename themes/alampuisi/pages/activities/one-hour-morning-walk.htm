@@ -1,0 +1,58 @@
+title = "One Hour Morning Walk"
+url = "/activities/one-hour-morning-walk"
+layout = "activity-detail"
+is_hidden = 0
+==
+{% put styles %}
+    <link href="{{ [
+        'assets/vendor/slick/slick.css',
+    ]|theme }}" rel="stylesheet">
+{% endput %}
+{% put scripts %}
+    <script src="{{ [
+        'assets/vendor/slick/slick.js',
+    ]|theme }}"></script>
+    <script>
+        $(document).ready(function() {
+            $('#projectImages').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear',
+                slidesToShow: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                pauseOnHover: true
+            });
+        })
+    </script>
+{% endput %}
+
+<div id="imageGallery">
+    <div data-thumb="{{url('upload/alampuisi/activities/morningwalk/ADHI0376.jpg')}}">
+        <img src="{{url('upload/alampuisi/activities/morningwalk/ADHI0376.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/activities/morningwalk/ADHI0378.jpg')}}">
+        <img src="{{url('upload/alampuisi/activities/morningwalk/ADHI0378.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/activities/morningwalk/ADHI0384.jpg')}}">
+        <img src="{{url('upload/alampuisi/activities/morningwalk/ADHI0384.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/activities/morningwalk/ADHI0381.jpg')}}">
+        <img src="{{url('upload/alampuisi/activities/morningwalk/ADHI0381.jpg')}}" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="main-content-box-accom-ruler" style="margin-top:20px;">&nbsp;</div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12 p-detail-small">
+        <div class="main-head-title title-small">One Hour Morning Walk</div>
+        <div class="clearfix">&nbsp;</div>
+        <p>Experience the poetry of the Balinese landscape with a complimentary morning walk through the rice fields. The gentle sway of these lush green fields will soothe your soul, and the fresh morning air will cleanse you body. Your guide will explain the traditions of growing rice, and the cultural importance of this practice to the Balinese.</p>
+                             
+    </div>
+</div>

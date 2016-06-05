@@ -1,0 +1,181 @@
+1465098130s:8705:"a:6:{s:5:"mtime";i:1465075472;s:7:"content";s:4261:"title = "Yoga Namaste Healthy Package"
+url = "/special-offer/yoga-namaste-healthy-package"
+layout = "special-offer"
+is_hidden = 0
+==
+{% put styles %}
+    <link href="{{ [
+        'assets/vendor/slick/slick.css',
+    ]|theme }}" rel="stylesheet">
+{% endput %}
+{% put scripts %}
+    <script src="{{ [
+        'assets/vendor/slick/slick.js',
+    ]|theme }}"></script>
+    <script>
+        $(document).ready(function() {
+            $('#projectImages').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear',
+                slidesToShow: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                pauseOnHover: true
+            });
+        })
+    </script>
+{% endput %}
+
+<div id="imageGallery">
+    <div data-thumb="{{url('upload/alampuisi/accomodation/onetwobed/Pool-Villa-7.jpg')}}">
+        <img src="{{url('upload/alampuisi/accomodation/onetwobed/Pool-Villa-7.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/accomodation/onetwobed/Pool-Villa-16.jpg')}}">
+        <img src="{{url('upload/alampuisi/accomodation/onetwobed/Pool-Villa-16.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/accomodation/onetwobed/Pool-Villa-18.jpg')}}">
+        <img src="{{url('upload/alampuisi/accomodation/onetwobed/Pool-Villa-18.jpg')}}" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="main-content-box-accom-ruler" style="margin-top:20px;">&nbsp;</div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12 p-detail-small">
+        <div class="main-head-title title-small">Yoga Namaste Healthy Package</div>
+        <div class="main-head-title title-small">US$ 398 For 3 Nights 4 Days </div>
+        
+        <div id="accordion" class="row">
+            <div class="col-md-12 text-uppercase">
+                <div class="detail-title-box"><em class="fa fa-angle-down">&nbsp;</em> <a href="#collapseOne" data-toggle="collapse" data-parent="#accordion"> WHY BOOK DIRECTLY TO THE WEBSITE?</a>
+                </div>
+            </div>
+            <div id="collapseOne" class="panel-collapse in">
+                <div class="col-md-12">
+                   <ul>
+                        <li>Three nights stay at One Bedroom Pool Villa</li>
+                        <li>Return airport transfer</li>
+                        <li>Daily Breakfast for 2 persons</li>
+                        <li>One time Lunch OR Dinner with healthy food for 2 persons</li>
+                        <li>One Hour Asana and Pranayama Yoga</li>
+                        <li>30 minutes foot Therapy for 2 person</li>
+                        <li>Daily special tropical fruit basket</li>
+                        <li>Complimentary one whole young coconut for healthy drink & fresh cool towel on arrival</li>
+                        <li>Free WIFI connection</li>
+                        <li>Daily afternoon tea</li>
+                        <li>Turn down service</li>
+                        <li>Free 2 bottles of mineral water daily in the room/villa</li>
+                        <li>Free scheduled shuttle service to and from Ubud town </li>
+                        <li>Free scheduled of activities Balinese canang making during stay</li>
+					</ul>
+                </div>
+            </div>
+            <div class="col-md-12 text-uppercase">
+                <div class="detail-title-box"><em class="fa fa-angle-down">&nbsp;</em> <a href="#collapseTwo" data-toggle="collapse" data-parent="#accordion"> Terms and Conditions</a>
+                </div>
+            </div>
+            <div id="collapseTwo" class="panel-collapse in">
+                <div class="col-md-12">
+                    <ul>
+					<li>Rate is inclusive 21% government tax and service charge </li>
+                    <li>Additional high season surcharge within period 01 July-31 August at USD 30 per night.</li>
+                    <li>Additional peak season surcharge within period 15 December-5 January at USD 35 per night</li>
+					</ul>
+                </div>
+            </div>
+        </div>                      
+    </div>
+</div>
+";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:28:"Yoga Namaste Healthy Package";s:3:"url";s:43:"/special-offer/yoga-namaste-healthy-package";s:6:"layout";s:13:"special-offer";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:4121:"{% put styles %}
+    <link href="{{ [
+        'assets/vendor/slick/slick.css',
+    ]|theme }}" rel="stylesheet">
+{% endput %}
+{% put scripts %}
+    <script src="{{ [
+        'assets/vendor/slick/slick.js',
+    ]|theme }}"></script>
+    <script>
+        $(document).ready(function() {
+            $('#projectImages').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear',
+                slidesToShow: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                pauseOnHover: true
+            });
+        })
+    </script>
+{% endput %}
+
+<div id="imageGallery">
+    <div data-thumb="{{url('upload/alampuisi/accomodation/onetwobed/Pool-Villa-7.jpg')}}">
+        <img src="{{url('upload/alampuisi/accomodation/onetwobed/Pool-Villa-7.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/accomodation/onetwobed/Pool-Villa-16.jpg')}}">
+        <img src="{{url('upload/alampuisi/accomodation/onetwobed/Pool-Villa-16.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/accomodation/onetwobed/Pool-Villa-18.jpg')}}">
+        <img src="{{url('upload/alampuisi/accomodation/onetwobed/Pool-Villa-18.jpg')}}" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="main-content-box-accom-ruler" style="margin-top:20px;">&nbsp;</div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12 p-detail-small">
+        <div class="main-head-title title-small">Yoga Namaste Healthy Package</div>
+        <div class="main-head-title title-small">US$ 398 For 3 Nights 4 Days </div>
+        
+        <div id="accordion" class="row">
+            <div class="col-md-12 text-uppercase">
+                <div class="detail-title-box"><em class="fa fa-angle-down">&nbsp;</em> <a href="#collapseOne" data-toggle="collapse" data-parent="#accordion"> WHY BOOK DIRECTLY TO THE WEBSITE?</a>
+                </div>
+            </div>
+            <div id="collapseOne" class="panel-collapse in">
+                <div class="col-md-12">
+                   <ul>
+                        <li>Three nights stay at One Bedroom Pool Villa</li>
+                        <li>Return airport transfer</li>
+                        <li>Daily Breakfast for 2 persons</li>
+                        <li>One time Lunch OR Dinner with healthy food for 2 persons</li>
+                        <li>One Hour Asana and Pranayama Yoga</li>
+                        <li>30 minutes foot Therapy for 2 person</li>
+                        <li>Daily special tropical fruit basket</li>
+                        <li>Complimentary one whole young coconut for healthy drink & fresh cool towel on arrival</li>
+                        <li>Free WIFI connection</li>
+                        <li>Daily afternoon tea</li>
+                        <li>Turn down service</li>
+                        <li>Free 2 bottles of mineral water daily in the room/villa</li>
+                        <li>Free scheduled shuttle service to and from Ubud town </li>
+                        <li>Free scheduled of activities Balinese canang making during stay</li>
+					</ul>
+                </div>
+            </div>
+            <div class="col-md-12 text-uppercase">
+                <div class="detail-title-box"><em class="fa fa-angle-down">&nbsp;</em> <a href="#collapseTwo" data-toggle="collapse" data-parent="#accordion"> Terms and Conditions</a>
+                </div>
+            </div>
+            <div id="collapseTwo" class="panel-collapse in">
+                <div class="col-md-12">
+                    <ul>
+					<li>Rate is inclusive 21% government tax and service charge </li>
+                    <li>Additional high season surcharge within period 01 July-31 August at USD 30 per night.</li>
+                    <li>Additional peak season surcharge within period 15 December-5 January at USD 35 per night</li>
+					</ul>
+                </div>
+            </div>
+        </div>                      
+    </div>
+</div>";}";

@@ -1,0 +1,233 @@
+1465098130s:14492:"a:6:{s:5:"mtime";i:1464457396;s:7:"content";s:7156:"title = "About"
+url = "/about"
+layout = "category"
+is_hidden = 0
+==
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-sm-12">
+            <h4 class="headline"><span>Villas that Capture The Poetry of Nature</span></h4>
+            <p>
+                            The Alam Pusisi Villas – like the name implies in the original Indonesian – are villas inspired by the surrounding natural splendor of Bali and the esteemed cultural nuances for which the Island is world-renowned.
+                            <br/>
+                            <br/>
+
+Managed by the Alam Hotel Group (AHG) and located in the community of Banjar Sembuwuk in the Village of Pejeng in Ubud, Central Bali – Alam Puisi Villas is comprised of 27 separate villas, each with its own separate pool and a bale bengong (meditation pavilion).
+                            <br/>
+                            <br/>
+
+Reflecting the inspiring and transformative nature of Alam Puisi Villa is a dedicated yoga center capable of accommodating 100 participants that overlooks the calming vista of verdant terraced rice fields. Nearby, a Balinese Spa offers pampering and well-being therapies guaranteed to transport guests to a more blissful time and place. 
+                            <br/>
+                            <br/>
+
+At Alam Puisi Villas we nourish both the soul and the body. Balinese cooking classes promise the opportunity to recall, revisit and re-savor your Balinese holiday months and years into the future around your family dinner table. But while you’re still in Bali, food at the restaurant overlooking the rice fields offers a range of international selections with a heavy emphasis on the succulent and spice-filled specialties, such a crispy duck cooked in the time-honored tradition of the Balinese Paon.
+                            <br/>
+                            <br/>
+
+Swaying tropical palms, the light of the silvery moon and the beckoning sound of gamelans orchestras carried on the night breeze are all hallmarks of any stay at the Alam Puisi Villas. Magical Balinese dance and musical performances are just a short walk or drive away from the villas, forming a “must do” part of any stay in our Balinese community.
+                            <br/>
+                            <br/>
+
+After a restful night and a relaxing breakfast, the ever-attentive family of workers are eager to share their tropical paradise and unique Bali-Hindu culture via visits to ancient temples, traditional villages and breathtaking natural panoramas – all only a short sojourn away from your home-base at the Alam Puisi Villa.
+                            <br/>
+                            <br/>
+
+It is a long-standing Balinese tradition to take the simplest of tasks, perform each with exceptional care and attention to detail, and then present them as reverential offerings to the Gods.
+                            <br/>
+                            <br/>
+
+Similarly, the ultimate aim of the Alam Hotel Group – a Balinese-owned and managed company – is to welcome each guest as a added member of the family and to lovingly share the best of the “Island of the Gods” with our new brothers and sisters from around the world.
+                            <br/>
+                            <br/>
+
+
+Some call it poetry.
+We call it our home
+                            <br/>
+                            <br/>
+
+Alam Puisi Villa in Ubud, Bali.
+
+                        </p>
+        </div>
+    </div>
+
+    <div class="container home-special-offers" style="padding-top:0px;">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="main-head-title title-medium">Our Room</h3>
+                <div class="thin-border title-medium" style="margin-top:12px;">__</div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid home-special-offers-2" style="margin-bottom:40px;">
+        <div class="row">
+            <div id="home-special-offers-box" class="owl-carousel owl-theme grid">
+                            <figure class="item effect-ruby ruby-about">
+                      <img src="{{'upload/alampuisi/Pool-Villa-7.jpg'}}" alt="" />
+                    <figcaption>
+                        <h2 class="text-uppercase">Premier Room</h2>
+                        <h2 class="text-uppercase h2-after">Premier Room</h2>
+                        <p>
+                            <a href="room-rates/presidential-villa.html" class="btn btn-trans text-uppercase">Book Now</a>
+                        </p>
+                        <a href="room-rates/presidential-villa.html">View more</a>
+                    </figcaption>
+                </figure>
+                            <figure class="item effect-ruby ruby-about">
+                      <img src="{{'upload/alampuisi/Pool-Villa-7.jpg'}}" alt="" />
+                    <figcaption>
+                        <h2 class="text-uppercase">One Bed Room Private Pool</h2>
+                        <h2 class="text-uppercase h2-after">One Bed Room Private Pool</h2>
+                        <p>
+                            <a href="room-rates/villa.html" class="btn btn-trans text-uppercase">Book Now</a>
+                        </p>
+                        <a href="room-rates/villa.html">View more</a>
+                    </figcaption>
+                </figure>
+                <figure class="item effect-ruby ruby-about">
+                    <img src="{{'upload/alampuisi/Pool-Villa-7.jpg'}}" alt="" />
+                    <figcaption>
+                        <h2 class="text-uppercase">Two Bed Room Private Pool</h2>
+                        <h2 class="text-uppercase h2-after">Two Bed Room Private Pool</h2>
+                        <p>
+                            <a href="room-rates/celebrity-suite.html" class="btn btn-trans text-uppercase">Book Now</a>
+                        </p>
+                        <a href="room-rates/celebrity-suite.html">View more</a>
+                    </figcaption>
+                </figure>
+                <figure class="item effect-ruby ruby-about">
+                    <img src="{{'upload/alampuisi/Pool-Villa-7.jpg'}}" alt="" />
+                    <figcaption>
+                        <h2 class="text-uppercase">Three Bed Room Private Pool</h2>
+                        <h2 class="text-uppercase h2-after">Three Bed Room Private Pool</h2>
+                        <p>
+                            <a href="room-rates/celebrity-suite.html" class="btn btn-trans text-uppercase">Book Now</a>
+                        </p>
+                        <a href="room-rates/celebrity-suite.html">View more</a>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="custom-navigation custom-navigation-2">
+                <a class="navigation-left home-special-offers-left"><i class="fa fa-angle-left"></i></a>
+                <a class="navigation-right home-special-offers-right"><i class="fa fa-angle-right"></i></a>
+            </div>
+        </div>
+    </div>
+
+</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:5:"About";s:3:"url";s:6:"/about";s:6:"layout";s:8:"category";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:7081:"<div class="container">
+
+    <div class="row">
+        <div class="col-sm-12">
+            <h4 class="headline"><span>Villas that Capture The Poetry of Nature</span></h4>
+            <p>
+                            The Alam Pusisi Villas – like the name implies in the original Indonesian – are villas inspired by the surrounding natural splendor of Bali and the esteemed cultural nuances for which the Island is world-renowned.
+                            <br/>
+                            <br/>
+
+Managed by the Alam Hotel Group (AHG) and located in the community of Banjar Sembuwuk in the Village of Pejeng in Ubud, Central Bali – Alam Puisi Villas is comprised of 27 separate villas, each with its own separate pool and a bale bengong (meditation pavilion).
+                            <br/>
+                            <br/>
+
+Reflecting the inspiring and transformative nature of Alam Puisi Villa is a dedicated yoga center capable of accommodating 100 participants that overlooks the calming vista of verdant terraced rice fields. Nearby, a Balinese Spa offers pampering and well-being therapies guaranteed to transport guests to a more blissful time and place. 
+                            <br/>
+                            <br/>
+
+At Alam Puisi Villas we nourish both the soul and the body. Balinese cooking classes promise the opportunity to recall, revisit and re-savor your Balinese holiday months and years into the future around your family dinner table. But while you’re still in Bali, food at the restaurant overlooking the rice fields offers a range of international selections with a heavy emphasis on the succulent and spice-filled specialties, such a crispy duck cooked in the time-honored tradition of the Balinese Paon.
+                            <br/>
+                            <br/>
+
+Swaying tropical palms, the light of the silvery moon and the beckoning sound of gamelans orchestras carried on the night breeze are all hallmarks of any stay at the Alam Puisi Villas. Magical Balinese dance and musical performances are just a short walk or drive away from the villas, forming a “must do” part of any stay in our Balinese community.
+                            <br/>
+                            <br/>
+
+After a restful night and a relaxing breakfast, the ever-attentive family of workers are eager to share their tropical paradise and unique Bali-Hindu culture via visits to ancient temples, traditional villages and breathtaking natural panoramas – all only a short sojourn away from your home-base at the Alam Puisi Villa.
+                            <br/>
+                            <br/>
+
+It is a long-standing Balinese tradition to take the simplest of tasks, perform each with exceptional care and attention to detail, and then present them as reverential offerings to the Gods.
+                            <br/>
+                            <br/>
+
+Similarly, the ultimate aim of the Alam Hotel Group – a Balinese-owned and managed company – is to welcome each guest as a added member of the family and to lovingly share the best of the “Island of the Gods” with our new brothers and sisters from around the world.
+                            <br/>
+                            <br/>
+
+
+Some call it poetry.
+We call it our home
+                            <br/>
+                            <br/>
+
+Alam Puisi Villa in Ubud, Bali.
+
+                        </p>
+        </div>
+    </div>
+
+    <div class="container home-special-offers" style="padding-top:0px;">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="main-head-title title-medium">Our Room</h3>
+                <div class="thin-border title-medium" style="margin-top:12px;">__</div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid home-special-offers-2" style="margin-bottom:40px;">
+        <div class="row">
+            <div id="home-special-offers-box" class="owl-carousel owl-theme grid">
+                            <figure class="item effect-ruby ruby-about">
+                      <img src="{{'upload/alampuisi/Pool-Villa-7.jpg'}}" alt="" />
+                    <figcaption>
+                        <h2 class="text-uppercase">Premier Room</h2>
+                        <h2 class="text-uppercase h2-after">Premier Room</h2>
+                        <p>
+                            <a href="room-rates/presidential-villa.html" class="btn btn-trans text-uppercase">Book Now</a>
+                        </p>
+                        <a href="room-rates/presidential-villa.html">View more</a>
+                    </figcaption>
+                </figure>
+                            <figure class="item effect-ruby ruby-about">
+                      <img src="{{'upload/alampuisi/Pool-Villa-7.jpg'}}" alt="" />
+                    <figcaption>
+                        <h2 class="text-uppercase">One Bed Room Private Pool</h2>
+                        <h2 class="text-uppercase h2-after">One Bed Room Private Pool</h2>
+                        <p>
+                            <a href="room-rates/villa.html" class="btn btn-trans text-uppercase">Book Now</a>
+                        </p>
+                        <a href="room-rates/villa.html">View more</a>
+                    </figcaption>
+                </figure>
+                <figure class="item effect-ruby ruby-about">
+                    <img src="{{'upload/alampuisi/Pool-Villa-7.jpg'}}" alt="" />
+                    <figcaption>
+                        <h2 class="text-uppercase">Two Bed Room Private Pool</h2>
+                        <h2 class="text-uppercase h2-after">Two Bed Room Private Pool</h2>
+                        <p>
+                            <a href="room-rates/celebrity-suite.html" class="btn btn-trans text-uppercase">Book Now</a>
+                        </p>
+                        <a href="room-rates/celebrity-suite.html">View more</a>
+                    </figcaption>
+                </figure>
+                <figure class="item effect-ruby ruby-about">
+                    <img src="{{'upload/alampuisi/Pool-Villa-7.jpg'}}" alt="" />
+                    <figcaption>
+                        <h2 class="text-uppercase">Three Bed Room Private Pool</h2>
+                        <h2 class="text-uppercase h2-after">Three Bed Room Private Pool</h2>
+                        <p>
+                            <a href="room-rates/celebrity-suite.html" class="btn btn-trans text-uppercase">Book Now</a>
+                        </p>
+                        <a href="room-rates/celebrity-suite.html">View more</a>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="custom-navigation custom-navigation-2">
+                <a class="navigation-left home-special-offers-left"><i class="fa fa-angle-left"></i></a>
+                <a class="navigation-right home-special-offers-right"><i class="fa fa-angle-right"></i></a>
+            </div>
+        </div>
+    </div>
+
+</div>";}";

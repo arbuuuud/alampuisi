@@ -1,0 +1,108 @@
+1465098130s:4753:"a:6:{s:5:"mtime";i:1465073840;s:7:"content";s:2284:"title = "Cycling Tour"
+url = "/activities/cycling-tour"
+layout = "activity-detail"
+is_hidden = 0
+==
+{% put styles %}
+    <link href="{{ [
+        'assets/vendor/slick/slick.css',
+    ]|theme }}" rel="stylesheet">
+{% endput %}
+{% put scripts %}
+    <script src="{{ [
+        'assets/vendor/slick/slick.js',
+    ]|theme }}"></script>
+    <script>
+        $(document).ready(function() {
+            $('#projectImages').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear',
+                slidesToShow: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                pauseOnHover: true
+            });
+        })
+    </script>
+{% endput %}
+
+<div id="imageGallery">
+    <div data-thumb="{{url('upload/alampuisi/activities/cycling/ADHI0366.jpg')}}">
+        <img src="{{url('upload/alampuisi/activities/cycling/ADHI0366.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/activities/cycling/ADHI0353.jpg')}}">
+        <img src="{{url('upload/alampuisi/activities/cycling/ADHI0353.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/activities/cycling/ADHI0357.jpg')}}">
+        <img src="{{url('upload/alampuisi/activities/cycling/ADHI0357.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/activities/cycling/ADHI0364.jpg')}}">
+        <img src="{{url('upload/alampuisi/activities/cycling/ADHI0364.jpg')}}" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="main-content-box-accom-ruler" style="margin-top:20px;">&nbsp;</div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12 p-detail-small">
+        <div class="main-head-title title-small">Cycling Tour US$50++/pax</div>
+        <div class="clearfix">&nbsp;</div>
+        <p>Beginning at Mt Batur Lake, the spectacular mirrored lake at the volcano centre, you will take a gentle down-hill cycle through mystical scenery back to Alam Puisi Villa. Stop along the way to enjoy the special picnic lunch our chef will prepare for you, and be rewarded on your return with a complimentary 1 hour body massage at our spa..</p>                  
+    </div>
+</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:12:"Cycling Tour";s:3:"url";s:24:"/activities/cycling-tour";s:6:"layout";s:15:"activity-detail";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:2179:"{% put styles %}
+    <link href="{{ [
+        'assets/vendor/slick/slick.css',
+    ]|theme }}" rel="stylesheet">
+{% endput %}
+{% put scripts %}
+    <script src="{{ [
+        'assets/vendor/slick/slick.js',
+    ]|theme }}"></script>
+    <script>
+        $(document).ready(function() {
+            $('#projectImages').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear',
+                slidesToShow: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                pauseOnHover: true
+            });
+        })
+    </script>
+{% endput %}
+
+<div id="imageGallery">
+    <div data-thumb="{{url('upload/alampuisi/activities/cycling/ADHI0366.jpg')}}">
+        <img src="{{url('upload/alampuisi/activities/cycling/ADHI0366.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/activities/cycling/ADHI0353.jpg')}}">
+        <img src="{{url('upload/alampuisi/activities/cycling/ADHI0353.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/activities/cycling/ADHI0357.jpg')}}">
+        <img src="{{url('upload/alampuisi/activities/cycling/ADHI0357.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/activities/cycling/ADHI0364.jpg')}}">
+        <img src="{{url('upload/alampuisi/activities/cycling/ADHI0364.jpg')}}" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="main-content-box-accom-ruler" style="margin-top:20px;">&nbsp;</div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12 p-detail-small">
+        <div class="main-head-title title-small">Cycling Tour US$50++/pax</div>
+        <div class="clearfix">&nbsp;</div>
+        <p>Beginning at Mt Batur Lake, the spectacular mirrored lake at the volcano centre, you will take a gentle down-hill cycle through mystical scenery back to Alam Puisi Villa. Stop along the way to enjoy the special picnic lunch our chef will prepare for you, and be rewarded on your return with a complimentary 1 hour body massage at our spa..</p>                  
+    </div>
+</div>";}";

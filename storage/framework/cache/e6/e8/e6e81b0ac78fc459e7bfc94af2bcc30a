@@ -1,0 +1,190 @@
+1465094996s:8761:"a:6:{s:5:"mtime";i:1465027556;s:7:"content";s:4289:"title = "Gallery"
+url = "/gallery/gallery"
+layout = "default"
+is_hidden = 0
+==
+<div class="container-fluid video-content-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-6 col-md-4">
+					<a href="{{url('upload/alampuisi/Pool-Villa-1.jpg')}}" rel="prettyPhoto[pp_gal]">
+						<div class="photo-gallery-box" data-content="&nbsp;">
+							<img src="{{url('upload/alampuisi/Pool-Villa-1.jpg')}}" alt="full_wellness-yoga-2" class="img-responsive" />
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-6 col-md-4">
+					<a href="{{url('upload/alampuisi/Pool-Villa-2.jpg')}}" rel="prettyPhoto[pp_gal]">
+						<div class="photo-gallery-box" data-content="&nbsp;">
+							<img src="{{url('upload/alampuisi/Pool-Villa-2.jpg')}}" alt="full_wellness-yoga-2" class="img-responsive" />
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-6 col-md-4">
+					<a href="{{url('upload/alampuisi/Pool-Villa-3.jpg')}}" rel="prettyPhoto[pp_gal]">
+						<div class="photo-gallery-box" data-content="&nbsp;">
+							<img src="{{url('upload/alampuisi/Pool-Villa-3.jpg')}}" alt="full_wellness-yoga-2" class="img-responsive" />
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-6 col-md-4">
+					<a href="{{url('upload/alampuisi/Pool-Villa-4.jpg')}}" rel="prettyPhoto[pp_gal]">
+						<div class="photo-gallery-box" data-content="&nbsp;">
+							<img src="{{url('upload/alampuisi/Pool-Villa-4.jpg')}}" alt="full_wellness-yoga-2" class="img-responsive" />
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-6 col-md-4">
+					<a href="{{url('upload/alampuisi/Pool-Villa-5.jpg')}}" rel="prettyPhoto[pp_gal]">
+						<div class="photo-gallery-box" data-content="&nbsp;">
+							<img src="{{url('upload/alampuisi/Pool-Villa-5.jpg')}}" alt="full_wellness-yoga-2" class="img-responsive" />
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-6 col-md-4">
+					<a href="{{url('upload/alampuisi/Pool-Villa-6.jpg')}}" rel="prettyPhoto[pp_gal]">
+						<div class="photo-gallery-box" data-content="&nbsp;">
+							<img src="{{url('upload/alampuisi/Pool-Villa-6.jpg')}}" alt="full_wellness-yoga-2" class="img-responsive" />
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-6 col-md-4">
+					<a href="{{url('upload/alampuisi/Pool-Villa-7.jpg')}}" rel="prettyPhoto[pp_gal]">
+						<div class="photo-gallery-box" data-content="&nbsp;">
+							<img src="{{url('upload/alampuisi/Pool-Villa-7.jpg')}}" alt="full_wellness-yoga-2" class="img-responsive" />
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-6 col-md-4">
+					<a href="{{url('upload/alampuisi/Pool-Villa-8.jpg')}}" rel="prettyPhoto[pp_gal]">
+						<div class="photo-gallery-box" data-content="&nbsp;">
+							<img src="{{url('upload/alampuisi/Pool-Villa-8.jpg')}}" alt="full_wellness-yoga-2" class="img-responsive" />
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-6 col-md-4">
+					<a href="{{url('upload/alampuisi/Pool-Villa-9.jpg')}}" rel="prettyPhoto[pp_gal]">
+						<div class="photo-gallery-box" data-content="&nbsp;">
+							<img src="{{url('upload/alampuisi/Pool-Villa-9.jpg')}}" alt="full_wellness-yoga-2" class="img-responsive" />
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-6 col-md-4">
+					<a href="{{url('upload/alampuisi/Pool-Villa-10.jpg')}}" rel="prettyPhoto[pp_gal]">
+						<div class="photo-gallery-box" data-content="&nbsp;">
+							<img src="{{url('upload/alampuisi/Pool-Villa-10.jpg')}}" alt="full_wellness-yoga-2" class="img-responsive" />
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-6 col-md-4">
+					<a href="{{url('upload/alampuisi/Pool-Villa-11.jpg')}}" rel="prettyPhoto[pp_gal]">
+						<div class="photo-gallery-box" data-content="&nbsp;">
+							<img src="{{url('upload/alampuisi/Pool-Villa-11.jpg')}}" alt="full_wellness-yoga-2" class="img-responsive" />
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="clearfix"></div>
+
+			<div class="row">
+				<p>&nbsp;</p>
+				<div class="col-md-12 text-center">
+					<ul class="pager pager-nav">
+					<li class='disabled'><a><i class='fa fa-angle-left'></i></a></li><li><a href='general/page/2.html'><i class='fa fa-angle-right'></i></a></li>					</ul>
+				</div>
+			</div>
+		</div>
+	</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:7:"Gallery";s:3:"url";s:16:"/gallery/gallery";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:4205:"<div class="container-fluid video-content-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-6 col-md-4">
+					<a href="{{url('upload/alampuisi/Pool-Villa-1.jpg')}}" rel="prettyPhoto[pp_gal]">
+						<div class="photo-gallery-box" data-content="&nbsp;">
+							<img src="{{url('upload/alampuisi/Pool-Villa-1.jpg')}}" alt="full_wellness-yoga-2" class="img-responsive" />
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-6 col-md-4">
+					<a href="{{url('upload/alampuisi/Pool-Villa-2.jpg')}}" rel="prettyPhoto[pp_gal]">
+						<div class="photo-gallery-box" data-content="&nbsp;">
+							<img src="{{url('upload/alampuisi/Pool-Villa-2.jpg')}}" alt="full_wellness-yoga-2" class="img-responsive" />
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-6 col-md-4">
+					<a href="{{url('upload/alampuisi/Pool-Villa-3.jpg')}}" rel="prettyPhoto[pp_gal]">
+						<div class="photo-gallery-box" data-content="&nbsp;">
+							<img src="{{url('upload/alampuisi/Pool-Villa-3.jpg')}}" alt="full_wellness-yoga-2" class="img-responsive" />
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-6 col-md-4">
+					<a href="{{url('upload/alampuisi/Pool-Villa-4.jpg')}}" rel="prettyPhoto[pp_gal]">
+						<div class="photo-gallery-box" data-content="&nbsp;">
+							<img src="{{url('upload/alampuisi/Pool-Villa-4.jpg')}}" alt="full_wellness-yoga-2" class="img-responsive" />
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-6 col-md-4">
+					<a href="{{url('upload/alampuisi/Pool-Villa-5.jpg')}}" rel="prettyPhoto[pp_gal]">
+						<div class="photo-gallery-box" data-content="&nbsp;">
+							<img src="{{url('upload/alampuisi/Pool-Villa-5.jpg')}}" alt="full_wellness-yoga-2" class="img-responsive" />
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-6 col-md-4">
+					<a href="{{url('upload/alampuisi/Pool-Villa-6.jpg')}}" rel="prettyPhoto[pp_gal]">
+						<div class="photo-gallery-box" data-content="&nbsp;">
+							<img src="{{url('upload/alampuisi/Pool-Villa-6.jpg')}}" alt="full_wellness-yoga-2" class="img-responsive" />
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-6 col-md-4">
+					<a href="{{url('upload/alampuisi/Pool-Villa-7.jpg')}}" rel="prettyPhoto[pp_gal]">
+						<div class="photo-gallery-box" data-content="&nbsp;">
+							<img src="{{url('upload/alampuisi/Pool-Villa-7.jpg')}}" alt="full_wellness-yoga-2" class="img-responsive" />
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-6 col-md-4">
+					<a href="{{url('upload/alampuisi/Pool-Villa-8.jpg')}}" rel="prettyPhoto[pp_gal]">
+						<div class="photo-gallery-box" data-content="&nbsp;">
+							<img src="{{url('upload/alampuisi/Pool-Villa-8.jpg')}}" alt="full_wellness-yoga-2" class="img-responsive" />
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-6 col-md-4">
+					<a href="{{url('upload/alampuisi/Pool-Villa-9.jpg')}}" rel="prettyPhoto[pp_gal]">
+						<div class="photo-gallery-box" data-content="&nbsp;">
+							<img src="{{url('upload/alampuisi/Pool-Villa-9.jpg')}}" alt="full_wellness-yoga-2" class="img-responsive" />
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-6 col-md-4">
+					<a href="{{url('upload/alampuisi/Pool-Villa-10.jpg')}}" rel="prettyPhoto[pp_gal]">
+						<div class="photo-gallery-box" data-content="&nbsp;">
+							<img src="{{url('upload/alampuisi/Pool-Villa-10.jpg')}}" alt="full_wellness-yoga-2" class="img-responsive" />
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-6 col-md-4">
+					<a href="{{url('upload/alampuisi/Pool-Villa-11.jpg')}}" rel="prettyPhoto[pp_gal]">
+						<div class="photo-gallery-box" data-content="&nbsp;">
+							<img src="{{url('upload/alampuisi/Pool-Villa-11.jpg')}}" alt="full_wellness-yoga-2" class="img-responsive" />
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="clearfix"></div>
+
+			<div class="row">
+				<p>&nbsp;</p>
+				<div class="col-md-12 text-center">
+					<ul class="pager pager-nav">
+					<li class='disabled'><a><i class='fa fa-angle-left'></i></a></li><li><a href='general/page/2.html'><i class='fa fa-angle-right'></i></a></li>					</ul>
+				</div>
+			</div>
+		</div>
+	</div>";}";

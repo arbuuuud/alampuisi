@@ -1,0 +1,141 @@
+# ===================================
+#  Column Definitions
+# ===================================
+
+columns:
+
+    quotation_number:
+        label: mindimedia.enquire::lang.enquire.quotation_number
+        searchable: true
+
+    full_name:
+        label: mindimedia.enquire::lang.enquire.full_name
+        searchable: true
+    
+    email:
+        label: mindimedia.enquire::lang.enquire.email
+        searchable: true
+    
+    phone_number:
+        label: mindimedia.enquire::lang.enquire.phone_number
+        searchable: true
+    
+    mobile_number:
+        label: mindimedia.enquire::lang.enquire.mobile_number
+        searchable: true
+    
+    address:
+        label: mindimedia.enquire::lang.enquire.address
+        searchable: true
+    
+    city:
+        label: mindimedia.enquire::lang.enquire.city
+        searchable: true
+    
+    postal_code:
+        label: mindimedia.enquire::lang.enquire.postal_code
+        searchable: true
+    
+    country:
+        label: mindimedia.enquire::lang.enquire.country
+        searchable: true
+    
+    state:
+        label: mindimedia.enquire::lang.enquire.state
+        searchable: true
+    
+    region:
+        label: mindimedia.enquire::lang.enquire.region
+        searchable: true
+    
+    enquire_type:
+        label: mindimedia.enquire::lang.enquire.enquire_type
+        searchable: true
+    
+    day_in:
+        label: mindimedia.enquire::lang.enquire.day_in
+        searchable: true
+    
+    day_out:
+        label: mindimedia.enquire::lang.enquire.day_out
+        searchable: true
+    
+    room_type:
+        label: mindimedia.enquire::lang.enquire.room_type
+        searchable: true
+    
+    quantity:
+        label: mindimedia.enquire::lang.enquire.quantity
+        searchable: true
+    
+    adult:
+        label: mindimedia.enquire::lang.enquire.adult
+        searchable: true
+    
+    children:
+        label: mindimedia.enquire::lang.enquire.children
+        searchable: true
+    
+    infant:
+        label: mindimedia.enquire::lang.enquire.infant
+        searchable: true
+    
+    airport_name:
+        label: mindimedia.enquire::lang.enquire.airport_name
+        searchable: true
+    
+    airport_location:
+        label: mindimedia.enquire::lang.enquire.airport_location
+        searchable: true
+    
+    flight_number:
+        label: mindimedia.enquire::lang.enquire.flight_number
+        searchable: true
+    
+    arrival_time:
+        label: mindimedia.enquire::lang.enquire.arrival_time
+        searchable: true
+    
+    other_transport:
+        label: mindimedia.enquire::lang.enquire.other_transport
+        searchable: true
+    
+    comment:
+        label: mindimedia.enquire::lang.enquire.comment
+        searchable: true
+    
+    info_special_check:
+        label: mindimedia.enquire::lang.enquire.info_special_check
+        searchable: true
+    
+    info_special:
+        label: mindimedia.enquire::lang.enquire.info_special
+        searchable: true
+    
+    how_did_enquire:
+        label: mindimedia.enquire::lang.enquire.how_did_enquire
+        searchable: true
+    
+    status:
+        label: mindimedia.enquire::lang.enquire.status
+        searchable: true
+
+
+    # author:
+    #   label: Author
+    #   relation: user
+    #   select: login
+    #   searchable: true
+
+
+    created_at:
+        label: mindimedia.enquire::lang.enquire.created
+        type: date
+        invisible: true
+
+    updated_at:
+        label: mindimedia.enquire::lang.enquire.updated
+        type: date
+        invisible: true
+
+

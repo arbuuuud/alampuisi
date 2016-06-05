@@ -1,0 +1,5 @@
+1464248203s:380:"a:6:{s:5:"mtime";i:1464247425;s:7:"content";s:99:"title = "two bed room"
+url = "/roomrates/two-bed-room"
+layout = "hotel-detail"
+is_hidden = 0
+==";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:12:"two bed room";s:3:"url";s:23:"/roomrates/two-bed-room";s:6:"layout";s:12:"hotel-detail";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:0:"";}";

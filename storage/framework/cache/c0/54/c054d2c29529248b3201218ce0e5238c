@@ -1,0 +1,109 @@
+1464595598s:5283:"a:6:{s:5:"mtime";i:1464412727;s:7:"content";s:2551:"title = "spa"
+url = "/wellness/spa"
+layout = "wellness"
+is_hidden = 0
+==
+{% put styles %}
+    <link href="{{ [
+        'assets/vendor/slick/slick.css',
+    ]|theme }}" rel="stylesheet">
+{% endput %}
+{% put scripts %}
+    <script src="{{ [
+        'assets/vendor/slick/slick.js',
+    ]|theme }}"></script>
+    <script>
+        $(document).ready(function() {
+            $('#projectImages').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear',
+                slidesToShow: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                pauseOnHover: true
+            });
+        })
+    </script>
+{% endput %}
+
+<div id="imageGallery">
+    <div data-thumb="{{url('upload/alampuisi/Pool-Villa-8.jpg')}}">
+        <img src="{{url('upload/alampuisi/Pool-Villa-8.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/Pool-Villa-14.jpg')}}">
+        <img src="{{url('upload/alampuisi/Pool-Villa-14.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/Pool-Villa-13.jpg')}}">
+        <img src="{{url('upload/alampuisi/Pool-Villa-13.jpg')}}" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="main-content-box-accom-ruler" style="margin-top:20px;">&nbsp;</div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12 p-detail-small">
+        <div class="main-head-title title-small">SPA</div>
+        <div class="clearfix">&nbsp;</div>
+        <p>A splendid one bedroom villa with a private pool and views onto the rice fields, this two-person room also comes with the ption to include beds for two extra people. The villa is completed by the private pool, sun deck, and spacious dining gazebo.
+
+        A stylish villa with natural finish and terracotta floors, the One Bedroom Pool Villa ensures sound sleeping with a king sized bed, mosquito net and quality cotton sheets. The bathroom provides a luxurious setting for relaxing soaks in the sunken bath. Other features include 24 hour hot spot wifi, air conditioning, mini bar, two side tables, television, and tea and coffee facilities.<br /><br /><strong>ROOM SIZE</strong> :&nbsp;65 sq m / 655sq ft | <strong>BED SIZE</strong> :&nbsp;1 King or 2 Twin | <strong>OCCUPANCY</strong> : Three persons | <strong>LOCATION</strong> : Wings 1, 2 &amp; 3 | <strong>VIEW</strong> : White sandy beach pool</p>
+                             
+    </div>
+</div>
+";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:3:"spa";s:3:"url";s:13:"/wellness/spa";s:6:"layout";s:8:"wellness";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:2471:"{% put styles %}
+    <link href="{{ [
+        'assets/vendor/slick/slick.css',
+    ]|theme }}" rel="stylesheet">
+{% endput %}
+{% put scripts %}
+    <script src="{{ [
+        'assets/vendor/slick/slick.js',
+    ]|theme }}"></script>
+    <script>
+        $(document).ready(function() {
+            $('#projectImages').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear',
+                slidesToShow: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                pauseOnHover: true
+            });
+        })
+    </script>
+{% endput %}
+
+<div id="imageGallery">
+    <div data-thumb="{{url('upload/alampuisi/Pool-Villa-8.jpg')}}">
+        <img src="{{url('upload/alampuisi/Pool-Villa-8.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/Pool-Villa-14.jpg')}}">
+        <img src="{{url('upload/alampuisi/Pool-Villa-14.jpg')}}" />
+    </div>
+    <div data-thumb="{{url('upload/alampuisi/Pool-Villa-13.jpg')}}">
+        <img src="{{url('upload/alampuisi/Pool-Villa-13.jpg')}}" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="main-content-box-accom-ruler" style="margin-top:20px;">&nbsp;</div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12 p-detail-small">
+        <div class="main-head-title title-small">SPA</div>
+        <div class="clearfix">&nbsp;</div>
+        <p>A splendid one bedroom villa with a private pool and views onto the rice fields, this two-person room also comes with the ption to include beds for two extra people. The villa is completed by the private pool, sun deck, and spacious dining gazebo.
+
+        A stylish villa with natural finish and terracotta floors, the One Bedroom Pool Villa ensures sound sleeping with a king sized bed, mosquito net and quality cotton sheets. The bathroom provides a luxurious setting for relaxing soaks in the sunken bath. Other features include 24 hour hot spot wifi, air conditioning, mini bar, two side tables, television, and tea and coffee facilities.<br /><br /><strong>ROOM SIZE</strong> :&nbsp;65 sq m / 655sq ft | <strong>BED SIZE</strong> :&nbsp;1 King or 2 Twin | <strong>OCCUPANCY</strong> : Three persons | <strong>LOCATION</strong> : Wings 1, 2 &amp; 3 | <strong>VIEW</strong> : White sandy beach pool</p>
+                             
+    </div>
+</div>";}";
