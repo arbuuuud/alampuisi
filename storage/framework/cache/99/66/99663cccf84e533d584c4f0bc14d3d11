@@ -1,4 +1,4 @@
-1465098130s:9145:"a:6:{s:5:"mtime";i:1465097525;s:7:"content";s:4482:"title = "Free & Easy Puisi Package"
+1465100535s:9163:"a:6:{s:5:"mtime";i:1465097624;s:7:"content";s:4491:"title = "Free & Easy Puisi Package"
 url = "/special-offer/free-easy-puisi-package"
 layout = "special-offer"
 is_hidden = 0
@@ -89,7 +89,7 @@ is_hidden = 0
                 </div>
                 <div class="col-md-12">
                     <div class="footer-button">
-                        <a href="#" onclick="document.getElementById('bookingfooter').submit();" class="btn btn-trans text-uppercase" >Book Now</a>
+                        <!-- <a href="#" onclick="document.getElementById('bookingfooter').submit();" class="btn btn-trans text-uppercase" >Book Now</a> -->
                         <a href="{{url('/enquire')}}" class="btn btn-trans text-uppercase" >Enquire Now</a>
                     </div>
                 </div>
@@ -97,7 +97,7 @@ is_hidden = 0
         </div>                      
     </div>
 </div>
-";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:25:"Free & Easy Puisi Package";s:3:"url";s:38:"/special-offer/free-easy-puisi-package";s:6:"layout";s:13:"special-offer";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:4348:"{% put styles %}
+";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:25:"Free & Easy Puisi Package";s:3:"url";s:38:"/special-offer/free-easy-puisi-package";s:6:"layout";s:13:"special-offer";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:4357:"{% put styles %}
     <link href="{{ [
         'assets/vendor/slick/slick.css',
     ]|theme }}" rel="stylesheet">
@@ -182,7 +182,7 @@ is_hidden = 0
                 </div>
                 <div class="col-md-12">
                     <div class="footer-button">
-                        <a href="#" onclick="document.getElementById('bookingfooter').submit();" class="btn btn-trans text-uppercase" >Book Now</a>
+                        <!-- <a href="#" onclick="document.getElementById('bookingfooter').submit();" class="btn btn-trans text-uppercase" >Book Now</a> -->
                         <a href="{{url('/enquire')}}" class="btn btn-trans text-uppercase" >Enquire Now</a>
                     </div>
                 </div>

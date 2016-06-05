@@ -1,4 +1,4 @@
-1465098130s:9091:"a:6:{s:5:"mtime";i:1465075424;s:7:"content";s:4454:"title = "Puisi Romantic Package"
+1465100535s:9909:"a:6:{s:5:"mtime";i:1465097603;s:7:"content";s:4863:"title = "Puisi Romantic Package"
 url = "/special-offer/puisi-romantic-package"
 layout = "special-offer"
 is_hidden = 0
@@ -91,11 +91,17 @@ is_hidden = 0
 
 					</ul>
                 </div>
+                <div class="col-md-12">
+                    <div class="footer-button">
+                        <!-- <a href="#" onclick="document.getElementById('bookingfooter').submit();" class="btn btn-trans text-uppercase" >Book Now</a> -->
+                        <a href="{{url('/enquire')}}" class="btn btn-trans text-uppercase" >Enquire Now</a>
+                    </div>
+                </div>
             </div>
         </div>                      
     </div>
 </div>
-";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:22:"Puisi Romantic Package";s:3:"url";s:37:"/special-offer/puisi-romantic-package";s:6:"layout";s:13:"special-offer";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:4326:"{% put styles %}
+";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:22:"Puisi Romantic Package";s:3:"url";s:37:"/special-offer/puisi-romantic-package";s:6:"layout";s:13:"special-offer";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:4735:"{% put styles %}
     <link href="{{ [
         'assets/vendor/slick/slick.css',
     ]|theme }}" rel="stylesheet">
@@ -182,6 +188,12 @@ is_hidden = 0
                         <li>Additional peak season surcharge within period 15 December-5 January at USD 35 per night</li>
 
 					</ul>
+                </div>
+                <div class="col-md-12">
+                    <div class="footer-button">
+                        <!-- <a href="#" onclick="document.getElementById('bookingfooter').submit();" class="btn btn-trans text-uppercase" >Book Now</a> -->
+                        <a href="{{url('/enquire')}}" class="btn btn-trans text-uppercase" >Enquire Now</a>
+                    </div>
                 </div>
             </div>
         </div>                      

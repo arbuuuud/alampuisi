@@ -1,4 +1,4 @@
-1465098130s:9023:"a:6:{s:5:"mtime";i:1465075404;s:7:"content";s:4421:"title = "Puisi Healing Package"
+1465100535s:9841:"a:6:{s:5:"mtime";i:1465097609;s:7:"content";s:4830:"title = "Puisi Healing Package"
 url = "/special-offer/puisi-healing-package"
 layout = "special-offer"
 is_hidden = 0
@@ -89,11 +89,17 @@ is_hidden = 0
                         <li>Additional peak season surcharge within period 15 December-5 January at USD 35 per night</li>
 					</ul>
                 </div>
+                <div class="col-md-12">
+                    <div class="footer-button">
+                        <!-- <a href="#" onclick="document.getElementById('bookingfooter').submit();" class="btn btn-trans text-uppercase" >Book Now</a> -->
+                        <a href="{{url('/enquire')}}" class="btn btn-trans text-uppercase" >Enquire Now</a>
+                    </div>
+                </div>
             </div>
         </div>                      
     </div>
 </div>
-";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:21:"Puisi Healing Package";s:3:"url";s:36:"/special-offer/puisi-healing-package";s:6:"layout";s:13:"special-offer";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:4293:"{% put styles %}
+";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:21:"Puisi Healing Package";s:3:"url";s:36:"/special-offer/puisi-healing-package";s:6:"layout";s:13:"special-offer";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:4702:"{% put styles %}
     <link href="{{ [
         'assets/vendor/slick/slick.css',
     ]|theme }}" rel="stylesheet">
@@ -177,6 +183,12 @@ is_hidden = 0
                         <li>Additional high season surcharge within period 01 July-31 August at USD 30 per night.</li>
                         <li>Additional peak season surcharge within period 15 December-5 January at USD 35 per night</li>
 					</ul>
+                </div>
+                <div class="col-md-12">
+                    <div class="footer-button">
+                        <!-- <a href="#" onclick="document.getElementById('bookingfooter').submit();" class="btn btn-trans text-uppercase" >Book Now</a> -->
+                        <a href="{{url('/enquire')}}" class="btn btn-trans text-uppercase" >Enquire Now</a>
+                    </div>
                 </div>
             </div>
         </div>                      

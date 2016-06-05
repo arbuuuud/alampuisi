@@ -922,8 +922,8 @@ h6 {
 
 .rm-layout-expanded .rm-nav > ul > li > a,
 .rm-layout-expanded .rm-top-menu > .rm-menu-item > a {
-    height: 90px !important;
-    line-height: 90px !important;
+    height: 112px !important;
+    line-height: 112px !important;
 }
 
 .rm-lighten li li li a, .rm-lighten li li a:focus, .rm-lighten li li a:hover, .rm-lighten li li.rm-hover a, .rm-lighten .rm-menu-expanded li a:focus, .rm-lighten .rm-menu-expanded li a:hover, .rm-lighten .rm-menu-item .rm-menu-item .rm-menu-item a, .rm-lighten .rm-menu-item .rm-menu-item a:focus, .rm-lighten .rm-menu-item .rm-menu-item a:hover, .rm-lighten .rm-menu-item .rm-menu-item.rm-hover a, .rm-lighten .rm-menu-expanded li a:focus, .rm-lighten .rm-menu-expanded li a:hover {
